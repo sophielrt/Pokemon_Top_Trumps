@@ -32,15 +32,6 @@
 }
 
 
-h1 {
+#game-title {
     font-family: var(--primary-font);
-    color: var(--Blue);
-}
-
-h2 {
-    font-family: var(--secondary-font);
-}
-
-h3 {
-    font-family: var(--general-font);
 }
