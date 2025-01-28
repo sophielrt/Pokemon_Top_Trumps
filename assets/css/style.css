@@ -1,8 +1,46 @@
+/* Google fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Pokemon Font by FontGet replica of the Pokemon Logo's custom typeface. 
+   Accessed via fontbolt.com */
 @font-face {
-    font-family: 'pokemon';
-    src: url(../fonts/Pokemon.ttf);
+    font-family: "pokemon-logo-replica";
+    src: url(../fonts/Pokemon.ttf);   
 }
 
+/* Pokemon Font by Jackster Productions replica font of the original Pokemon
+   Games for the Game Boy. 
+   Accessed via fontspace.com */
+@font-face {
+    font-family: "pokemon-game-boy-replica";
+    src: url(../fonts/PokemonGb-RAeo.ttf);
+}
+
+/* CSS Variables */
+:root {
+    --primary-font: "pokemon-logo-replica", Arial, sans-serif;
+    --secondary-font: "pokemon-game-boy-replica", "Courier New", monospace;
+    --general-font: "Roboto", Verdana, sans-serif;
+    /* Pokemon Go brand color codes by brandcolorcode.com */
+    --Yellow: #FFCB08;
+    --Light-Blue: #3561AD;
+    --Blue: #0B4DA2;
+    --Dark-Blue: #07224E;
+    --White: #FFFFFF;
+    --Grey: #BCBDC0;
+    --Red: #E21C25;
+}
+
+
 h1 {
-    font-family: 'pokemon';
+    font-family: var(--primary-font);
+    color: var(--Blue);
+}
+
+h2 {
+    font-family: var(--secondary-font);
+}
+
+h3 {
+    font-family: var(--general-font);
 }
