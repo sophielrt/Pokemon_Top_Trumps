@@ -66,10 +66,11 @@
     text-align: center;
     transition: transform 0.2s ease;
     width: 300px;
-    height: 60px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 
@@ -183,8 +184,8 @@
 #ready-to-play-page {
     position: relative;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
+    height: 100vh;
+    overflow: visible;
 }
 
 #home-page::before,
