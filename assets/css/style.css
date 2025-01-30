@@ -1,3 +1,5 @@
+
+/* Fonts */
 /* Google fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -18,6 +20,7 @@
 
 
 
+
 /* CSS Variables */
 :root {
     --primary-font: "pokemon-logo-replica", Arial, sans-serif;
@@ -35,81 +38,15 @@
 
 
 
-/* Homepage */
+
+/* Home Page */
+/* Home Page Image */
 #home-page {
     /* Image of Pokemon Cards by Mick Haupt. Acessed via unsplash.com */
-    background: url(../images/homepage-background-image.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; 
+    background: url(../images/homepage-background-image.jpg) no-repeat center fixed;
+    background-size: cover;
     min-height: 100vh;   
 }
-
-/* Black Semi-Transparent overlay */
-#home-page::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1; /* Places the overlay below the content */
-    pointer-events: none; /* Allows the mouse and buttons to work */
-}
-
-/* Ensures the content stays above the overlay */
-#home-page > * {
-    position: relative;
-    z-index: 2;
-}
-
-#game-title {
-    font-family:  var(--primary-font);
-    font-size: 2.5rem;
-    color: var(--Yellow);
-    /* Used fluentsupport.com for outline font coloring */
-    -webkit-text-stroke: 1.2px var(--Blue);
-    margin-top: 250px;
-    text-align: center;
-    z-index: 2;
-}
-
-/* Buttons */
-
-/* Button conatiner */
-#button-container-home-page {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 2;
-    margin-top: 50px;
-}
-
-#button, #myBtn {
-    font-family: var(--secondary-font);
-    font-size: 1.2rem;
-    background-color: var(--Red);
-    color: var(--Dark-Blue);
-    border: 2px solid var(--Dark-Blue);
-    border-radius: 8px;
-    padding: 10px 20px;
-    margin: 20px;
-    text-align: center;
-    width: 270px;
-    transition: transform 0.2s ease;
-}
-
-
-#button:hover, #myBtn:hover {
-    transform: scale(1.1);
-    background-color: var(--Light-Blue);
-    color: var(--Grey);
-    border: 2px solid (--Grey);
-}
-
-
 
 /* W3 Schools Modal Example */
 /* Modal background */
@@ -163,6 +100,106 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+
+
+
+/* Black Semi-Transparent overlay */
+#home-page::before,
+#ready-to-play-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; /* Places the overlay below the content */
+    pointer-events: none; /* Allows the mouse and buttons to work */
+}
+
+/* Ensures the content stays above the overlay */
+#home-page > *,
+#ready-to-play-page > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+/* Pokemon style title */
+#title {
+    font-family:  var(--primary-font);
+    font-size: 2.5rem;
+    color: var(--Yellow);
+    /* Used fluentsupport.com for outline font coloring */
+    -webkit-text-stroke: 1.2px var(--Blue);
+    margin-top: 250px;
+    text-align: center;
+    z-index: 2;
+}
+
+
+
+
+/* Buttons contrainer ready to play page buttons */
+#button-container-ready-to-play {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    z-index: 2;
+
+}
+
+/* Button conatiner */
+#button-container-home-page {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+    margin-top: 70px;
+}
+
+/* Butto */
+
+#button, #myBtn {
+    font-family: var(--secondary-font);
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: var(--Red);
+    color: var(--Dark-Blue);
+    border: 2px solid var(--Dark-Blue);
+    border-radius: 8px;
+    padding: 15px 5px;
+    margin: 20px;
+    text-align: center;
+    min-width: 300px;
+    transition: transform 0.2s ease;
+}
+
+#button:hover, #myBtn:hover {
+    transform: scale(1.1);
+    background-color: var(--Light-Blue);
+    color: var(--Grey);
+    border: 2px solid (--Grey);
+}
+
+
+
+
+/* Ready to Play Page */
+/* Ready to play Image */
+#ready-to-play-page {
+    /* Image of Pokemon Charizard by Halfcut Pokemon. Acessed via unsplash.com */
+    background: url(../images/readytoplay-image.jpg) no-repeat center fixed;
+    background-size: cover; 
+    min-height: 100vh;   
+}
+
+
+
 
 
 /* Media Queries */
