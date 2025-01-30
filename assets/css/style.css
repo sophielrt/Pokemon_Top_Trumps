@@ -38,7 +38,6 @@
 /* Homepage */
 #home-page {
     /* Image of Pokemon Cards by Mick Haupt. Acessed via unsplash.com */
-    position: relative;
     background: url(../images/homepage-background-image.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -67,42 +66,41 @@
 
 #game-title {
     font-family:  var(--primary-font);
+    font-size: 2.5rem;
     color: var(--Yellow);
     /* Used fluentsupport.com for outline font coloring */
-    -webkit-text-stroke: 3px var(--Blue);
-    position: absolute;
-    margin-top: 200px;
-    left: 50%;
-    transform: translateX(-50%);
+    -webkit-text-stroke: 1.2px var(--Blue);
+    margin-top: 250px;
     text-align: center;
     z-index: 2;
 }
-
-
 
 /* Buttons */
 
 /* Button conatiner */
-#button-container {
-    position: absolute;
-    top: 450px;
-    left: 50%;
-    transform: translateX(-50%);
+#button-container-home-page {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     z-index: 2;
-    text-align: center;
+    margin-top: 50px;
 }
 
 #button, #myBtn {
     font-family: var(--secondary-font);
+    font-size: 1.2rem;
     background-color: var(--Red);
     color: var(--Dark-Blue);
     border: 2px solid var(--Dark-Blue);
+    border-radius: 8px;
     padding: 10px 20px;
     margin: 20px;
     text-align: center;
-    width: 250px;
+    width: 270px;
     transition: transform 0.2s ease;
 }
+
 
 #button:hover, #myBtn:hover {
     transform: scale(1.1);
@@ -126,7 +124,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    display: flex;
+   
 }
 
 /* Modal Content */
@@ -136,6 +134,7 @@
     color: var(--Dark-Blue);
     padding: 20px;
     border: 4px solid var(--Blue);
+    border-radius: 8px;
     width: 800px;
     max-width: 90%;
     max-height: auto;
@@ -164,3 +163,6 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+
+/* Media Queries */
