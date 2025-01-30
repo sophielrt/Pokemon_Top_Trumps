@@ -180,13 +180,15 @@
 
 
 /* Black Semi-Transparent overlay homepage and ready to play page*/
+
+
 #home-page,
 #ready-to-play-page {
     position: relative;
     width: 100%;
-    height: 100vh;
-    overflow: visible;
+    min-height: 100vh;
 }
+
 
 #home-page::before,
 #ready-to-play-page::before {
@@ -197,8 +199,20 @@
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1; /* Places the overlay below the content */
+    z-index: 2; /* Places the overlay below the content */
     pointer-events: none; /* Allows the mouse and buttons to work */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    padding-bottom: 150px;
 }
 
 /* Ensures the content stays above the overlay */
