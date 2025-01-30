@@ -81,7 +81,7 @@
     display: none; /* Hidden by default */
     position: fixed; /* Stay in Place */
     z-index: 3; /* Sit on top */
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     justify-content: center;
@@ -237,3 +237,32 @@ main {
 
 
 /* Media Queries */
+/* For small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+
+    /* Pokemon style title */
+    #title {
+        font-size: 1.5rem;
+        padding: 15px;
+        -webkit-text-stroke: 0.8px var(--Blue);
+    }
+
+    /* Buttons */
+    #myBtn, #button-start-game,
+    #button-hell-yes, #button-hell-no {
+        font-size: 1rem;
+        padding: 10px;
+        width: 200px;
+        height: 60px;
+    }
+
+    /* Button container */
+    #button-container-home-page {
+        margin-top: 50px;
+    }
+
+    /* Modal content */
+    .modal-content {
+        padding: 10px;
+        width: 90%;
+    }
