@@ -237,7 +237,8 @@ main {
 
 
 /* Media Queries */
-/* For small devices (phones, 600px and down) */
+
+/* For Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
 
     /* Pokemon style title */
@@ -266,3 +267,7 @@ main {
         padding: 10px;
         width: 90%;
     }
+}
+
+/* For small devices (portait tablets and large phones, 600px and up) */
+
