@@ -15,6 +15,65 @@
     </header>
 
     <main>
+        <div class="game-container">
+
+            <div class="cards-container">
+
+                <!-- Trainer Card -->
+                <div class="card-section">
+                    <div class="card flipped" id="trainer-card">
+                        <div class="card-inner">
+                            <div class="card-back">
+                                <div class="card-back-design"></div>
+                            </div>
+                            <div class="card-front">
+                                <div class="pokemon-image" id="trainer-image"></div>
+                                <div class="pokemon-info">
+                                    <div class="pokemon-name" id="trainer-name"></div>
+                                    <button class="stat-btn" id="trainer-id" data-stat="id">ID: <span></span> </button>
+                                    <button class="stat-btn" id="trainer-speed" data-stat="speed">Speed: <span></span> </button>
+                                    <button class="stat-btn" id="trainer-attack" data-stat="attack">Attack: <span></span> </button>
+                                    <button class="stat-btn" id="trainer-defense" data-stat="defense">Defense: <span></span> </button>
+                                    <button class="stat-btn" id="trainer-height" data-stat="height">Height: <span></span> </button>
+                                    <button class="stat-btn" id="trainer-weight" data-stat="weight">Weight: <span></span> </button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>pokemon Trainer's</h3>
+                <div class="score">Score: <span id="trainer-score">0</span></div>
+            </div>
+
+            <!-- Opponent's Card -->
+            <div class="card-section">
+                <div class="card flipped" id="opponent-card">
+                    <div class="card-inner">
+                        <div class="card-back">
+                            <div class="card-back-design"></div>
+                        </div>
+                        <div class="card-front">
+                            <div class="pokemon-image" id="opponent-image"></div>
+                            <div class="pokemon-info">
+                                <div class="pokemon-name" id="opponent-name"></div>
+                                <button class="stat-btn" id="opponent-id" >ID: <span></span> </button>
+                                <button class="stat-btn" id="opponent-speed" >Speed: <span></span> </button>
+                                <button class="stat-btn" id="opponent-attack" >Attack: <span></span> </button>
+                                <button class="stat-btn" id="opponent-defense" >Defense: <span></span> </button>
+                                <button class="stat-btn" id="opponent-height" >Height: <span></span> </button>
+                                <button class="stat-btn" id="opponent-weight" >Weight: <span></span> </button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Opponent</h3>
+            <div class="score">Score: <span id="opponent-score">0</span></div>
+        </div>
+        </div>
+
+        <div class="controls">
+            <button id="start-button">Start Game</button>
+            <button id="next-reset-button" style="display: none;">Next Round</button>
+        </div>
     </main>
 
 

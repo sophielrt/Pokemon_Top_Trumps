@@ -203,4 +203,51 @@ function compareStats(stat) {
     nextRoundButton.style.display = 'block';
 }
 
+
+
 // Function to start the next round
+
+function startNextRound() {
+    startGame();
+}
+
+function resetStatButtons() {
+    const statButtons = document.querySelectorAll('.stat-btn');
+    statButtons.forEach(button => {
+        button.classList.remove('selected', 'winner', 'loser', 'draw');
+    });
+
+    const opponentStat = document.querySelectorAll('.stat');
+    opponentStat.forEach(button => {
+        stat.classList.remove('winner', 'loser', 'draw');
+    });
+}
+
+// Function to toggle dark mode
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+    darkModeButton.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+}
+
+// Helper functions
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+// Initialize the game
+function initGame() {
+    // set up initial state
+    gameMessage.textContent = "Welcome to Pokemon Top Trumps! Click 'Start Game' to begin.";
+    trainerScoreElement.textContent = "0";
+    opponentScoreElement.textContent = "0";
+   
+    //Make sure cards are in the initial state
+    trainerCard.classList.remove('flipped');
+    opponentCard.classList.remove('flipped');
+}
+
+// start the game
+initGame();
+
+
+
