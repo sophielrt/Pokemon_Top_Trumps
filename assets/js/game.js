@@ -43,7 +43,7 @@ let selectedStat = false;
 // DOM elements
 const trainerCard = document.getElementById('trainer-card');
 const opponentCard = document.getElementById('opponent-card');
-const startButton = document.getElementById('.start-button');
+const startButton = document.getElementById('start-button');
 const nextRoundButton = document.getElementById('next-reset-button');
 const trainerScoreElement = document.getElementById('trainer-score');
 const opponentScoreElement = document.getElementById('opponent-score');
@@ -120,7 +120,7 @@ async function loadNewPokemon() {
     document.querySelector('#opponent-height span').textContent = opponentPokemon.height;
     document.querySelector('#opponent-weight span').textContent = opponentPokemon.weight;
 
-    const opponentImage = document.getElelmentById('opponent-image');
+    const opponentImage = document.getElementById('opponent-image');
     opponentImage.innerHTML = '';
     if (opponentPokemon.image) {
         const img = document.createElement('img');
@@ -161,7 +161,7 @@ function compareStats(stat) {
     const allTrainerStats = document.querySelectorAll('#trainer-card .stat-btn');
     const allOpponentStats = document.querySelectorAll('#opponent-card .stat-btn');
 
-    allTrainerStats.forEach(et => {
+    allTrainerStats.forEach(el => {
         el.classList.remove('winner', 'loser', 'draw');
     });
 
