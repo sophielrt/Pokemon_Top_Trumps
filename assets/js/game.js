@@ -1,20 +1,19 @@
-
 // Function to get a random pokemon and call API
 async function randomPokemon() {
-    const pokemonNumber = Math.floor(Math.floor(Math, random() * 898) + 1);
+    const pokemonNumber = Math.floor(Math.floor(Math.random() * 898) + 1);
     try {
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonNumber}`);
         const data = await response.json();
 
         return {
-            name: pokemon.name,
-            id: pokemon.id,
-            speed: pokemon.stats.find(stats => stats.stat.name === 'speed').base_stat,
-            attack: pokemon.stats.find(stats => stats.stat.name === 'attack').base_stat,
-            defense: pokemon.stats.find(stats => stats.stat.name === 'defense').base_stat,
-            height: pokemon.height,
-            weight: pokemon.weight,
-            image: pokemon.sprites.other['official-artwork']['front_default'],
+            name: data.name,
+            id: data.id,
+            speed: data.stats.find(stats => stats.stat.name === 'speed').base_stat,
+            attack: data.stats.find(stats => stats.stat.name === 'attack').base_stat,
+            defense: data.stats.find(stats => stats.stat.name === 'defense').base_stat,
+            height: data.height,
+            weight: data.weight,
+            image: data.sprites.other['official-artwork'].front_default,
         };
 
     } catch (error) {
@@ -44,9 +43,9 @@ let selectedStat = false;
 // DOM elements
 const trainerCard = document.getElementById('trainer-card');
 const opponentCard = document.getElementById('opponent-card');
-const gameMessage = document.getElementById('game-message');
-const startButton = document.querySelectorAll('.stat-button');
-const nextRoundButton = document.getElementById('next-round-button');
+const gameMessage = document.getElementById('game-container');
+const startButton = document.querySelectorAll('.start-button');
+const nextRoundButton = document.getElementById('next-reset-button');
 const trainerScoreElement = document.getElementById('trainer-score');
 const opponentScoreElement = document.getElementById('opponent-score');
 const darkModeButton = document.getElementById('dark-mode-button');
@@ -57,18 +56,17 @@ nextRoundButton.addEventListener('click', startNextRound);
 darkModeButton.addEventListener('click', toggleDarkMode);
 
 // Stat selection button - event delegation
-document.addEventListener('click', function (event) {
+document.addEventListener('click', function(event) {
     if (!gameActive) return;
 
-    const statButton = event.target.closest('.stat-button');
+    const statButton = event.target.closest('.stat-btn');
     if (!statButton) return;
 
     const stat = statButton.dataset.stat;
     if (stat) {
         selectStat(stat);
     }
-}
-);
+});
 
 // Game Functions
 async function startGame() {
@@ -84,28 +82,27 @@ async function startGame() {
     await loadNewPokemon();
     
     //Show players card, but hide the opponent's card
-    playerCard.classList.add('flipped');
+    trainerCard.classList.add('flipped');
     opponentCard.classList.remove('flipped');
 }
 
 async function loadNewPokemon() {
-
-    const [player, opponent] = await Promise.all([
+    const [trainer, opponent] = await Promise.all([
         randomPokemon(), 
         randomPokemon()
     ]);
 
-    trainerPokemon = player;
+    trainerPokemon = trainer;
     opponentPokemon = opponent;
 
     // Update the trainer card
-    document.getElementById('trainer-name').textContent = trainerPokemon.name;
-    document.getElementById('trainer-id').textContent = trainerPokemon.id;
-    document.getElementById('trainer-speed').textContent = trainerPokemon.speed;
-    document.getElementById('trainer-attack').textContent = trainerPokemon.attack;
-    document.getElementById('trainer-defense').textContent = trainerPokemon.defense;
-    document.getElementById('trainer-height').textContent = trainerPokemon.height;
-    document.getElementById('trainer-weight').textContent = trainerPokemon.weight;
+    document.querySelector('#trainer-name').textContent = capitalizeFirstLetter(trainerPokemon.name);
+    document.querySelector('#trainer-id span').textContent = trainerPokemon.id;
+    document.querySelector('#trainer-speed span').textContent = trainerPokemon.speed;
+    document.querySelector('#trainer-attack span').textContent = trainerPokemon.attack;
+    document.querySelector('#trainer-defense span').textContent = trainerPokemon.defense;
+    document.querySelector('#trainer-height span').textContent = trainerPokemon.height;
+    document.querySelector('#trainer-weight span').textContent = trainerPokemon.weight;
 
     const trainerImage = document.getElementById('trainer-image');
     trainerImage.innerHTML = '';
@@ -117,15 +114,15 @@ async function loadNewPokemon() {
     }
 
     // Update the opponent card (not visible yet)
-    document.getElementById('opponent-name').textContent = opponentPokemon.name;
-    document.getElementById('opponent-id').textContent = opponentPokemon.id;
-    document.getElementById('opponent-speed').textContent = opponentPokemon.speed;
-    document.getElementById('opponent-attack').textContent = opponentPokemon.attack;
-    document.getElementById('opponent-defense').textContent = opponentPokemon.defense;
-    document.getElementById('opponent-height').textContent = opponentPokemon.height;
-    document.getElementById('opponent-weight').textContent = opponentPokemon.weight;
+    document.querySelector('#opponent-name').textContent = capitalizeFirstLetter(opponentPokemon.name);
+    document.querySelector('#opponent-id span').textContent = opponentPokemon.id;
+    document.querySelector('#opponent-speed span').textContent = opponentPokemon.speed;
+    document.querySelector('#opponent-attack span').textContent = opponentPokemon.attack;
+    document.querySelector('#opponent-defense span').textContent = opponentPokemon.defense;
+    document.querySelector('#opponent-height span').textContent = opponentPokemon.height;
+    document.querySelector('#opponent-weight span').textContent = opponentPokemon.weight;
 
-    const oppoentImage = document.getElelmentById('opponent-image');
+    const opponentImage = document.getElelmentById('opponent-image');
     opponentImage.innerHTML = '';
     if (opponentPokemon.image) {
         const img = document.createElement('img');
@@ -144,7 +141,7 @@ function selectStat(stat) {
 
     //Highlight the selected stat button
     resetStatButtons();
-    document.getElementById(`player-${stat}`).classList.add('selected');
+    document.getElementById(`#trainer-${stat}`).classList.add('selected');
 
     // Show the opponent's card
     opponentCard.classList.add('flipped');
@@ -161,14 +158,14 @@ function compareStats(stat) {
     const trainerStat = trainerPokemon[stat];
     const opponentStat = opponentPokemon[stat];
 
-    const trainerStatElement = document.getElementById(`trainer-${stat}`);
-    const opponentStatElement = document.getElementById(`opponent-${stat}`);
+    const trainerStatElement = document.getElementById(`#trainer-${stat}`);
+    const opponentStatElement = document.getElementById(`#opponent-${stat}`);
 
     //Reset any previos highlighted stat
-    const allPlayerStats = document.querySelectorAll('.stat-btn');
-    const allOpponentStats = document.querySelectorAll('.stat-btn');
+    const allTrainerStats = document.querySelectorAll(' #trainer-card .stat-btn');
+    const allOpponentStats = document.querySelectorAll('#opponent-card .stat-btn');
 
-    allPlayerStats.forEach(et => {
+    allTrainerStats.forEach(et => {
         el.classList.remove('winner', 'loser', 'draw');
     });
 
@@ -181,7 +178,7 @@ function compareStats(stat) {
     if (trainerStat > opponentStat) {
         trainerStatElement.classList.add('winner');
         opponentStatElement.classList.add('loser');
-        playerScore++;
+        trainerScore++;
         gameMessage.textContent = `You win this round!`;
     } else if (trainerStat < opponentStat) {
         trainerStatElement.classList.add('loser');
@@ -215,11 +212,6 @@ function resetStatButtons() {
     const statButtons = document.querySelectorAll('.stat-btn');
     statButtons.forEach(button => {
         button.classList.remove('selected', 'winner', 'loser', 'draw');
-    });
-
-    const opponentStat = document.querySelectorAll('.stat');
-    opponentStat.forEach(button => {
-        stat.classList.remove('winner', 'loser', 'draw');
     });
 }
 
