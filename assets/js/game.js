@@ -1,6 +1,6 @@
 // Function to get a random pokemon and call API
 async function randomPokemon() {
-    const pokemonNumber = Math.floor(Math.floor(Math.random() * 898) + 1);
+    const pokemonNumber = Math.floor((Math.random() * 898) + 1);
     try {
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonNumber}`);
         const data = await response.json();
@@ -37,23 +37,23 @@ let trainerPokemon = null;
 let opponentPokemon = null;
 let trainerScore = 0;
 let opponentScore = 0;
-let gameStarted = false;
+let gameActive = false;
 let selectedStat = false;
 
 // DOM elements
 const trainerCard = document.getElementById('trainer-card');
 const opponentCard = document.getElementById('opponent-card');
-const gameMessage = document.getElementById('game-container');
-const startButton = document.querySelectorAll('.start-button');
+const gameContainer = document.querySelector('game-container');
+const startButton = document.getElementById('.start-button');
 const nextRoundButton = document.getElementById('next-reset-button');
 const trainerScoreElement = document.getElementById('trainer-score');
 const opponentScoreElement = document.getElementById('opponent-score');
-const darkModeButton = document.getElementById('dark-mode-button');
+//const darkModeButton = document.getElementById('dark-mode-button');
 
 // Event listeners
 startButton.addEventListener('click', startGame);
 nextRoundButton.addEventListener('click', startNextRound);
-darkModeButton.addEventListener('click', toggleDarkMode);
+//darkModeButton.addEventListener('click', toggleDarkMode);
 
 // Stat selection button - event delegation
 document.addEventListener('click', function(event) {
@@ -70,8 +70,7 @@ document.addEventListener('click', function(event) {
 
 // Game Functions
 async function startGame() {
-    gameStarted = true;
-    gameMessage.textContent = "Game started! Choose a stat to play.";
+    gameActive = true;
     startButton.style.display = 'none';
     nextRoundButton.style.display = 'none';
 
@@ -82,8 +81,8 @@ async function startGame() {
     await loadNewPokemon();
     
     //Show players card, but hide the opponent's card
-    trainerCard.classList.add('flipped');
-    opponentCard.classList.remove('flipped');
+    trainerCard.querySelector('.card-inner').classList.add('flipped');
+    opponentCard.querySelector('.card-inner').classList.remove('flipped');
 }
 
 async function loadNewPokemon() {
@@ -106,7 +105,7 @@ async function loadNewPokemon() {
 
     const trainerImage = document.getElementById('trainer-image');
     trainerImage.innerHTML = '';
-    if (trainerCard.image) {
+    if (trainerPokemon.image) {
         const img = document.createElement('img');
         img.src = trainerPokemon.image;
         img.alt = trainerPokemon.name;
@@ -130,21 +129,19 @@ async function loadNewPokemon() {
         img.alt = opponentPokemon.name;
         opponentImage.appendChild(img);
     }
-
-    gameMessage.textContent = "Choose a stat to play!";
 }
 
 function selectStat(stat) {
-    if (!gameStarted) return;
+    if (!gameActive) return;
 
     selectedStat = stat;
 
     //Highlight the selected stat button
     resetStatButtons();
-    document.getElementById(`#trainer-${stat}`).classList.add('selected');
+    document.getElementById(`trainer-${stat}`).classList.add('selected');
 
     // Show the opponent's card
-    opponentCard.classList.add('flipped');
+    opponentCard.querySelector('.card-inner').classList.add('flipped');
 
     // Compare the selected stat
     setTimeout(() => {
@@ -158,11 +155,11 @@ function compareStats(stat) {
     const trainerStat = trainerPokemon[stat];
     const opponentStat = opponentPokemon[stat];
 
-    const trainerStatElement = document.getElementById(`#trainer-${stat}`);
-    const opponentStatElement = document.getElementById(`#opponent-${stat}`);
+    const trainerStatElement = document.getElementById(`trainer-${stat}`);
+    const opponentStatElement = document.getElementById(`opponent-${stat}`);
 
     //Reset any previos highlighted stat
-    const allTrainerStats = document.querySelectorAll(' #trainer-card .stat-btn');
+    const allTrainerStats = document.querySelectorAll('#trainer-card .stat-btn');
     const allOpponentStats = document.querySelectorAll('#opponent-card .stat-btn');
 
     allTrainerStats.forEach(et => {
@@ -179,16 +176,13 @@ function compareStats(stat) {
         trainerStatElement.classList.add('winner');
         opponentStatElement.classList.add('loser');
         trainerScore++;
-        gameMessage.textContent = `You win this round!`;
     } else if (trainerStat < opponentStat) {
         trainerStatElement.classList.add('loser');
         opponentStatElement.classList.add('winner');
         opponentScore++;
-        gameMessage.textContent = `You lose this round!`;
     } else {
         trainerStatElement.classList.add('draw');
         opponentStatElement.classList.add('draw');
-        gameMessage.textContent = `It's a draw! Both have ${trainerStat}`;
     }
 
     // Update the score
@@ -216,10 +210,10 @@ function resetStatButtons() {
 }
 
 // Function to toggle dark mode
-function toggleDarkMode() {
-    document.body.classList.toggle('dark-mode');
-    darkModeButton.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
-}
+//function toggleDarkMode() {
+    //document.body.classList.toggle('dark-mode');
+    //darkModeButton.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+//}
 
 // Helper functions
 function capitalizeFirstLetter(string) {
@@ -229,13 +223,12 @@ function capitalizeFirstLetter(string) {
 // Initialize the game
 function initGame() {
     // set up initial state
-    gameMessage.textContent = "Welcome to Pokemon Top Trumps! Click 'Start Game' to begin.";
     trainerScoreElement.textContent = "0";
     opponentScoreElement.textContent = "0";
    
     //Make sure cards are in the initial state
-    trainerCard.classList.remove('flipped');
-    opponentCard.classList.remove('flipped');
+    trainerCard.querySelector('.card-inner').classList.remove('flipped');
+    opponentCard.querySelector('.card-inner').classList.remove('flipped');
 }
 
 // start the game
