@@ -43,17 +43,16 @@ let selectedStat = false;
 // DOM elements
 const trainerCard = document.getElementById('trainer-card');
 const opponentCard = document.getElementById('opponent-card');
-const gameContainer = document.querySelector('game-container');
 const startButton = document.getElementById('.start-button');
 const nextRoundButton = document.getElementById('next-reset-button');
 const trainerScoreElement = document.getElementById('trainer-score');
 const opponentScoreElement = document.getElementById('opponent-score');
-//const darkModeButton = document.getElementById('dark-mode-button');
+
 
 // Event listeners
 startButton.addEventListener('click', startGame);
 nextRoundButton.addEventListener('click', startNextRound);
-//darkModeButton.addEventListener('click', toggleDarkMode);
+
 
 // Stat selection button - event delegation
 document.addEventListener('click', function(event) {
@@ -81,8 +80,8 @@ async function startGame() {
     await loadNewPokemon();
     
     //Show players card, but hide the opponent's card
-    trainerCard.querySelector('.card-inner').classList.add('flipped');
-    opponentCard.querySelector('.card-inner').classList.remove('flipped');
+    trainerCard.style.display = 'block';
+    opponentCard.style.display = 'none';
 }
 
 async function loadNewPokemon() {
@@ -135,18 +134,18 @@ function selectStat(stat) {
     if (!gameActive) return;
 
     selectedStat = stat;
+    gameActive = false;
 
     //Highlight the selected stat button
     resetStatButtons();
     document.getElementById(`trainer-${stat}`).classList.add('selected');
 
     // Show the opponent's card
-    opponentCard.querySelector('.card-inner').classList.add('flipped');
+    opponentCard.style.display = 'block';
 
     // Compare the selected stat
-    setTimeout(() => {
-        compareStats(stat);
-    }, 1000); // Delay for 1 second card flip amimation
+    compareStats(stat);
+    
 }
 
 function compareStats(stat) {
@@ -190,7 +189,6 @@ function compareStats(stat) {
     opponentScoreElement.textContent = opponentScore;
 
     // Show the next round button
-    gameActive = false;
     nextRoundButton.style.display = 'block';
 }
 
@@ -227,10 +225,9 @@ function initGame() {
     opponentScoreElement.textContent = "0";
    
     //Make sure cards are in the initial state
-    trainerCard.querySelector('.card-inner').classList.remove('flipped');
-    opponentCard.querySelector('.card-inner').classList.remove('flipped');
+    trainerCard.style.display = 'none';
+    opponentCard.style.display = 'none';
 }
-
 // start the game
 initGame();
 

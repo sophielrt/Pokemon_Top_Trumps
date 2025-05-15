@@ -271,3 +271,19 @@ main {
 
 /* For small devices (portait tablets and large phones, 600px and up) */
 
+
+
+/* Game */
+
+.card {
+    height: 350px;
+    width: 250px;
+    perspective: 1000px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pokemon-image {
+    height: 150px;
+
+}
