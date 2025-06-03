@@ -20,89 +20,95 @@
     <main>
         <div class="game-container">
             <div class="cards-container">
-                <div class="row">
-                    <div class="col-12 col-xl-6">
-                    <!-- Trainer Card -->
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <!-- Trainer Card -->
                         <div class="card-section">
                             <div class="card" id="trainer-card">
                                 <div class="card-inner">
-                                    <div class="card-back">
-                                        <div class="card-back-design"></div>
-                                    </div>
                                     <div class="card-front">
                                         <div class="pokemon-image" id="trainer-image"></div>
                                         <div class="pokemon-info">
-                                                <div class="pokemon-name" id="trainer-name"></div>
-                                                <div class="d-flex flex-column gap-2">
+                                            <div class="pokemon-name" id="trainer-name"></div>
+                                            <div class="d-flex flex-column gap-2">
                                                 <button class="stat-btn d-block w-100" id="trainer-id" data-stat="id">
                                                     ID: <span></span>
                                                 </button>
-                                                <button class="stat-btn d-block w-100" id="trainer-speed" data-stat="speed">
+                                                <button class="stat-btn d-block w-100" id="trainer-speed"
+                                                    data-stat="speed">
                                                     Speed: <span></span>
                                                 </button>
-                                                <button class="stat-btn d-block w-100" id="trainer-attack" data-stat="attack">
+                                                <button class="stat-btn d-block w-100" id="trainer-attack"
+                                                    data-stat="attack">
                                                     Attack: <span></span>
                                                 </button>
-                                                <button class="stat-btn d-block w-100" id="trainer-defense" data-stat="defense">
+                                                <button class="stat-btn d-block w-100" id="trainer-defense"
+                                                    data-stat="defense">
                                                     Defense: <span></span>
                                                 </button>
-                                                <button class="stat-btn d-block w-100 " id="trainer-height" data-stat="height">
+                                                <button class="stat-btn d-block w-100 " id="trainer-height"
+                                                    data-stat="height">
                                                     Height: <span></span>
                                                 </button>
-                                                <button class="stat-btn d-block w-100" id="trainer-weight" data-stat="weight">
+                                                <button class="stat-btn d-block w-100" id="trainer-weight"
+                                                    data-stat="weight">
                                                     Weight: <span></span>
                                                 </button>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <h3>pokemon Trainer's</h3>
+                            <div class="score">Score: <span id="trainer-score">0</span></div>
                         </div>
-                        <h3>pokemon Trainer's</h3>
-                        <div class="score">Score: <span id="trainer-score">0</span></div>
+                    </div>
 
-                
-            
 
-                <!-- Opponent's Card -->
-                
-                    <div class="card-section">
-                        <div class="card" id="opponent-card">
-                            <div class="card-inner">
-                                <div class="card-back">
-                                    <div class="card-back-design"></div>
-                                </div>
-                                <div class="card-front">
-                                    <div class="pokemon-image" id="opponent-image"></div>
-                                    <div class="pokemon-info">
-                                        <div class="pokemon-name" id="opponent-name"></div>
-                                        <div class=" d-flex flex-column gap-2">
-                                        <button class="stat-btn d-block w-100" id="opponent-id" data-stat="id">
-                                            ID: <span></span>
-                                        </button>
-                                        <button class="stat-btn d-block w-100" id="opponent-speed" data-stat="speed">
-                                            Speed: <span></span>
-                                        </button>
-                                        <button class="stat-btn d-block w-100" id="opponent-attack" data-stat="attack">
-                                            Attack: <span></span>
-                                        </button>
-                                        <button class="stat-btn d-block w-100" id="opponent-defense" data-stat="defense">
-                                            Defense: <span></span>
-                                        </button>
-                                        <button class="stat-btn d-block w-100" id="opponent-height" data-stat="height">
-                                            Height: <span></span>
-                                        </button>
-                                        <button class="stat-btn d-block w-100" id="opponent-weight" data-stat="weight">
-                                            Weight: <span></span>
-                                        </button>
+
+
+                    <!-- Opponent's Card -->
+
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="card-section">
+                            <div class="card" id="opponent-card">
+                                <div class="card-inner">
+                                    <div class="card-front">
+                                        <div class="pokemon-image" id="opponent-image"></div>
+                                        <div class="pokemon-info">
+                                            <div class="pokemon-name" id="opponent-name"></div>
+                                            <div class=" d-flex flex-column gap-2">
+                                                <button class="stat-btn d-block w-100" id="opponent-id" data-stat="id">
+                                                    ID: <span></span>
+                                                </button>
+                                                <button class="stat-btn d-block w-100" id="opponent-speed"
+                                                    data-stat="speed">
+                                                    Speed: <span></span>
+                                                </button>
+                                                <button class="stat-btn d-block w-100" id="opponent-attack"
+                                                    data-stat="attack">
+                                                    Attack: <span></span>
+                                                </button>
+                                                <button class="stat-btn d-block w-100" id="opponent-defense"
+                                                    data-stat="defense">
+                                                    Defense: <span></span>
+                                                </button>
+                                                <button class="stat-btn d-block w-100" id="opponent-height"
+                                                    data-stat="height">
+                                                    Height: <span></span>
+                                                </button>
+                                                <button class="stat-btn d-block w-100" id="opponent-weight"
+                                                    data-stat="weight">
+                                                    Weight: <span></span>
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <h3>Opponents</h3>
+                            <div class="score">Score: <span id="opponent-score">0</span></div>
                         </div>
-                        <h3>Opponents</h3>
-                        <div class="score">Score: <span id="opponent-score">0</span></div>
                     </div>
                 </div>
             </div>

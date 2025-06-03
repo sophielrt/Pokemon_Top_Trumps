@@ -275,12 +275,28 @@ main {
 
 /* Game */
 
+/* Game Container */
+.game-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card Section */
+.card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Pokemon Card Styling */
 .card {
     height: 450px;
     width: 250px;
     position: relative;
     margin-bottom: 20px;
-    border: 20px solid var(--Dark-Blue);
+    border: 20px solid var(--Yellow);
     border-radius: 8px;
     background-color: var(--Light-Blue);
     padding: 10px;
@@ -298,4 +314,5 @@ main {
     object-fit: contain;
     border-radius: 8px;
 }
+
 
