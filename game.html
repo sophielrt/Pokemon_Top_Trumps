@@ -15,22 +15,26 @@
 </head>
 
 <body>
-    <header class="row">
+    <header class="row" id="game-header">
         <div class="col-12 d-flex">
-        <!-- Home Button -->
-        <button id="home-button" onclick="window.location.href='index.html'">
-            <i class="fa-solid fa-house"></i>
-        </button>
-        <!-- Title -->
-        <h1>Battle Academy Top Trumps</h1>
-        <!-- Dark Mode Toggle -->
-        <button id="dark-mode-toggle">
-            <i class="fa-solid fa-moon"></i>
-        </button>
-        <!-- Help Button -->
-        <button id="help">
-            <i class="fa-solid fa-question"></i>
-        </button>
+            <!-- Home Button (Left)-->
+            <button id="home-button" onclick="window.location.href='index.html'">
+                <i class="fa-solid fa-house"></i>
+            </button>
+            <!-- Title (Center) -->
+            <h1>Battle Academy Top Trumps</h1>
+
+            <!-- (Right buttons grouped) -->
+            <div class="right-buttons">
+                <!-- Dark Mode Toggle -->
+                <button id="dark-mode-toggle">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <!-- Help Button -->
+                <button id="help">
+                    <i class="fa-solid fa-question"></i>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -139,7 +143,7 @@
         </div>
     </main>
 
-     <!-- Font Awesome Kit -->
+    <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/e8014a6adf.js" crossorigin="anonymous"></script>
 
     <!-- Link to JavaScript file -->

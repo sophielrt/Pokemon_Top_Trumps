@@ -32,6 +32,8 @@
     --White: #FFFFFF;
     --Grey: #BCBDC0;
     --Red: #E21C25;
+    /* Pokemon Unite */
+   --Light-Yellow: #FFF3BF;
 }
 
 /* Home Page Background Image */
@@ -51,9 +53,17 @@
     min-height: 100vh;   
 }
 
+/* Global Styling */
+
+/* Pokemon Logo Styling */
+#game-header h1, #homepage-header, #readytoplay-header {
+    font-family: var(--primary-font);
+    color: var(--Yellow);
+    /* Used fluentsupport.com for outline font coloring */
+    -webkit-text-stroke: 1.2px var(--Blue);
+}
 
 /* Buttons */
-
 /* General Button Styling */
 #myBtn, #button-start-game,
 #button-hell-yes, #button-hell-no{
@@ -72,6 +82,7 @@
     align-items: center;
     box-sizing: border-box;
 }
+
 
 
 
@@ -223,57 +234,54 @@ main {
 }
 
 
-/* Pokemon style title */
-#title {
-    font-family:  var(--primary-font);
+/* Pokemon title home-page */
+#homepage-header, #readytoplay-header {
     font-size: 2.5rem;
-    color: var(--Yellow);
-    /* Used fluentsupport.com for outline font coloring */
-    -webkit-text-stroke: 1.2px var(--Blue);
     margin-top: 250px;
     text-align: center;
     z-index: 2;
 }
 
 
-/* Media Queries */
-
-/* For Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
-
-    /* Pokemon style title */
-    #title {
-        font-size: 1.5rem;
-        padding: 15px;
-        -webkit-text-stroke: 0.8px var(--Blue);
-    }
-
-    /* Buttons */
-    #myBtn, #button-start-game,
-    #button-hell-yes, #button-hell-no {
-        font-size: 1rem;
-        padding: 10px;
-        width: 200px;
-        height: 60px;
-    }
-
-    /* Button container */
-    #button-container-home-page {
-        margin-top: 50px;
-    }
-
-    /* Modal content */
-    .modal-content {
-        padding: 10px;
-        width: 90%;
-    }
-}
-
-/* For small devices (portait tablets and large phones, 600px and up) */
-
-
 
 /* Game */
+
+/* Header Styling */
+#game-header {
+    background-color: var(--Light-Yellow);
+    padding: 10px;
+}
+
+#game-header .col-12 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home-button, #dark-mode-toggle, #help{
+    background-color: transparent;
+    border: none;
+    color: var(--Light-Blue);
+    font-size: 2rem;
+}
+
+#home-button:hover, #dark-mode-toggle:hover, #help:hover {
+    color: var(--Dark-Blue);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#game-header h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.right-buttons {
+    display: flex;
+    gap: 10px;
+}
 
 /* Game Container */
 .game-container {
@@ -315,4 +323,40 @@ main {
     border-radius: 8px;
 }
 
+
+
+/* Media Queries */
+
+/* For Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+
+    /* Pokemon style title */
+    #homepage-header {
+        font-size: 1.5rem;
+        padding: 15px;
+        -webkit-text-stroke: 0.8px var(--Blue);
+    }
+
+    /* Buttons */
+    #myBtn, #button-start-game,
+    #button-hell-yes, #button-hell-no {
+        font-size: 1rem;
+        padding: 10px;
+        width: 200px;
+        height: 60px;
+    }
+
+    /* Button container */
+    #button-container-home-page {
+        margin-top: 50px;
+    }
+
+    /* Modal content */
+    .modal-content {
+        padding: 10px;
+        width: 90%;
+    }
+}
+
+/* For small devices (portait tablets and large phones, 600px and up) */
 
