@@ -65,7 +65,7 @@
 
 /* Buttons */
 /* General Button Styling */
-#myBtn, #button-start-game,
+#howToPlay, #button-start-game,
 #button-hell-yes, #button-hell-no{
     font-family: var(--secondary-font);
     font-size: 1.2rem;
@@ -152,14 +152,14 @@
     margin-top: 70px;
 }
 
-#button-start-game, #myBtn {
+#button-start-game, #howToPlay {
     background-color: var(--Red);
     color: var(--Dark-Blue);
     border: 2px solid var(--Dark-Blue);
     min-width: 300px;
 }
 
-#button-start-game:hover, #myBtn:hover {
+#button-start-game:hover, #howToPlay:hover {
     transform: scale(1.1);
     background-color: var(--Light-Blue);
     color: var(--Grey);
@@ -338,7 +338,7 @@ main {
     }
 
     /* Buttons */
-    #myBtn, #button-start-game,
+    #howToPlay, #button-start-game,
     #button-hell-yes, #button-hell-no {
         font-size: 1rem;
         padding: 10px;
