@@ -56,7 +56,7 @@
 /* Global Styling */
 
 /* Pokemon Logo Styling */
-#game-header h1, #homepage-header, #readytoplay-header {
+#game-title, #homepage-header, #readytoplay-header {
     font-family: var(--primary-font);
     color: var(--Yellow);
     /* Used fluentsupport.com for outline font coloring */
@@ -271,11 +271,13 @@ main {
     transform: scale(1.1);
 }
 
-#game-header h1 {
+#game-title {
     font-size: 3.5rem;
     margin: 0;
     flex: 1;
     text-align: center;
+    text-decoration: none;
+    
 }
 
 .right-buttons {
