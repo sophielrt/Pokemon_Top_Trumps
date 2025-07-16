@@ -298,6 +298,8 @@ main {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 /* Pokemon Card Styling */
@@ -310,7 +312,56 @@ main {
     border-radius: 8px;
     background-color: var(--Light-Blue);
     padding: 10px;
-    /* display: none; Cards are hidden by default */
+    perspective: 1000px; /* Enables 3D effect */
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-back {
+    background-color: linear-gradient(45deg, var(--Light-Blue), var(--Dark-Blue));
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-back-image {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.card-back-text {
+    font-family: var(--secondary-font--);
+    font-size: 1.2rem;
+    color: var(--White);
+    font-weight: bold;
+    text-align: center;
 }
 
 .pokemon-image {
