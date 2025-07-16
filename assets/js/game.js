@@ -107,9 +107,10 @@ async function startGame() {
     //Fetch new pokemon
     await loadNewPokemon();
     
-    //Show players card, but hide the opponent's card
-    trainerCard.style.display = 'block';
-    opponentCard.style.display = 'none';
+    // Flip the trainer card to show the Pokemon
+    setTimeout(() => {
+        trainerCard.classList.add('flipped');
+    }, 500);
 }
 
 async function loadNewPokemon() {
@@ -168,12 +169,15 @@ function selectStat(stat) {
     resetStatButtons();
     document.getElementById(`trainer-${stat}`).classList.add('selected');
 
-    // Show the opponent's card
-    opponentCard.style.display = 'block';
+    // Flip the opponent's card to reveal their Pokemon
+    setTimeout(() => {
+        opponentCard.classList.add('flipped');
 
-    // Compare the selected stat
-    compareStats(stat);
-    
+        // Compare stats after flip
+        setTimeout(() => {
+            compareStats(stat);
+        }, 400);
+    }, 300);  
 }
 
 function compareStats(stat) {
@@ -223,9 +227,15 @@ function compareStats(stat) {
 
 
 // Function to start the next round
-
 function startNextRound() {
-    startGame();
+    // Reset the card to initial state
+    trainerCard.classList.remove('flipped');
+    opponentCard.classList.remove('flipped');
+
+    // Start new game after card flip animation
+    setTimeout(() => {
+        startGame();
+    }, 300);
 }
 
 function resetStatButtons() {
@@ -234,12 +244,6 @@ function resetStatButtons() {
         button.classList.remove('selected', 'winner', 'loser', 'draw');
     });
 }
-
-// Function to toggle dark mode
-//function toggleDarkMode() {
-    //document.body.classList.toggle('dark-mode');
-    //darkModeButton.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
-//}
 
 // Helper functions
 function capitalizeFirstLetter(string) {
@@ -252,10 +256,15 @@ function initGame() {
     trainerScoreElement.textContent = "0";
     opponentScoreElement.textContent = "0";
    
-    //Make sure cards are in the initial state
-    trainerCard.style.display = 'none';
-    opponentCard.style.display = 'none';
+    //Show card in their initial placeholder state
+    trainerCard.style.display = 'block';
+    opponentCard.style.display = 'block';
+
+    //Make sure cards start showing the back (placeholder) image
+    trainerCard.classList.remove('flipped');
+    opponentCard.classList.remove('flipped');
 }
+
 // start the game
 initGame();
 
