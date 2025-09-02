@@ -325,7 +325,7 @@ main {
     transform: rotateY(180deg);
 }
 
-.card.flipped, .card-inner {
+.card.flipped .card-inner {
     transform: rotateY(0deg);
 }
 
@@ -347,13 +347,14 @@ main {
 }
 
 .card-back {
-    background-color: linear-gradient(45deg, var(--Light-Blue), var(--Dark-Blue));
+    background: linear-gradient(45deg, var(--Light-Blue), var(--Dark-Blue));
     transform: rotateY(0deg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+    padding: 20px;
 }
 
 .card-back-image {
@@ -364,11 +365,12 @@ main {
 }
 
 .card-back-text {
-    font-family: var(--secondary-font--);
+    font-family: var(--secondary-font);
     font-size: 1.2rem;
     color: var(--White);
     font-weight: bold;
     text-align: center;
+    margin-top: 10px;
 }
 
 .pokemon-image {
@@ -453,7 +455,7 @@ main {
     text-align: center;
 }
 
-.card-section, .score {
+.card-section .score {
     font-family: var(--general-font);
     font-size: 1.4rem;
     color: var(--Blue);
