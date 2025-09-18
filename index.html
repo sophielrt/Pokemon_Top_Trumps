@@ -1,55 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css"/>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-  <body id="home-page">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 
-    <!-- Header, welcoming the player to the game -->
-    <header id="homepage-header">
-          <h1>
-            Welcome Pokemon trainer to <br/>
-            Battle Academy Top Trumps
-          </h1>
-    </header>
+<body id="home-page">
 
-    <!-- Main element containing the home page buttons-->
-    <main>
-      <section id="button-container-home-page">
-              <a href="ready-to-play.html" id="button-start-game">Start Game</a>
-            
-              
-              <!-- W3Schools Modal Example-->
-              <!-- Trigger/Open The Modal -->
-              <button id="howToPlay" type="button">
-                How to Play
-              </button>
+  <!-- Header, welcoming the player to the game -->
+  <header id="homepage-header">
+    <h1>
+      Welcome Pokemon trainer to <br />
+      Battle Academy Top Trumps
+    </h1>
+  </header>
 
-              <!-- The Modal -->
-              <div id="howToPlayModal" class="modal">
-                <!-- Modal content -->
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <p>How to Play Pokemon Battle Academy Top Trumps</p>
-                  
-                  <p>Objective</p>
-                  
-                  <p>Basic Rules</p>
-                </div>
-              </div> 
-      </section>
-    </main>
-
-    
+  <!-- Main element containing the home page buttons-->
+  <main>
+    <section id="button-container-home-page">
+      <a href="ready-to-play.html" id="button-start-game">Start Game</a>
 
 
-    <!-- Link to JavaScript file -->
-    <script src="assets/js/index.js"></script>
-  </body>
+      <!-- W3Schools Modal Example-->
+      <!-- Trigger/Open The Modal -->
+      <button id="howToPlay" type="button">
+        How to Play
+      </button>
+
+      <!-- The Modal -->
+      <div id="howToPlayModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>How to Play Pokemon Battle Academy Top Trumps</h3>
+          <h4>Objective</h4>
+          <p>Battle against your opponent by strategically choosing Pokemon stats to win the most rounds! Score points
+            by selecting the stat where your Pokemon outperforms your opponent's Pokemon.</p>
+          <h4>Game Setup</h4>
+          <ol>
+            <li>Click the <strong>start</strong> button on the game screen to begin.</li>
+            <li>Two random Pokemon will be selected - one for you (Pokemon Trainer) and one for your opponent</li>
+            <li>Your Pokemon card will flip to reveal its stats, while your opponent's card remains hidden</li>
+          </ol>
+          <h4>How to Play</h4>
+          <h5>Starting a Round</h5>
+          <ul>
+            <li>Your Pokemon card will be revealed, showing all its stats</li>
+            <li>Your opponent's Pokemon remains face-down (hidden)</li>
+            <li>You must choose which stat you think will beat your opponent's Pokemon</li>
+          </ul>
+          <h5>Making Your Move</h5>
+          <ol>
+            <li><strong>Study Your Pokemon's Stats:</strong> Look at your Pokemon's six stats:
+              <ul>
+                <li><strong>ID:</strong> Pokemon's unique identification number</li>
+                <li><strong>Speed:</strong> How fast the Pokemon moves</li>
+                <li><strong>Attack:</strong> Physical attacking power</li>
+                <li><strong>Defense:</strong> Ability to resist physical attacks</li>
+                <li><strong>Height:</strong> Pokemon's height in decimeters</li>
+                <li><strong>Weight:</strong> Pokemon's weight in hectograms</li>
+              </ul>
+            </li>
+            <li><strong>Choose Your Best Stat:</strong> Click on the stat button you believe has the highest chance of
+              beating your opponent
+              <ul>
+                <li>Choose strategically - pick your Pokemon's strongest stats</li>
+                <li>Remember: higher numbers usually win!</li>
+              </ul>
+            </li>
+            <li><strong>Reveal and Compare:</strong> After selecting your stat:
+              <ul>
+                <li>Your opponent's Pokemon card will flip and reveal their stats</li>
+                <li>The chosen stats will be compared automatically</li>
+              </ul>
+            </li>
+          </ol>
+          <h5>Scoring System</h5>
+          <ul>
+            <li><strong>Win a Round:</strong> Your chosen stat is higher than your opponent's → You get 1 point</li>
+            <li><strong>Lose a Round:</strong> Your opponent's stat is higher → Opponent gets 1 point</li>
+            <li><strong>Draw:</strong> Both stats are equal → No points awarded</li>
+          </ul>
+          <h5>Continuing the Game</h5>
+          <ul>
+            <li>Click <strong>Next Round</strong> to play another round with new Pokemon</li>
+            <li>Your scores carry over between rounds</li>
+            <li>Keep playing to see who can achieve the highest score!</li>
+          </ul>
+          <h4>Strategic Thinking</h4>
+          <ol>
+            <li><strong>Know Your Pokemon:</strong> Recognize the Pokemon on your card and think about what they're
+              known for</li>
+            <li><strong>Risk vs Reward:</strong> Sometimes a moderate stat that's likely to win is better than gambling
+              on an extreme stat</li>
+            <li><strong>Learn from Previous Rounds:</strong> Notice patterns in the types of Pokemon that appear</li>
+          </ol>
+          <h4>Game Controls</h4>
+          <ul>
+            <li><strong>Start Game:</strong> Begin a new game session</li>
+            <li><strong>Next Round:</strong> Continue to the next round with new Pokemon</li>
+            <li><strong>Stat Buttons:</strong> Click any stat button on your card to make your choice</li>
+            <li><strong>Home Button</strong> Return to the main menu</li>
+            <li><strong>Help Button:</strong> View these instructions anytime</li>
+          </ul>
+          <p>Ready to become a Pokemon Top Trumps champion? Click Start Game and let the battles begin!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+  <!-- Link to JavaScript file -->
+  <script src="assets/js/index.js"></script>
+</body>
+
 </html>
