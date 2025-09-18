@@ -1,14 +1,14 @@
 # Pokemon Top Trumps
 
-Add website mock-ups here!
+!!!!!Add website mock-ups here!
 
-Add website explination here!
+!!!!!Add website explination here!
 
 ## [Live Website](https://sophielrt.github.io/Pokemon_Top_Trumps/)
 
 ## Code Institute - Milestone Two Project: Interactive Frontend Development
 
-Add project explination here!
+!!!!!Add project explination here
 
 ## Table of contents
 1. [UX](#ux)
@@ -42,8 +42,11 @@ Add project explination here!
 ### Design Choices 
 
 ### Wireframes
+I designed the wireframe using Balsamiq.
 
+!!!!!Add sometext here about what is being added to further iterations.
 
+[Wireframe](./assets/read.meassets/read.me-wireframe.pdf)
 
 ## Features
 
