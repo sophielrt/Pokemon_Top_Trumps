@@ -3,6 +3,7 @@ let trainerPokemon = null;
 let opponentPokemon = null;
 let trainerScore = 0;
 let opponentScore = 0;
+let roundsPlayed = 0;
 let gameActive = false;
 let selectedStat = false;
 
@@ -16,7 +17,6 @@ const startButton = document.getElementById('start-button');
 const nextRoundButton = document.getElementById('next-reset-button');
 const trainerScoreElement = document.getElementById('trainer-score');
 const opponentScoreElement = document.getElementById('opponent-score');
-
 
 //Help Modal
 // When the user clicks the button, open the modal
@@ -112,6 +112,85 @@ function resetStatButtons() {
     statButtons.forEach(button => {
         button.classList.remove('selected', 'winner', 'loser', 'draw');
     });
+}
+
+//Function to create and show the 5 round popup
+document.addEventListener('DOMContentLoaded', function() {
+    const continueBtn = document.getElementById('continueGameBtn');
+    const endBtn = document.getElementById('endGameBtn');
+    const gameResultsModal = document.getElementById('gameResultsModal');
+
+    if (continueBtn) {
+        continueBtn.addEventListener('click', () => {
+            gameResultsModal.style.display = 'none';
+            resetGame();
+            startGame();
+        });
+    }
+
+    if (endBtn) {
+        endBtn.addEventListener('click', () => {
+            gameResultsModal.style.display = 'none';
+            resetGame();
+            startButton.style.display = 'block';
+            nextRoundButton.style.display = 'none';
+        });
+    }
+
+    // Close modal when clicking outside of it
+    if (gameResultsModal) {
+        gameResultsModal.addEventListener('click', (event) => {
+            if (event.target.id === 'gameResultsModal') {
+                gameResultsModal.style.display = 'none';
+                resetGame();
+                startButton.style.display = 'block';
+                nextRoundButton.style.display = 'none';
+            }
+        });
+    }
+});
+
+// Function to show the 5 round popup
+function show5RoundPopup() {
+    const modal = document.getElementById('gameResultsModal');
+    const title = document.getElementById('gameResultsTitle');
+    const trainerScoreSpan = document.getElementById('finalTrainerScore');
+    const opponentScoreSpan = document.getElementById('finalOpponentScore');
+    
+    //update scores
+    trainerScoreSpan.textContent = trainerScore;
+    opponentScoreSpan.textContent = opponentScore;
+
+    // Determine winner and apply appropriate class
+    title.className = 'game-results-title'; // Reset classes
+    if (trainerScore > opponentScore) {
+        title.textContent = 'Winner!';
+        title.classList.add('winner');
+    } else if (trainerScore < opponentScore) {
+        title.textContent = 'You Lost!';
+        title.classList.add('loser');
+    } else {
+        title.textContent = "It's a Draw!";
+        title.classList.add('draw');
+    }
+
+    // Show the modal
+    modal.style.display = 'flex';
+}
+  
+// Function to reset the game
+function resetGame() {
+    trainerScore = 0;
+    opponentScore = 0;
+    roundsPlayed = 0;
+    trainerScoreElement.textContent = "0";
+    opponentScoreElement.textContent = "0";
+
+    // Reset cards to initial state
+    flipCardBack(trainerCard, 0);
+    flipCardBack(opponentCard, 0);
+
+    resetStatButtons();
 }
 
 // Main Game Functions 
@@ -239,8 +318,18 @@ function compareStats(stat) {
     trainerScoreElement.textContent = trainerScore;
     opponentScoreElement.textContent = opponentScore;
 
-    // Show the next round button
-    nextRoundButton.style.display = 'block';
+    // Increment rounds played
+    roundsPlayed++;
+
+    // Check if 5 rounds have been played
+    if (roundsPlayed >= 5) {
+        setTimeout(() => {
+            show5RoundPopup();
+        }, 1500);
+    }else {
+        // Show next round button
+        nextRoundButton.style.display = 'block';
+    }
 }
 
 // Function to start the next round
