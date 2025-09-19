@@ -1,14 +1,9 @@
-//W3Schools Modal Example
+// DOM elements
+const modal = document.getElementById("howToPlayModal");
+const btn = document.getElementById("howToPlay");
+const span = document.getElementsByClassName("close")[0];
 
-// Get the modal
-var modal = document.getElementById("howToPlayModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("howToPlay");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
+//How to Play Modal
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
   modal.style.display = "flex";
