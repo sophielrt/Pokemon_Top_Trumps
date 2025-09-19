@@ -1,13 +1,24 @@
+// Global variables
+let trainerPokemon = null;
+let opponentPokemon = null;
+let trainerScore = 0;
+let opponentScore = 0;
+let gameActive = false;
+let selectedStat = false;
+
+// DOM elements
+const modal = document.getElementById("helpModal");
+const btn = document.getElementById("help");
+const span = document.getElementsByClassName("close")[0];
+const trainerCard = document.getElementById('trainer-card');
+const opponentCard = document.getElementById('opponent-card');
+const startButton = document.getElementById('start-button');
+const nextRoundButton = document.getElementById('next-reset-button');
+const trainerScoreElement = document.getElementById('trainer-score');
+const opponentScoreElement = document.getElementById('opponent-score');
+
+
 //Help Modal
-// Get the modal
-var modal = document.getElementById("helpModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("help");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
 // When the user clicks the button, open the modal
 btn.onclick = function() {
     modal.style.display = "flex";
@@ -58,22 +69,6 @@ async function randomPokemon() {
         };
     }
 }
-
-// Global variables
-let trainerPokemon = null;
-let opponentPokemon = null;
-let trainerScore = 0;
-let opponentScore = 0;
-let gameActive = false;
-let selectedStat = false;
-
-// DOM elements
-const trainerCard = document.getElementById('trainer-card');
-const opponentCard = document.getElementById('opponent-card');
-const startButton = document.getElementById('start-button');
-const nextRoundButton = document.getElementById('next-reset-button');
-const trainerScoreElement = document.getElementById('trainer-score');
-const opponentScoreElement = document.getElementById('opponent-score');
 
 // Event listeners
 startButton.addEventListener('click', startGame);
