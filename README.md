@@ -36,8 +36,35 @@
 ### Business Goals
 
 ### Target Users
+1. #### Pokemon fans
+   - Fans who enjoy collecting Pokemon cards and comparing different Pokemon
+   - Know Pokemon stats, types and evolution chains
+   - Play different Pokemon games across different platfroms
+   - Appreciate authenic Pokemon data and artwork
+   - Competitive and enjoy testing their knowledge
+
+2. #### Casual gamers
+   - Plays games on various different devices
+   - Enjoy games they can pick up and put down easily
+   - Value quick enterainment over complex games
+   - Don't want to commit to long gaming sessions
+   - Pefers to play games that don't require long tutorials
+
+3. #### Noatalgia seekers
+   - Grew up playing up play physical Top Trump cards in the 80s, 90s or 2000s
+   - Grew up collecting Pokemon cards
+   - Appreciates retro games
+   - Values authentic recreations of childhood experinces
 
 ### User Stories
+1. As a Pokemon fan, I want to see design inspiration from original Pokemon games.
+2. As a Pokemon fan, I want to see authentic and correct Pokemon data.
+3. As a casual gamer, I want a game which works on different devices, so I can play at home or on the go.
+4. As a casual gamer, I want a game which I can play quick rounds off.
+5. As a casual gamer, I want simple rules that are easy to understand so I can quickly get into the game.
+6. As a nostalgia seeker, I want the cards to flip so I can relive memories. 
+7. As a nostalgia seeker, I want straight forward game play without all the complexities that typically come with modern gaming.
+
 
 ### Design Choices 
 
@@ -65,6 +92,7 @@ I designed the wireframe using Balsamiq.
 ### Google Lighthouse Testing
 
 ### Web Accessibility in mind Contrast Checker
+[Web Accessibility in mind contrast checker](https://webaim.org/resources/contrastchecker/?fcolor=02AFD0&bcolor=FFFF00)
 
 
 
