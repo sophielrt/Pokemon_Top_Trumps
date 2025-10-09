@@ -56,7 +56,7 @@
 /* Global Styling */
 
 /* Pokemon Logo Styling */
-#game-title, #homepage-header, #readytoplay-header {
+#game-title, #homepage-header, #readytoplay-header, #error-header {
     font-family: var(--primary-font);
     color: var(--Yellow);
     /* Used fluentsupport.com for outline font coloring */
@@ -234,7 +234,7 @@ main {
 }
 
 
-/* Pokemon title home-page */
+/* Pokemon title logo */
 #homepage-header, #readytoplay-header {
     font-size: 2.5rem;
     margin-top: 250px;
@@ -491,6 +491,34 @@ main {
 
 /* 5 Round Popup Styles */
 /* Add styling for the 5 Round Popup */
+
+/* 404 Page Styles */
+#error-page {
+    padding-top: 60px;
+    margin: 30px;
+    background-color: var(--Grey);
+}
+.error-container {
+    background-color: var(--Light-Yellow);
+    border-radius: 25px;
+    padding-top:  50px;
+}
+
+#error-header {
+    font-size: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#error-code {
+    font-family: var(--secondary-font);
+    font-size: 50px;
+    text-align: center;
+    color: var(--Blue);
+}
+    
+
+
 
 /* Media Queries */
 
