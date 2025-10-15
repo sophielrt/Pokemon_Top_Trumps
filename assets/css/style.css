@@ -56,7 +56,7 @@
 /* Global Styling */
 
 /* Pokemon Logo Styling */
-#game-title, #homepage-header, #readytoplay-header, #error-header {
+#game-title, #homepage-header, #readytoplay-header {
     font-family: var(--primary-font);
     color: var(--Yellow);
     /* Used fluentsupport.com for outline font coloring */
@@ -494,29 +494,69 @@ main {
 
 /* 404 Page Styles */
 #error-page {
-    padding-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 30px;
-    background-color: var(--Grey);
+    background-color: var(--Dark-Blue);
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
 }
 .error-container {
-    background-color: var(--Light-Yellow);
+    background-color: var(--White);
     border-radius: 25px;
-    padding-top:  50px;
-}
-
-#error-header {
-    font-size: 80px;
-    margin-bottom: 30px;
-    text-align: center;
+    padding: 30px;
+    max-width: 1000px;
+    width: 100%;
 }
 
 #error-code {
     font-family: var(--secondary-font);
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     color: var(--Blue);
+    margin: 10px 0;
 }
-    
+
+.error-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.error-image {
+    flex: 0 0 auto;
+}
+
+
+.error-image img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.error-text {
+    flex: 1;
+}
+
+#error-message {
+    font-family: var(--general-font);
+    font-size: 1.8rem;
+    margin: 10px 0;
+    color: var(--Dark-Blue);
+
+}
+
+.error-text p {
+    font-family: var(--general-font);
+    font-size: 1.2rem;
+    color: var(--Dark-Blue);
+}
+
 
 
 
