@@ -66,7 +66,7 @@
 /* Buttons */
 /* General Button Styling */
 #howToPlay, #button-start-game,
-#button-hell-yes, #button-hell-no{
+#button-hell-yes, #button-hell-no {
     font-family: var(--secondary-font);
     font-size: 1.2rem;
     text-decoration: none;
@@ -555,6 +555,24 @@ main {
     font-family: var(--general-font);
     font-size: 1.2rem;
     color: var(--Dark-Blue);
+}
+
+#return-homebtn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-family: var(--secondary-font);
+    background-color: var(--Yellow);
+    color: var(--Blue);
+    border: 2px solid var(--Blue);
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+#return-homebtn:hover {
+    transform: scale(1.1);
+    background-color: var(--Light-Yellow);
 }
 
 
