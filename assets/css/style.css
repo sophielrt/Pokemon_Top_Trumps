@@ -302,9 +302,24 @@ main {
 
 /* Game Container */
 .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+
+.cards-container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.cards-container .col-12.col-md-6.col-lg-5 {
+    flex: 0 0 auto;
+    width: auto;
 }
 
 /* Card Section */
