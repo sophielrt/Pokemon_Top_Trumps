@@ -232,7 +232,7 @@ body {
 }
 
 main {
-    padding-bottom: 150px;
+    padding-bottom: 10px;
 }
 
 /* Ensures the content stays above the overlay */
@@ -503,6 +503,31 @@ h3 {
     justify-content: center;
     gap: 20px;
     margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+#game-footer {
+    background-color: var(--Light-Yellow);
+    padding: 30px;
+    text-align: center;
+}
+
+.social-media i {
+    color: var(--Red);
+    font-size: 2rem;
+    padding: 1rem 3rem;
+}
+
+.social-media a {
+    background: none;
+    border: none;
+    text-decoration: none;
+}
+
+#twitch-button {
+    background: transparent;
+    border: none;
 }
 
 
