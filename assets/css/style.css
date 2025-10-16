@@ -35,23 +35,6 @@
     --Light-Yellow: #FFF3BF;
 }
 
-/* Home Page Background Image */
-#home-page {
-    /* Image of Pokemon Cards by Mick Haupt. Acessed via unsplash.com */
-    background: url(../images/homepage-background-image.jpg) no-repeat center fixed;
-    background-size: cover;
-    min-height: 100vh;
-}
-
-
-/* Ready to play Background Image */
-#ready-to-play-page {
-    /* Image of Pokemon Charizard by Halfcut Pokemon. Acessed via unsplash.com */
-    background: url(../images/readytoplay-image.jpg) no-repeat center fixed;
-    background-size: cover;
-    min-height: 100vh;
-}
-
 /* Global Styling */
 
 /* Pokemon Logo Styling */
@@ -64,9 +47,31 @@
     -webkit-text-stroke: 1.2px var(--Blue);
 }
 
+/* Pokemon title logo */
+#homepage-header,
+#readytoplay-header {
+    font-size: 2.5rem;
+    margin-top: 250px;
+    text-align: center;
+    z-index: 2;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    padding-bottom: 10px;
+}
+
 /* Buttons */
 /* General Button Styling */
-#howToPlay,
+#how-to-play,
 #button-start-game,
 #button-hell-yes,
 #button-hell-no,
@@ -89,7 +94,7 @@
     box-sizing: border-box;
 }
 
-#howToPlay:hover,
+#how-to-play:hover,
 #button-start-game:hover,
 #button-hell-yes:hover,
 #button-hell-no:hover,
@@ -98,10 +103,11 @@
 #return-homebtn:hover {
     transform: scale(1.1);
     background-color: var(--Light-Yellow);
+    cursor: pointer;
 }
 
 /* Button Styling */
-#howToPlay,
+#how-to-play,
 #button-start-game,
 #button-hell-yes,
 #button-hell-no {
@@ -111,7 +117,64 @@
     align-items: center;
 }
 
+#button-container-home-page,
+#button-container-ready-to-play {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+    margin-top: 70px;
+}
 
+/* Home Page Background Image */
+#home-page {
+    /* Image of Pokemon Cards by Mick Haupt. Acessed via unsplash.com */
+    background: url(../images/homepage-background-image.jpg) no-repeat center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+/* Ready to play Background Image */
+#ready-to-play-page {
+    /* Image of Pokemon Charizard by Halfcut Pokemon. Acessed via unsplash.com */
+    background: url(../images/readytoplay-image.jpg) no-repeat center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* Black Semi-Transparent overlay homepage and ready to play page*/
+#home-page,
+#ready-to-play-page {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Ensures the content stays above the overlay */
+#home-page>*,
+#ready-to-play-page>* {
+    position: relative;
+    z-index: 2;
+}
+
+#home-page::before,
+#ready-to-play-page::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    /* Places the overlay below the content */
+    pointer-events: none;
+    /* Allows the mouse and buttons to work */
+}
+
+/* Index.html */
 /* W3 Schools Modal Example */
 /* Modal background */
 .modal {
@@ -128,7 +191,6 @@
     align-items: center;
     width: 100%;
     height: 100%;
-
 }
 
 /* Modal Content */
@@ -171,91 +233,7 @@
 }
 
 
-/* Buttons homepage */
-/* Button conatiner */
-#button-container-home-page {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 2;
-    margin-top: 70px;
-}
-
-
-
-
-/* Buttons Ready to Play Page */
-/* Buttons contrainer ready to play page buttons */
-#button-container-ready-to-play {
-    display: flex;
-    justify-content: center;
-    margin-top: 120px;
-    z-index: 2;
-}
-
-
-
-/* Black Semi-Transparent overlay homepage and ready to play page*/
-
-
-#home-page,
-#ready-to-play-page {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-}
-
-
-#home-page::before,
-#ready-to-play-page::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
-    /* Places the overlay below the content */
-    pointer-events: none;
-    /* Allows the mouse and buttons to work */
-}
-
-html,
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-}
-
-main {
-    padding-bottom: 10px;
-}
-
-/* Ensures the content stays above the overlay */
-#home-page>*,
-#ready-to-play-page>* {
-    position: relative;
-    z-index: 2;
-}
-
-
-/* Pokemon title logo */
-#homepage-header,
-#readytoplay-header {
-    font-size: 2.5rem;
-    margin-top: 250px;
-    text-align: center;
-    z-index: 2;
-}
-
-
-
-/* Game */
-
+/* game.html */
 /* Header Styling */
 #game-header {
     background-color: var(--Light-Yellow);
@@ -534,7 +512,7 @@ h3 {
 /* 5 Round Popup Styles */
 /* Add styling for the 5 Round Popup */
 
-/* 404 Page Styles */
+/* 404.html */
 #error-page {
     padding-top: 20px;
     padding-bottom: 20px;

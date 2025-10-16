@@ -1,6 +1,6 @@
 // DOM elements
-const modal = document.getElementById("howToPlayModal");
-const btn = document.getElementById("howToPlay");
+const modal = document.getElementById("how-to-play-modal");
+const btn = document.getElementById("how-to-play");
 const span = document.getElementsByClassName("close")[0];
 
 //How to Play Modal
