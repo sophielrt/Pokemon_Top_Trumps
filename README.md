@@ -93,6 +93,26 @@ I designed the wireframe using Balsamiq.
 
 ### Manual Testing
 
+#### 1. Homepage (index.html)
+
+| **Test Description** | **Expected Result** | **Outcome** |
+| ------------- | ------------- |:-----:|
+
+#### 2. Are you ready to Battle your Opponent? (ready-to-play.html)
+
+| **Test Description** | **Expected Result** | **Outcome** |
+| ------------- | ------------- |:-----:|
+
+#### 3. Game (game.html)
+
+| **Test Description** | **Expected Result** | **Outcome** |
+| ------------- | ------------- |:-----:|
+
+#### 4. 404 Error Page (404.html)
+
+| **Test Description** | **Expected Result** | **Outcome** |
+| ------------- | ------------- |:-----:|
+
 ### Validator Testing
 
 ### Google Lighthouse Testing
@@ -108,6 +128,29 @@ I designed the wireframe using Balsamiq.
 
 
 ## Deployment
+This project was developed using [Visual Studio Code](https://code.visualstudio.com/), version-controlled with [Git](https://git-scm.com/), and pushed to [GitHub](https://github.com/) using Git's built-in  `git push` command.
+
+To deploy the project from its [GitHub repository](https://github.com/sophielrt/Pokemon_Top_Trumps) to Github Pages, the following steps were taken:
+
+1. Log in to your [GitHub account](https://github.com/login)
+2. Navigate to the repositories, select **sophielrt/Pokemon_Top_Trumps**
+3. Click the **Settings** tab located in the menu at the top of the repository page.
+4. In the left sidebar, scroll down to the **Code and automation** section and select **Pages**.
+5. Under **Build and deployment**, in the **Source** section, open the drop-down menu labeled **None** and select **main/master branch**.
+6. Once you have selected **main/master branch**, the page will automatically refresh, indicating that the site has been successfully deployed.
+7. Finally, scroll down to the **GitHub Pages** section to access the live link to the deployed site.
+
+### How to run this project locally
+To set up this project on your local IDE (such as VS Code, PyCharm, or another IDE), follow these steps:
+
+1. Open the [project repository](https://github.com/sophielrt/Pokemon_Top_Trumps) on GitHub.
+2. Click the **green Code button** in the top-right corner of the repository page.
+3. Under the **Clone** section, copy the **HTTPS URL**.
+4. In your preferred IDE, open the terminal.
+5. **Change the directory** to the location where you want to store the project files.
+6. Type the **git clone** command and paste the URL copied in step 3.
+`git clone https://github.com/sophielrt/Pokemon_Top_Trumps.git`
+7. Press **Enter** to clone the repository and create a local copy of the project.
 
 
 ## Credit
@@ -126,8 +169,14 @@ I designed the wireframe using Balsamiq.
 - PokemonGB-RAeo.ttf accessed via [fontspace](https://www.fontspace.com/pokemon-gb-font-f9621), font by: Jackster Productions
 
 ### Code
+- Bootstrap V5.3.3
+- W3schools
+- Stack overflow
+
 
 ### Acknowledgements
-
+- I would like to express my heartfelt gratitude to my New City College tutor, André Beckley, for his exceptional guidance, unwavering support, and encouragement throughout this project.
+- Many thanks to my Code Institute mentor, Medale Oluwafemi, for their expert guidance and valuable insights during the course of this project.
+- I would like to thank the Code Institute tutor team for their continued support throughout my studies.
 
 
