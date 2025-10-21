@@ -80,8 +80,14 @@ I designed the wireframe using Balsamiq.
 
 
 ## Technologies
-
-
+1. HTML5 - 
+2. CSS -
+3. JavaScript -
+4. Bootstrap V5.3.3(https://getbootstrap.com/) -
+5. [PokeApi](https://pokeapi.co/) - 
+6. [Google Fonts](https://fonts.google.com/) -
+7. [Font Awesome](https://fontawesome.com/) -
+8. [TinyPNG](https://tinypng.com/) -
 
 ## Testing
 
@@ -109,6 +115,15 @@ I designed the wireframe using Balsamiq.
 ### Content
 
 ### Media
+- websitelogo-pokeball.png accessed via [pixabay](https://pixabay.com/vectors/pokemon-icon-design-symbol-sign-4657023/), photo by Hsaart
+- homepage-background-image.jpg accessed via [unsplash](https://unsplash.com/photos/red-ceramic-mug-on-brown-wooden-table-KtTF68ZjBak), photo by Mick Haupt
+- readytoplay-image.jpg accessed via [unsplash](https://unsplash.com/photos/a-pile-of-pokemon-trading-cards-sitting-on-top-of-each-other-I7ipAK_JggQ), photo by Giorgio Trovato
+- pokeball-cardback.png acccessed via [Pixabay](https://pixabay.com/vectors/pokemon-pokeball-pokemon-go-1536849/), photo by Alanyadk
+- snorlax.png [Chat GPT](), AI generated image
+
+### Typography
+- Pokemon.ttf accessed via [fontbolt](https://www.fontbolt.com/font/pokemon-font/), font by: FontGet
+- PokemonGB-RAeo.ttf accessed via [fontspace](https://www.fontspace.com/pokemon-gb-font-f9621), font by: Jackster Productions
 
 ### Code
 

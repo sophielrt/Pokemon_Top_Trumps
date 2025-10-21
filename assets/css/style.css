@@ -144,10 +144,9 @@ main {
     min-height: 100vh;
 }
 
-
 /* Ready to play Background Image */
 #ready-to-play-page {
-    /* Image of Pokemon Charizard by Halfcut Pokemon. Acessed via unsplash.com */
+    /* Image of Pokemon Cards by Giorgio Trovato. Acessed via unsplash.com */
     background: url(../images/readytoplay-image.jpg) no-repeat center fixed;
     background-size: cover;
     min-height: 100vh;
