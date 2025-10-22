@@ -13,7 +13,6 @@ This website was developed for my Milestone Two project to showcase my ability t
 
 ## Table of contents
 1. [UX](#ux)
-   - [Project Goals](#project-goals)
    - [Business Goals](#business-goals)
    - [Target Users](#target-users)
    - [User Stories](#user-stories)
@@ -33,9 +32,28 @@ This website was developed for my Milestone Two project to showcase my ability t
 ## UX
 The user experience (UX) of Battle Academy Pokemon Top Trumps has been carefully designed to prioritise a simple, engaging and visually appealing gaming experience. The design draws inspiration from the original Pokemon games to create an authentic and nostalgic feel, ensuring a fun and memorable experience for users.
 
-### Project Goals
-
 ### Business Goals
+1. Attracting Potential Users
+   - Ensure relevant metadata is used for search engine Optimisation (SEO) to reach users searching for Pokemon Top Trump Games.
+
+2. Engaging Potential Users
+   - Create a user-friendly site that is easy to navigate.
+   - Make instructions simple and easy to understand so users can quickly start the game.
+   - Ensure the content is suitable for the target audience.
+   - Include key information that the user needs to enjoy and understand the game.
+
+3. Visual Design 
+   - Use high-quality images to showcase Pokemon and enhance visual appeal.
+   - Maintain a consistent Pokemon-inspired colour palette and typography throughout the website.
+   - Include visual feedback on buttons (hover effect) to improve user experience.
+
+4. Speed Optimisation
+   - Ensure the website is fast-loading and fully responsive for a smooth user experience across all devices.
+
+5. Engagement
+   - Include a clear call to action "Start Game" button on the homepage to encourage immediate engagement.
+   - Include a play again option on the end-of-game summary to increase replay value.
+
 
 ### Target Users
 1. #### Pokemon fans
@@ -69,7 +87,13 @@ The user experience (UX) of Battle Academy Pokemon Top Trumps has been carefully
 
 
 ### Design Choices 
+!!!!!!Add design choice image here!
 
+1. Typography
+
+2. Colour Palette
+
+3. Images
 ### Wireframes
 I designed the wireframe using Balsamiq.
 
