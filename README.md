@@ -1,14 +1,15 @@
-# Pokemon Top Trumps
-
+# Battle Academy Pokemon Top Trumps
 !!!!!Add website mock-ups here!
 
-!!!!!Add website explination here!
+Battle Academy Pokemon Top Trumps is an interactive card game where the user competes against the computer using a pokemon card. The website randomly selects a Pokemon from the first 898 in the [PokeAPi](https://pokeapi.co/), displaying their image and stats including ID, Speed, Attack, Defense, Height and Weight. The game tracks the score through 5 rounds, and at the end, asks the user if they would like to play again.
+
+The site also features game instructions, social media buttons and a 404 page. However, this is only the first iteration of the Battle Academy Top Trumps Website - additional sections including High Scores, Enter Name, On Screen Winner, Loser or Draw animation will be added in the future.
 
 ## [Live Website](https://sophielrt.github.io/Pokemon_Top_Trumps/)
 
 ## Code Institute - Milestone Two Project: Interactive Frontend Development
 
-!!!!!Add project explination here
+This website was developed for my Milestone Two project to showcase my ability to build and design a dynamic, interactive front-end site using HTML, CSS and JavaScript.
 
 ## Table of contents
 1. [UX](#ux)
@@ -30,6 +31,7 @@
 7. [Credit](#credit)
 
 ## UX
+The user experience (UX) of Battle Academy Pokemon Top Trumps has been carefully designed to prioritise a simple, engaging and visually appealing gaming experience. The design draws inspiration from the original Pokemon games to create an authentic and nostalgic feel, ensuring a fun and memorable experience for users.
 
 ### Project Goals
 
