@@ -1,7 +1,7 @@
-# Battle Academy Pokemon Top Trumps
+# Battle Academy Pokémon Top Trumps
 !!!!!Add website mock-ups here!
 
-Battle Academy Pokemon Top Trumps is an interactive card game where the user competes against the computer using a pokemon card. The website randomly selects a Pokemon from the first 898 in the [PokeAPi](https://pokeapi.co/), displaying their image and stats including ID, Speed, Attack, Defense, Height and Weight. The game tracks the score through 5 rounds, and at the end, asks the user if they would like to play again.
+Battle Academy Pokémon Top Trumps is an interactive card game where the user competes against the computer using a Pokémon card. The website randomly selects a Pokémon from the first 898 in the [PokeAPi](https://pokeapi.co/), displaying their image and stats including ID, Speed, Attack, Defense, Height and Weight. The game tracks the score through 5 rounds, and at the end, asks the user if they would like to play again.
 
 The site also features game instructions, social media buttons and a 404 page. However, this is only the first iteration of the Battle Academy Top Trumps Website - additional sections including High Scores, Enter Name, On Screen Winner, Loser or Draw animation will be added in the future.
 
@@ -30,11 +30,11 @@ This website was developed for my Milestone Two project to showcase my ability t
 7. [Credit](#credit)
 
 ## UX
-The user experience (UX) of Battle Academy Pokemon Top Trumps has been carefully designed to prioritise a simple, engaging and visually appealing gaming experience. The design draws inspiration from the original Pokemon games to create an authentic and nostalgic feel, ensuring a fun and memorable experience for users.
+The user experience (UX) of Battle Academy Pokémon Top Trumps has been carefully designed to prioritise a simple, engaging and visually appealing gaming experience. The design draws inspiration from the original Pokémon games to create an authentic and nostalgic feel, ensuring a fun and memorable experience for users.
 
 ### Business Goals
 1. Attracting Potential Users
-   - Ensure relevant metadata is used for search engine Optimisation (SEO) to reach users searching for Pokemon Top Trump Games.
+   - Ensure relevant metadata is used for search engine Optimisation (SEO) to reach users searching for Pokémon Top Trump Games.
 
 2. Engaging Potential Users
    - Create a user-friendly site that is easy to navigate.
@@ -43,8 +43,8 @@ The user experience (UX) of Battle Academy Pokemon Top Trumps has been carefully
    - Include key information that the user needs to enjoy and understand the game.
 
 3. Visual Design 
-   - Use high-quality images to showcase Pokemon and enhance visual appeal.
-   - Maintain a consistent Pokemon-inspired colour palette and typography throughout the website.
+   - Use high-quality images to showcase Pokémon and enhance visual appeal.
+   - Maintain a consistent Pokémon-inspired colour palette and typography throughout the website.
    - Include visual feedback on buttons (hover effect) to improve user experience.
 
 4. Speed Optimisation
@@ -56,11 +56,11 @@ The user experience (UX) of Battle Academy Pokemon Top Trumps has been carefully
 
 
 ### Target Users
-1. #### Pokemon fans
-   - Fans who enjoy collecting Pokemon cards and comparing different Pokemon
-   - Know Pokemon stats, types and evolution chains
-   - Play different Pokemon games across different platfroms
-   - Appreciate authenic Pokemon data and artwork
+1. #### Pokémon fans
+   - Fans who enjoy collecting Pokémon cards and comparing different Pokémon
+   - Know Pokémon stats, types and evolution chains
+   - Play different Pokémon games across different platfroms
+   - Appreciate authenic Pokémon data and artwork
    - Competitive and enjoy testing their knowledge
 
 2. #### Casual gamers
@@ -72,13 +72,13 @@ The user experience (UX) of Battle Academy Pokemon Top Trumps has been carefully
 
 3. #### Noatalgia seekers
    - Grew up playing up play physical Top Trump cards in the 80s, 90s or 2000s
-   - Grew up collecting Pokemon cards
+   - Grew up collecting Pokémon cards
    - Appreciates retro games
    - Values authentic recreations of childhood experinces
 
 ### User Stories
-1. As a Pokemon fan, I want to see design inspiration from original Pokemon games.
-2. As a Pokemon fan, I want to see authentic and correct Pokemon data.
+1. As a Pokémon fan, I want to see design inspiration from original Pokémon games.
+2. As a Pokémon fan, I want to see authentic and correct Pokémon data.
 3. As a casual gamer, I want a game which works on different devices, so I can play at home or on the go.
 4. As a casual gamer, I want a game which I can play quick rounds off.
 5. As a casual gamer, I want simple rules that are easy to understand so I can quickly get into the game.
@@ -90,10 +90,18 @@ The user experience (UX) of Battle Academy Pokemon Top Trumps has been carefully
 !!!!!!Add design choice image here!
 
 1. Typography
+   - The Pokémon font by FontGet was selected for the main headings on the website because it closely replicates the original Pokémon logo style. Using this font for headings creates a fun, colourful, and nostalgic aesthetic that immediately engages users. Its distinctive style makes headings stand out and it resonates with both past Pokémon and present Pokémon fans by evoking familiarity and nostalgia.
+   - The Pokémon GB Font by Jackster Productions was chosen for buttons and headings because it replicates the font used in the original Pokémon Game Boy games. This choice reinforces the nostalgic feel of the website, connecting users to the classic Pokémon experience while maintaining a playful aesthetic.
+   - Roboto has been selected as the primary font for the website's content due to its modern, clean, and friendly visual tone, making it well-suited for displaying large amounts of text. It offers excellent legibility and high accessibility, while also being widely supported across all major browsers. Roboto's balanced design complements the playful Pokémon replica fonts and colourful aesthetic of the Website.
 
 2. Colour Palette
+   - 
+
 
 3. Images
+- All images were selected carefully to ensure they are high-quality.
+- Images were chosen to match the theme of the website, maintaining consistency and visual appeal.
+
 ### Wireframes
 I designed the wireframe using Balsamiq.
 
