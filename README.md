@@ -131,21 +131,48 @@ I designed the wireframe using Balsamiq.
 
 | **Test Description** | **Expected Result** | **Outcome** |
 | ------------- | ------------- |:-----:|
+|Click on the "Start Game" button|You should be taken to the ready-to-play.html page.| |
+|Click on the "How to Play" button|You should be taken to the How to Play module pop-up.| |
+|Use the scroll bar in the How to Play module|You should be able to freely scroll up and down in the How to Play module.| |
+|Click on the "X" button in the How to Play module|You should be taken back to the homepage.| |
+|In the inspect tab, check that the homepage is responsive|The homepage should be fully responsive on all devices.| |
 
 #### 2. Are you ready to Battle your Opponent? (ready-to-play.html)
 
 | **Test Description** | **Expected Result** | **Outcome** |
 | ------------- | ------------- |:-----:|
+|Click on the "Hell Yeah!" button|You should be taken to the game.| |
+|Click on the "Hell No!" button|You should be taken to the homepage.| |
+|In the inspect tab, check that the ready-to-play.html is responsive|The ready-to-play.html should be fully responsive on all devices.| |
 
 #### 3. Game (game.html)
 
 | **Test Description** | **Expected Result** | **Outcome** |
 | ------------- | ------------- |:-----:|
+|Click on the "Home Icon" button|You should be taken to the homepage.| |
+|Click on the "Battle Academy Top Trumps" title|You should be taken to the homepage.| |
+|Click on the "?" button|You should be taken to the How to Play module.| |
+|Use the scroll bar in the How to Play module|You should be able to freely scroll up and down in the How to Play module.| |
+|Click on the "X" button in the How to Play module|You should be taken back to the game.| |
+|Click the "Start Game" button|The Pokémon Trainer's card should flip over so you can see the Pokémon image, name, and stats.| |
+|Click on the stat you wish to use for this round|The opponent's card should flip over. The selected stat will change colour to indicate whether it was a win, draw or loss. The score should also change unless it was a draw.| |
+|Click on the "Next Round" button|Both Pokémon cards should reset and be flipped back over so the back is displayed. Then the Pokémon Trainer's card should flip over so you can see the Pokémon image, name, and stats.| |
+|The game plays for 5 rounds|After the 5 rounds, you should get a pop-up module with the results of the game. It will also ask, "Do you want to play another 5 rounds?"| |
+|Click on the "Hell Yes!" button|Both Pokémon cards should be reset, the score should reset, and they should be flipped back so the back is displayed. Then the Pokémon Trainer's card should flip over so you can see the Pokémon image, name, and stats.| |
+|Click on the "Hell No!" button|You should be taken to the homepage.| |
+|Click on the "Facebook" button in the footer|Facebook should open in a separate tab.| |
+|Click on the "Instagram" button in the footer|Instagram should open in a separate tab.| |
+|Click on the "Twitch" button in the footer|You should be taken to the 404 page.| |
+|Click on the "TikTok" button in the footer|TikTok should open in a separate tab.| |
+|Click on the "X" button in the footer|X should open in a separate tab.| |
+|In the inspect tab, check that the game page is responsive|The game page should be fully responsive on all devices.| |
 
 #### 4. 404 Error Page (404.html)
 
 | **Test Description** | **Expected Result** | **Outcome** |
 | ------------- | ------------- |:-----:|
+|Click on the "Return Home" button| You should be taken to the homepage.| |
+|In the inspect tab, check that the 404 page is responsive|The 404 page should be fully responsive on all devices.| |
 
 ### Validator Testing
 
