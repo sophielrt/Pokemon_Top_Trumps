@@ -3,7 +3,7 @@
 
 Battle Academy Pokémon Top Trumps is an interactive card game where the user competes against the computer using a Pokémon card. The website randomly selects a Pokémon from the first 898 in the [PokeAPi](https://pokeapi.co/), displaying their image and stats including ID, Speed, Attack, Defense, Height and Weight. The game tracks the score through 5 rounds, and at the end, asks the user if they would like to play again.
 
-The site also features game instructions, social media buttons and a 404 page. However, this is only the first iteration of the Battle Academy Top Trumps Website - additional sections including High Scores, Enter Name, on-Screen Winner, Loser or Draw animation, and Score continuation through rounds will be added in the future.
+The site also features game instructions, social media buttons and a 404 page. However, this is only the first iteration of the Battle Academy Top Trumps website - additional sections including High Scores, Enter Name, on-Screen Winner, Loser or Draw animation, and Score continuation through rounds will be added in the future.
 
 ## [Live Website](https://sophielrt.github.io/Pokemon_Top_Trumps/)
 
@@ -104,9 +104,10 @@ The user experience (UX) of Battle Academy Pokémon Top Trumps has been carefull
 - Images were chosen to match the theme of the website, maintaining consistency and visual appeal.
 
 ### Wireframes
-I designed the wireframe using Balsamiq.
+I designed the wireframe using [Balsamiq](https://balsamiq.com/?gad_source=1&gad_campaignid=203404003&gbraid=0AAAAAD3BuzM2dIpvaCG11kLamcF5Q3KgV&gclid=CjwKCAjwpOfHBhAxEiwAm1SwEiPicpKTgCI5qsO_ClQq3fiPralCRYTT2TKyBPkgk5S44vDQfpmleRoCkLEQAvD_BwE).
 
-!!!!!Add sometext here about what is being added to further iterations.
+This is only the first iteration of the Battle Academy Top Trumps website. The High scores, Name, and Game Results sections will be added in the future.
+
 1. [Homepage](./assets/readmefile-assets/home-page-wireframe.png)
 2. [How to Play](./assets/readmefile-assets/how-to-play-wireframe.png)
 3. [High Scores](./assets/readmefile-assets/high-score-wireframe.png)
@@ -121,14 +122,14 @@ I designed the wireframe using Balsamiq.
 
 
 ## Technologies
-1. HTML5 - 
-2. CSS -
-3. JavaScript -
-4. Bootstrap V5.3.3(https://getbootstrap.com/) -
-5. [PokeApi](https://pokeapi.co/) - 
-6. [Google Fonts](https://fonts.google.com/) -
-7. [Font Awesome](https://fontawesome.com/) -
-8. [TinyPNG](https://tinypng.com/) -
+1. HTML5 - Markup language that provides the structure and semantic layout for the website's content, enabling it to be organised clearly and accessibly.
+2. CSS - Used for styling, layout and the overall visual presentation and design of the website.
+3. JavaScript - Adds interactivity and dynamic functionality to the website enhancing the user experince.
+4. Bootstrap V5.3.3(https://getbootstrap.com/) - A front-end framework with pre-built components and a grid system, allowing you to create a responsive website across all screen sizes.
+5. [PokeApi](https://pokeapi.co/) - An API that provides Pokémon data such as, images, names, stats. This data can be manipulated to select the information you wish to use.
+6. [Google Fonts](https://fonts.google.com/) - Used to access a custom font to enhance the website's typography.
+7. [Font Awesome](https://fontawesome.com/) - Provides a wide range of icons and symbols to improve UI/UX. 
+8. [TinyPNG](https://tinypng.com/) - Reduces image file size without compromising quality, improving the website's loading speed and performance.
 
 ## Testing
 
@@ -224,6 +225,7 @@ To set up this project on your local IDE (such as VS Code, PyCharm, or another I
 ## Credit
 
 ### Content
+[Claude.ai](https://claude.ai/login?returnTo=%2F%3F)was used to help generate the text for the how to play game instructions.
 
 ### Media
 - websitelogo-pokeball.png accessed via [pixabay](https://pixabay.com/vectors/pokemon-icon-design-symbol-sign-4657023/), photo by Hsaart
@@ -240,7 +242,12 @@ To set up this project on your local IDE (such as VS Code, PyCharm, or another I
 - Bootstrap V5.3.3
 - W3schools
 - Stack overflow
+- Geeks for Geeks
+- Fluent Support - Md. Ariful Basher (Title header border property)
+- W3schools (Module)
 
+### Inspiration
+- [Dribble](https://dribbble.com/shots/8512308-Snorlax-404-Error-Page-Daily-UI-008) ImHighOnCoffee (404.html)
 
 ### Acknowledgements
 - I would like to express my heartfelt gratitude to my New City College tutor, André Beckley, for his exceptional guidance, unwavering support, and encouragement throughout this project.
