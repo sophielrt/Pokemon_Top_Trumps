@@ -3,7 +3,7 @@
 
 Battle Academy Pokémon Top Trumps is an interactive card game where the user competes against the computer using a Pokémon card. The website randomly selects a Pokémon from the first 898 in the [PokeAPi](https://pokeapi.co/), displaying their image and stats including ID, Speed, Attack, Defense, Height and Weight. The game tracks the score through 5 rounds, and at the end, asks the user if they would like to play again.
 
-The site also features game instructions, social media buttons and a 404 page. However, this is only the first iteration of the Battle Academy Top Trumps Website - additional sections including High Scores, Enter Name, On Screen Winner, Loser or Draw animation will be added in the future.
+The site also features game instructions, social media buttons and a 404 page. However, this is only the first iteration of the Battle Academy Top Trumps Website - additional sections including High Scores, Enter Name, on-Screen Winner, Loser or Draw animation, and Score continuation through rounds will be added in the future.
 
 ## [Live Website](https://sophielrt.github.io/Pokemon_Top_Trumps/)
 
@@ -95,8 +95,9 @@ The user experience (UX) of Battle Academy Pokémon Top Trumps has been carefull
    - Roboto has been selected as the primary font for the website's content due to its modern, clean, and friendly visual tone, making it well-suited for displaying large amounts of text. It offers excellent legibility and high accessibility, while also being widely supported across all major browsers. Roboto's balanced design complements the playful Pokémon replica fonts and colourful aesthetic of the Website.
 
 2. Colour Palette
-   - 
-
+   - The colour palette was selected to align with the overall Pokémon theme of the website. 
+   - These colours were inspired by Pokémon Go and Pokémon Unite. Additional colours have been used to indicate whether the user has won, drawn, or lost, which are not specific Pokémon Colours. 
+   - The colour palette creates a visually recognisable and engaging experience for users. These vibrant tones reflect the playful and adventurous nature of the Pokémon universe while helping to create an exciting and immersive gaming environment.
 
 3. Images
 - All images were selected carefully to ensure they are high-quality.
@@ -106,8 +107,14 @@ The user experience (UX) of Battle Academy Pokémon Top Trumps has been carefull
 I designed the wireframe using Balsamiq.
 
 !!!!!Add sometext here about what is being added to further iterations.
-
-[Wireframe](./assets/read.meassets/read.me-wireframe.pdf)
+1. [Homepage](./assets/readmefile-assets/home-page-wireframe.png)
+2. [How to Play](./assets/readmefile-assets/how-to-play-wireframe.png)
+3. [High Scores](./assets/readmefile-assets/high-score-wireframe.png)
+4. [Are you Ready to Battle your Opponent?](./assets/readmefile-assets/preparing-for-battle-wireframe.png)
+5. [Name](./assets/readmefile-assets/name-wireframe.png)
+6. [Game](./assets/readmefile-assets/game-wireframe.png)
+7. [Game Results](./assets/readmefile-assets/game-results-wireframe.png)
+8. [Results module](./assets/readmefile-assets/result-module-wireframe.png)
 
 ## Features
 
