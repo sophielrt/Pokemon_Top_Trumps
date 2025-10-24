@@ -190,37 +190,89 @@ main {
     /* Hidden by default */
     position: fixed;
     /* Stay in Place */
-    z-index: 3;
+    z-index: 1000;
     /* Sit on top */
-    top: 60%;
+    /* Centering the modal CSS-TRICKS Chris Coyier */
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    padding: 20px;
 }
 
 /* Modal Content */
 .modal-content {
     font-family: var(--general-font);
-    background-color: var(--Yellow);
-    color: var(--Dark-Blue);
-    padding: 20px;
-    border: 4px solid var(--Blue);
+    background-color: var(--White);
+    padding: 50px 30px 30px;
+    border: 4px solid var(--Yellow);
     border-radius: 8px;
     width: 800px;
     max-width: 90%;
-    max-height: auto;
-    max-height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    max-height: 85vh;
+    margin: auto;
+    text-align: left;
     position: relative;
     overflow-y: auto;
     /* Enables Scrolling */
+}
+
+/* W3schools Custom Scrollbar */
+
+/* Width */
+.modal-content::-webkit-scrollbar{
+    width: 14px;
+}
+
+/* Track */
+.modal-content::-webkit-scrollbar-track{
+    background: var(--Dark-Blue);
+    border-radius: 8px;
+}
+
+/* Handle */
+.modal-content::-webkit-scrollbar-thumb{
+    background-color: var(--Yellow);
+    border-radius: 8px;
+    border: 3px solid var(--Dark-Blue);
+    background-clip: padding-box;
+}
+
+/* Modal Headings */
+.modal-content h3 {
+    font-family: var(--secondary-font);
+    color: var(--Blue);
+    font-size: 2rem;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.modal-content h4{
+    font-family: var(--general-font);
+    color: var(--Dark-Blue);
+    font-size: 1.5rem;
+    margin: 20px 0 10px 0;
+    font-weight: bolder;
+}
+
+.modal-content h5{
+    font-family: var(--general-font);
+    color: var(--Dark-Blue);
+    font-size: 1.2rem;
+    margin: 15px 0 10px 0;
+}
+
+.modal-content p, ol, ul {
+    font-family: var(--general-font);
+    color: var(--Dark-Blue);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
 
 /* Modal Close Button */
@@ -661,7 +713,6 @@ h3 {
 
 
 /* Media Queries */
-
 /* For Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
 
@@ -673,10 +724,12 @@ h3 {
     }
 
     /* Buttons */
-    #howToPlay,
     #button-start-game,
+    #how-to-play,
     #button-hell-yes,
-    #button-hell-no {
+    #button-hell-no,
+    #start-button,
+    #next-reset-button {
         font-size: 1rem;
         padding: 10px;
         width: 200px;
@@ -688,11 +741,75 @@ h3 {
         margin-top: 50px;
     }
 
-    /* Modal content */
-    .modal-content {
-        padding: 10px;
-        width: 90%;
+    /* Modal */
+    .modal {
+        padding: 5px;
     }
+
+    .modal-content {
+        padding: 35px 10px 10px;
+        max-height: 90vh;
+        width: 90%;
+        border-width: 4px;
+        font-size: 1rem;
+    }
+
+    .modal-content h3 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .modal-content h4 {
+        font-size: 1.2rem;
+        margin: 15px 0 8px 0;
+    }
+
+    .modal-content h5 {
+        font-size: 1rem;
+        margin: 10px 0 8px 0;
+    }
+
+    .modal-content p, ol, ul {
+        font-size: 0.95rem;
+        margin-left: 10px;
+        padding-left: 8px;
+    }
+
 }
 
-/* For small devices (portait tablets and large phones, 600px and up) */
+/* For Medium devices (768px and up) */
+@media (max-width: 768px) {
+
+    /* Modal */
+    .modal { 
+        padding: 10px;
+    }
+
+    .modal-content {
+        padding: 40px 20px 20px;
+        max-height: 90vh;
+        width: 95%;
+        margin: auto;
+    }
+
+    .modal-content h3 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    .modal-content h4 {
+        font-size: 1.4rem;
+        margin: 18px 0 10px 0;
+    }
+
+    .modal-content h5 {
+        font-size: 1.1rem;
+        margin: 12px 0 8px 0;
+    }
+
+    .modal-content p, ol, ul {
+        font-size: 1rem;
+        margin-left: 10px;
+        padding-left: 8px;
+    }
+}

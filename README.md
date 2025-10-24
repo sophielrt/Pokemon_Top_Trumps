@@ -225,7 +225,7 @@ To set up this project on your local IDE (such as VS Code, PyCharm, or another I
 ## Credit
 
 ### Content
-[Claude.ai](https://claude.ai/login?returnTo=%2F%3F)was used to help generate the text for the how to play game instructions.
+[Claude.ai](https://claude.ai/login?returnTo=%2F%3F) was used to help generate the text for the how to play game instructions.
 
 ### Media
 - websitelogo-pokeball.png accessed via [pixabay](https://pixabay.com/vectors/pokemon-icon-design-symbol-sign-4657023/), photo by Hsaart
