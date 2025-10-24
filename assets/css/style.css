@@ -498,7 +498,7 @@ main {
 .stat-btn.selected {
     background-color: var(--Yellow);
     color: var(--Dark-Blue);
-    border-color: var(--Red);
+    border-color: var(--Dark-Blue);
 }
 
 .stat-btn.winner {
@@ -646,14 +646,12 @@ h3 {
 
 /* 404.html */
 #error-page {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 30px;
     background-color: var(--Dark-Blue);
+    min-height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    padding: 20px;
 }
 
 .error-container {
@@ -662,6 +660,8 @@ h3 {
     padding: 30px;
     max-width: 1000px;
     width: 100%;
+    margin: 20px;
+    box-sizing: border-box
 }
 
 #error-code {
@@ -679,12 +679,13 @@ h3 {
     gap: 30px;
     margin-top: 10px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .error-image {
     flex: 0 0 auto;
+    max-width: 100%;
 }
-
 
 .error-image img {
     max-width: 400px;
@@ -713,8 +714,9 @@ h3 {
 
 
 /* Media Queries */
+
 /* For Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 
     /* Pokemon style title */
     #homepage-header {
@@ -729,7 +731,7 @@ h3 {
     #button-hell-yes,
     #button-hell-no,
     #start-button,
-    #next-reset-button {
+    #next-reset-button{
         font-size: 1rem;
         padding: 10px;
         width: 200px;
@@ -775,10 +777,59 @@ h3 {
         padding-left: 8px;
     }
 
+    /* 404 Page */
+
+    #error-page {
+        padding: 10px;
+        min-height: 100vh;
+    }
+
+    #error-container {
+        padding: 20px 15px;
+        margin: 10px;
+    }
+    
+    
+    #error-code {
+        font-size: 50px;
+    }
+
+    .error-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .error-image {
+        max-width: 300px;
+    }
+
+    .error-message {
+        font-size: 1.5rem;}
+
+    .error-text p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    #return-homebtn {
+        font-size: 1rem;
+        padding: 10px 20px;
+        margin-top: 15px;
+        max-width: 250px;
+        max-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+} 
+
+/* For small devices (portrait tablets and large phones,600px and up) */
+@media only screen and (min-width: 600px) {
+
 }
 
-/* For Medium devices (768px and up) */
-@media (max-width: 768px) {
+/* For Medium devices (Landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
 
     /* Modal */
     .modal { 
