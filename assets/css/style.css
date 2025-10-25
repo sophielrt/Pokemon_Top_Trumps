@@ -84,7 +84,7 @@ main {
 #button-hell-no,
 #start-button,
 #next-reset-button,
-#return-homebtn{
+#return-homebtn {
     display: inline-block;
     font-family: var(--secondary-font);
     background-color: var(--Yellow);
@@ -109,7 +109,7 @@ main {
 #next-reset-button:hover,
 #return-homebtn:hover,
 #continueGameBtn:hover,
-#endGameBtn:hover{
+#endGameBtn:hover {
     transform: scale(1.1);
     background-color: var(--Light-Yellow);
     cursor: pointer;
@@ -225,18 +225,18 @@ main {
 /* W3schools Custom Scrollbar */
 
 /* Width */
-.modal-content::-webkit-scrollbar{
+.modal-content::-webkit-scrollbar {
     width: 14px;
 }
 
 /* Track */
-.modal-content::-webkit-scrollbar-track{
+.modal-content::-webkit-scrollbar-track {
     background: var(--Dark-Blue);
     border-radius: 8px;
 }
 
 /* Handle */
-.modal-content::-webkit-scrollbar-thumb{
+.modal-content::-webkit-scrollbar-thumb {
     background-color: var(--Yellow);
     border-radius: 8px;
     border: 3px solid var(--Dark-Blue);
@@ -252,7 +252,7 @@ main {
     text-align: center;
 }
 
-.modal-content h4{
+.modal-content h4 {
     font-family: var(--general-font);
     color: var(--Dark-Blue);
     font-size: 1.5rem;
@@ -260,14 +260,16 @@ main {
     font-weight: bolder;
 }
 
-.modal-content h5{
+.modal-content h5 {
     font-family: var(--general-font);
     color: var(--Dark-Blue);
     font-size: 1.2rem;
     margin: 15px 0 10px 0;
 }
 
-.modal-content p, ol, ul {
+.modal-content p,
+ol,
+ul {
     font-family: var(--general-font);
     color: var(--Dark-Blue);
     font-size: 1rem;
@@ -631,7 +633,7 @@ h3 {
 /* 404.html */
 #error-page {
     background-color: var(--Dark-Blue);
-    min-height: 100vh; 
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -715,7 +717,7 @@ h3 {
     #button-hell-yes,
     #button-hell-no,
     #start-button,
-    #next-reset-button{
+    #next-reset-button {
         font-size: 1rem;
         padding: 10px;
         width: 200px;
@@ -755,7 +757,9 @@ h3 {
         margin: 10px 0 8px 0;
     }
 
-    .modal-content p, ol, ul {
+    .modal-content p,
+    ol,
+    ul {
         font-size: 0.95rem;
         margin-left: 10px;
         padding-left: 8px;
@@ -794,7 +798,7 @@ h3 {
     #continueGameBtn,
     #endGameBtn {
         font-size: 1.2rem;
-        padding: 10px, 15px;
+        padding: 10px 15px;
         width: 100%;
         max-width: 250px;
         height: auto;
@@ -813,8 +817,8 @@ h3 {
         padding: 20px 15px;
         margin: 10px;
     }
-    
-    
+
+
     #error-code {
         font-size: 3.1rem;
     }
@@ -829,7 +833,8 @@ h3 {
     }
 
     .error-message {
-        font-size: 1.5rem;}
+        font-size: 1.5rem;
+    }
 
     .error-text p {
         font-size: 1rem;
@@ -846,30 +851,30 @@ h3 {
         justify-content: center;
         align-items: center;
     }
-} 
+}
 
 /* For Small to Medium Devices (601px - 768px)*/
 @media only screen and (min-width:601px) and (max-width:768px) {
 
     /* Game Results Modal */
     #gameResultsModal .modal-content {
-    padding: 25px 20px 20px;
-    max-height: 85vh;
-    width: 90%;
+        padding: 25px 20px 20px;
+        max-height: 85vh;
+        width: 90%;
     }
 
-    #gameResultsTitle{
+    #gameResultsTitle {
         font-size: 2rem;
         margin-bottom: 12px;
     }
 
-    #game-result-text{
+    #game-result-text {
         font-size: 1.2rem;
         margin-bottom: 15px;
     }
 
     #game-result-text p {
-        font-size:1.1rem;
+        font-size: 1.1rem;
         margin: 8px 0;
     }
 
@@ -888,14 +893,14 @@ h3 {
         width: 180px;
         height: 50px;
     }
-    
+
 }
 
 /* For Medium devices (Landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
 
     /* Modal */
-    .modal { 
+    .modal {
         padding: 10px;
     }
 
@@ -921,7 +926,9 @@ h3 {
         margin: 12px 0 8px 0;
     }
 
-    .modal-content p, ol, ul {
+    .modal-content p,
+    ol,
+    ul {
         font-size: 1rem;
         margin-left: 10px;
         padding-left: 8px;

@@ -140,9 +140,10 @@ This is only the first iteration of the Battle Academy Top Trumps website. The H
 | **Test Description** | **Expected Result** | **Outcome** |
 | ------------- | ------------- |:-----:|
 |Click on the "Start Game" button|You should be taken to the ready-to-play.html page.| |
-|Click on the "How to Play" button|You should be taken to the How to Play module pop-up.| |
-|Use the scroll bar in the How to Play module|You should be able to freely scroll up and down in the How to Play module.| |
-|Click on the "X" button in the How to Play module|You should be taken back to the homepage.| |
+|Click on the "How to Play" button|You should be taken to the How to Play modal pop-up.| |
+|Use the scroll bar in the How to Play modal|You should be able to freely scroll up and down in the How to Play modal.| |
+|Click on the "X" button in the How to Play modal|You should be taken back to the homepage.| |
+|In the inspect tab, check that the modal is responsive|The modal should be fully responsive on all devices.| |
 |In the inspect tab, check that the homepage is responsive|The homepage should be fully responsive on all devices.| |
 
 #### 2. Are you ready to Battle your Opponent? (ready-to-play.html)
@@ -159,15 +160,17 @@ This is only the first iteration of the Battle Academy Top Trumps website. The H
 | ------------- | ------------- |:-----:|
 |Click on the "Home Icon" button|You should be taken to the homepage.| |
 |Click on the "Battle Academy Top Trumps" title|You should be taken to the homepage.| |
-|Click on the "?" button|You should be taken to the How to Play module.| |
-|Use the scroll bar in the How to Play module|You should be able to freely scroll up and down in the How to Play module.| |
-|Click on the "X" button in the How to Play module|You should be taken back to the game.| |
+|Click on the "?" button|You should be taken to the How to Play modal.| |
+|Use the scroll bar in the How to Play modal|You should be able to freely scroll up and down in the How to Play modal.| |
+|Click on the "X" button in the How to Play modal|You should be taken back to the game.| |
+|In the inspect tab, check that the How to Play modal is responsive|The How to Play modal should be fully responsive on all devices.| |
 |Click the "Start Game" button|The Pokémon Trainer's card should flip over so you can see the Pokémon image, name, and stats.| |
 |Click on the stat you wish to use for this round|The opponent's card should flip over. The selected stat will change colour to indicate whether it was a win, draw or loss. The score should also change unless it was a draw.| |
 |Click on the "Next Round" button|Both Pokémon cards should reset and be flipped back over so the back is displayed. Then the Pokémon Trainer's card should flip over so you can see the Pokémon image, name, and stats.| |
-|The game plays for 5 rounds|After the 5 rounds, you should get a pop-up module with the results of the game. It will also ask, "Do you want to play another 5 rounds?"| |
+|The game plays for 5 rounds|After the 5 rounds, you should get a pop-up modal with the results of the game. It will also ask, "Do you want to play another 5 rounds?"| |
 |Click on the "Hell Yes!" button|Both Pokémon cards should be reset, the score should reset, and they should be flipped back so the back is displayed. Then the Pokémon Trainer's card should flip over so you can see the Pokémon image, name, and stats.| |
 |Click on the "Hell No!" button|You should be taken to the homepage.| |
+|In the inspect tab, check that the results modal is responsive|The results modal should be fully responsive on all devices.| |
 |Click on the "Facebook" button in the footer|Facebook should open in a separate tab.| |
 |Click on the "Instagram" button in the footer|Instagram should open in a separate tab.| |
 |Click on the "Twitch" button in the footer|You should be taken to the 404 page.| |
@@ -244,7 +247,7 @@ To set up this project on your local IDE (such as VS Code, PyCharm, or another I
 - Stack overflow
 - Geeks for Geeks
 - Fluent Support - Md. Ariful Basher (Title header border property)
-- W3schools (Module)
+- W3schools (Modal)
 
 ### Inspiration
 - [Dribble](https://dribbble.com/shots/8512308-Snorlax-404-Error-Page-Daily-UI-008) ImHighOnCoffee (404.html)
