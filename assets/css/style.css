@@ -570,27 +570,11 @@ h3 {
 
 
 /* 5 Round Popup Styles */
-.game-results-modal-content {
-    background-color: var(--Light-Yellow);
-    padding: 20px;
-    border: 4px solid var(--Blue);
-    border-radius: 8px;
-    width: 800px;
-    max-width: 90%;
-    max-height: auto;
-    max-height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-}
-
 #gameResultsTitle {
     font-family: var(--secondary-font);
     font-size: 40px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #gameResultsTitle.winner {
@@ -609,6 +593,8 @@ h3 {
     font-family: var(--general-font);
     color: var(--Dark-Blue);
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .game-results-buttons {
@@ -641,8 +627,6 @@ h3 {
     white-space: nowrap;
     line-height: 1.2;
 }
-
-
 
 /* 404.html */
 #error-page {
@@ -777,6 +761,47 @@ h3 {
         padding-left: 8px;
     }
 
+    /* Game Results Modal */
+    #gameResultsModal .modal-content {
+        padding: 35px 20px 25px;
+        max-height: 90vh;
+        width: 95%;
+    }
+
+    #gameResultsTitle {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+
+    #game-result-text {
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+        padding: 0 8px;
+    }
+
+    #game-result-text p {
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    /* Game Results Modal Buttons  */
+    .game-results-buttons {
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+
+    #continueGameBtn,
+    #endGameBtn {
+        font-size: 1.2rem;
+        padding: 10px, 15px;
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        min-height: 60px;
+        margin: 8px auto;
+    }
+
     /* 404 Page */
 
     #error-page {
@@ -823,8 +848,51 @@ h3 {
     }
 } 
 
-/* For small devices (portrait tablets and large phones,600px and up) */
-@media only screen and (min-width: 600px) {
+/* For Small to Medium Devices (601px - 768px)*/
+@media only screen and (min-width:601px) and (max-width:768px) {
+
+    /* Game Results Modal */
+    #gameResultsModal .modal-content {
+    padding: 25px 20px 20px;
+    max-height: 85vh;
+    width: 90%;
+    }
+
+    #gameResultsTitle{
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    #game-result-text{
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    #game-result-text p {
+        font-size:1.1rem;
+        margin: 8px 0;
+    }
+
+    /* Game Results Modal Buttons */
+    .game-results-buttons {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    #continueGameBtn,
+    #endGameBtn {
+        font-size: 1.1rem;
+        padding: 12px 20px;
+        width: 180px;
+        height: 50px;
+    }
+    
+}
+
+/* For small devices (portrait tablets and large phones,601px and up) */
+@media only screen and (min-width: 601px) {
 
 }
 
