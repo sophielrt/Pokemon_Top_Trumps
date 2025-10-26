@@ -87,7 +87,7 @@ The user experience (UX) of Battle Academy Pokémon Top Trumps has been carefull
 
 
 ### Design Choices 
-!!!!!!Add design choice image here!
+![Design Choices Board](./assets/readmefile-assets/design-choices.png)
 
 1. Typography
    - The Pokémon font by FontGet was selected for the main headings on the website because it closely replicates the original Pokémon logo style. Using this font for headings creates a fun, colourful, and nostalgic aesthetic that immediately engages users. Its distinctive style makes headings stand out and it resonates with both past Pokémon and present Pokémon fans by evoking familiarity and nostalgia.
@@ -200,7 +200,7 @@ This is only the first iteration of the Battle Academy Top Trumps website. The H
    4. 404.html 
    ![HTML Validator results 404.html](./assets/readmefile-assets/404-testing.JPG)
 
-All validator tests passed, no errors or warnings.
+All html validator tests passed, no errors or warnings.
 
 
 2. [CSS Validator](https://jigsaw.w3.org/css-validator/)
