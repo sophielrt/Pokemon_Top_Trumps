@@ -29,7 +29,7 @@
     <header class="row" id="game-header">
         <div class="col-12 d-flex">
             <!-- Home Button (Left)-->
-            <button id="home-button" onclick="window.location.href='index.html'">
+            <button id="home-button" onclick="window.location.href='index.html'" aria-label="Return to the homepage">
                 <i class="fa-solid fa-house"></i>
             </button>
             <!-- Title (Center) -->
@@ -37,7 +37,7 @@
 
             <!-- Help Button-->
             <!-- W3Schools Modal Example -->
-            <button id="help" type="button">
+            <button id="help" type="button" aria-label="Open the how to play guide">
                 <i class="fa-solid fa-question"></i>
             </button>
         </div>
@@ -47,7 +47,7 @@
 
             <!-- Help Modal Content -->
             <div class="modal-content">
-                <span class="close">&times;</span>
+                <span class="close" aria-label="Close the how to play guide">&times;</span>
                 <h3>How to Play</h3>
                 <ol>
                     <li><Strong>Start Game -</Strong> Two random Pokémon are selected for you and your opponent</li>
@@ -98,27 +98,27 @@
                                         <div class="pokemon-info">
                                             <div class="pokemon-name" id="trainer-name"></div>
                                             <div class="d-flex flex-column gap-2">
-                                                <button class="stat-btn d-block w-100" id="trainer-id" data-stat="id">
+                                                <button class="stat-btn d-block w-100" id="trainer-id" data-stat="id" aria-label="Pokémon ID stat">
                                                     ID: <span></span>
                                                 </button>
                                                 <button class="stat-btn d-block w-100" id="trainer-speed"
-                                                    data-stat="speed">
+                                                    data-stat="speed" aria-label="Pokémon speed stat">
                                                     Speed: <span></span>
                                                 </button>
                                                 <button class="stat-btn d-block w-100" id="trainer-attack"
-                                                    data-stat="attack">
+                                                    data-stat="attack" aria-label="Pokémon attack stat">
                                                     Attack: <span></span>
                                                 </button>
                                                 <button class="stat-btn d-block w-100" id="trainer-defense"
-                                                    data-stat="defense">
+                                                    data-stat="defense" aria-label="Pokémon defense stat">
                                                     Defense: <span></span>
                                                 </button>
                                                 <button class="stat-btn d-block w-100" id="trainer-height"
-                                                    data-stat="height">
+                                                    data-stat="height" aria-label="Pokémon height stat">
                                                     Height: <span></span>
                                                 </button>
                                                 <button class="stat-btn d-block w-100" id="trainer-weight"
-                                                    data-stat="weight">
+                                                    data-stat="weight" aria-label="Pokémon weight stat">
                                                     Weight: <span></span>
                                                 </button>
                                             </div>
@@ -151,27 +151,27 @@
                                         <div class="pokemon-info">
                                             <div class="pokemon-name" id="opponent-name"></div>
                                             <div class="d-flex flex-column gap-2">
-                                                <button class="stat-btn d-block w-100" id="opponent-id" data-stat="id">
+                                                <button class="stat-btn d-block w-100" id="opponent-id" data-stat="id" aria-label="Opponent's Pokémon ID stat ">
                                                     ID: <span></span>
                                                 </button>
                                                 <button class="stat-btn d-block w-100" id="opponent-speed"
-                                                    data-stat="speed">
+                                                    data-stat="speed" aria-label="Opponent's Pokémon speed stat">
                                                     Speed: <span></span>
                                                 </button>
                                                 <button class="stat-btn d-block w-100" id="opponent-attack"
-                                                    data-stat="attack">
+                                                    data-stat="attack" aria-label="Opponent's Pokémon attack stat">
                                                     Attack: <span></span>
                                                 </button>
                                                 <button class="stat-btn d-block w-100" id="opponent-defense"
-                                                    data-stat="defense">
+                                                    data-stat="defense" aria-label="Opponent's Pokémon defense stat">
                                                     Defense: <span></span>
                                                 </button>
                                                 <button class="stat-btn d-block w-100" id="opponent-height"
-                                                    data-stat="height">
+                                                    data-stat="height" aria-label="Opponent's Pokémon height stat">
                                                     Height: <span></span>
                                                 </button>
                                                 <button class="stat-btn d-block w-100" id="opponent-weight"
-                                                    data-stat="weight">
+                                                    data-stat="weight" aria-label="Opponent's Pokémon weight stat">
                                                     Weight: <span></span>
                                                 </button>
                                             </div>
@@ -207,16 +207,16 @@
                         <p class="game-results-question">Do you want to play another 5 rounds?</p>
                     </div>
                     <div class="game-results-buttons">
-                        <button id="continueGameBtn" class="game-results-btn continue-btn">Hell Yes!</button>
-                        <a href="index.html" id="endGameBtn" class="game-results-btn end-btn">Hell No!</a>
+                        <button id="continueGameBtn" class="game-results-btn continue-btn" aria-label="Play another 5 rounds">Hell Yes!</button>
+                        <a href="index.html" id="endGameBtn" class="game-results-btn end-btn" aria-label="End game and return to the homepage">Hell No!</a>
                     </div>
                 </div>
             </div>
 
             <!-- Control Buttons -->
             <div class="controls">
-                <button id="start-button">Start Game</button>
-                <button id="next-reset-button" style="display: none">
+                <button id="start-button" aria-label="Start new Pokémon battle">Start Game</button>
+                <button id="next-reset-button" style="display: none" aria-label="Continue to the next round">
                     Next Round
                 </button>
             </div>
@@ -239,7 +239,7 @@
                 <i class="fa-brands fa-instagram"></i>
             </a>
             <!-- Twitch button which will be directed to 404.html -->
-            <button id="twitch-button" onclick="window.location.href='404.html'">
+            <button id="twitch-button" onclick="window.location.href='404.html'" aria-label="Visit the Pokémon Top Trumps Battle Academy Twitch page">
                 <i class="fa-brands fa-twitch"></i>
             </button>
             <!-- TikTok Link -->
