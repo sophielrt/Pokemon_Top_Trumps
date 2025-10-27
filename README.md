@@ -12,22 +12,26 @@ The site also features game instructions, social media buttons and a 404 page. H
 This website was developed for my Milestone Two project to showcase my ability to build and design a dynamic, interactive front-end site using HTML, CSS and JavaScript.
 
 ## Table of contents
-1. [UX](#ux)
+1. [Project Planning](#project-planning)
+2. [UX](#ux)
    - [Business Goals](#business-goals)
    - [Target Users](#target-users)
    - [User Stories](#user-stories)
    - [Design Choices](#design-choices)
    - [Wireframes](#wireframes)
-2. [Features](#features)
-3. [Technologies](#technologies)
-4. [Testing](#testing)
+3. [Final Website UI](#final-website-ui)
+4. [Features](#features)
+5. [Technologies](#technologies)
+6. [Testing](#testing)
    - [Manual Testing](#manual-testing)
    - [Vaildator Testing](#vaildator-testing)
    - [Google Lighthouse Testing](#google-lighthouse-testing)
    - [Web Accessibility in mind Contrast Checker](#web-accessibility-in-mind-contrast-checker)
-5. [Bugs](#bugs)
-6. [Deployment](#deployment)
-7. [Credit](#credit)
+7. [Bugs](#bugs)
+8. [Deployment](#deployment)
+9. [Credit](#credit)
+
+## Project Planning
 
 ## UX
 The user experience (UX) of Battle Academy Pokémon Top Trumps has been carefully designed to prioritise a simple, engaging and visually appealing gaming experience. The design draws inspiration from the original Pokémon games to create an authentic and nostalgic feel, ensuring a fun and memorable experience for users.
@@ -117,6 +121,18 @@ This is only the first iteration of the Battle Academy Top Trumps website. The H
 7. [Game Results](./assets/readmefile-assets/game-results-wireframe.png)
 8. [Results module](./assets/readmefile-assets/result-module-wireframe.png)
 
+## Final Website UI
+
+![Homepage UI](./assets/readmefile-assets/ui-homepage.JPG)
+![Homepage how to play UI](./assets/readmefile-assets/ui-homepage-howtoplay.JPG)
+![Ready to play UI](./assets/readmefile-assets/ui-readytoplay.JPG)
+![Game UI](./assets/readmefile-assets/ui-game.JPG)
+![Game how to play UI](./assets/readmefile-assets/ui-game-howtoplay.JPG)
+![Game Trainer's card flipped UI](./assets/readmefile-assets/ui-game-trainerscard.JPG)
+![Game both cards flipped results UI](./assets/readmefile-assets/ui-game-bothcards.JPG)
+![Game results modal UI](./assets/readmefile-assets/ui-game-resultsmodal.JPG)
+![404 page UI](./assets/readmefile-assets/ui-404page.JPG)
+
 ## Features
 
 
@@ -187,6 +203,8 @@ This is only the first iteration of the Battle Academy Top Trumps website. The H
 
 ### Validator Testing
 
+explained the principles of automated and manual testing and when each might be deployed. 
+
 1. [HTML Validator](https://validator.w3.org/)
    1. index.html 
    ![HTML Validator results index.html](./assets/readmefile-assets/index-testing.JPG)
@@ -221,16 +239,18 @@ CSS validator test passed, no errors or warnings.
 ### Google Lighthouse Testing
 
 1. index.html
-   ![Google Lighthouse results index.html](./assets/readmefile-assets/index-lighthouse.JPG)
+   ![Google Lighthouse results index.html](./assets/readmefile-assets/indexhtml-lighthouse.JPG)
 
 2. ready-to-play.html
-   ![Google Lighthouse results ready-to-play.html](./assets/readmefile-assets/ready-to-play-lighthouse.JPG)
+   ![Google Lighthouse results ready-to-play.html](./assets/readmefile-assets/ready-to-playhtml-lighthouse.JPG)
 
 3. game.html
-   ![Google Lighthouse results game.html]()
+   ![Google Lighthouse results game.html](./assets/readmefile-assets/gamehtml-lighthouse.JPG)
 
 4. 404.html
-   ![Google Lighthouse results 404.html](./assets/readmefile-assets/404-lighthouse.JPG)
+   ![Google Lighthouse results 404.html](./assets/readmefile-assets/404html-lighthouse.JPG)
+
+!! Input something here about the results
 
 ### Web Accessibility in mind Contrast Checker
 [Web Accessibility in mind contrast checker](https://webaim.org/resources/contrastchecker/?fcolor=02AFD0&bcolor=FFFF00)
@@ -271,7 +291,7 @@ To set up this project on your local IDE (such as VS Code, PyCharm, or another I
 ## Credit
 
 ### Content
-[Claude.ai](https://claude.ai/login?returnTo=%2F%3F) was used to help generate the text for the how to play game instructions.
+[Claude.ai](https://claude.ai/login?returnTo=%2F%3F) was used to help generate the text for the how to play game instructions and meta data.
 
 ### Media
 - websitelogo-pokeball.png accessed via [pixabay](https://pixabay.com/vectors/pokemon-icon-design-symbol-sign-4657023/), photo by Hsaart
@@ -290,7 +310,11 @@ To set up this project on your local IDE (such as VS Code, PyCharm, or another I
 - Stack overflow
 - Geeks for Geeks
 - Fluent Support - Md. Ariful Basher (Title header border property)
-- W3schools (Modal)
+- W3schools (Modal, custom scroll bar Modal)
+- CSS-Tricks - Chris Coyier (Centering Modal)
+
+### README File
+- Design Choices Board (Made on Canva with template by Salbine B)
 
 ### Inspiration
 - [Dribble](https://dribbble.com/shots/8512308-Snorlax-404-Error-Page-Daily-UI-008) ImHighOnCoffee (404.html)
