@@ -1,5 +1,5 @@
 # Battle Academy Pokémon Top Trumps
-!!!!!Add website mock-ups here!
+![Battle Academy Pokémon Top Trumps Website Mockups](./assets/readmefile-assets/mock-ups.png)
 
 Battle Academy Pokémon Top Trumps is an interactive card game where the user competes against the computer using a Pokémon card. The website randomly selects a Pokémon from the first 898 in the [PokeAPi](https://pokeapi.co/), displaying their image and stats including ID, Speed, Attack, Defense, Height and Weight. The game tracks the score through 5 rounds, and at the end, asks the user if they would like to play again.
 
@@ -13,6 +13,8 @@ This website was developed for my Milestone Two project to showcase my ability t
 
 ## Table of contents
 1. [Project Planning](#project-planning)
+   - [Gantt Chart](#gantt-chart)
+   - [Flow Chart](#flow-chart)
 2. [UX](#ux)
    - [Business Goals](#business-goals)
    - [Target Users](#target-users)
@@ -20,6 +22,10 @@ This website was developed for my Milestone Two project to showcase my ability t
    - [Design Choices](#design-choices)
    - [Wireframes](#wireframes)
 3. [Final Website UI](#final-website-ui)
+   - [Homepage UI](#homepage-ui)
+   - [Ready to Play UI](#ready-to-play-ui)
+   - [Game UI](#game-ui)
+   - [404 Page UI](404-page-ui)
 4. [Features](#features)
 5. [Technologies](#technologies)
 6. [Testing](#testing)
@@ -30,8 +36,21 @@ This website was developed for my Milestone Two project to showcase my ability t
 7. [Bugs](#bugs)
 8. [Deployment](#deployment)
 9. [Credit](#credit)
+   - [Content](#content)
+   - [Media](#media)
+   - [Typography](#typography)
+   - [Code](#code)
+   - [README File](#readme-file)
+   - [Inspiration](#inspiration)
+   - [Acknowledgements](#acknowledgements)
 
 ## Project Planning
+
+### Gantt Chart
+![Project Planning - Gantt Chart](./assets/readmefile-assets/gantt-chart.png)
+
+### Flow Chart
+![Project Planning - Flow Chart](./assets/readmefile-assets/flow-chart.png)
 
 ## UX
 The user experience (UX) of Battle Academy Pokémon Top Trumps has been carefully designed to prioritise a simple, engaging and visually appealing gaming experience. The design draws inspiration from the original Pokémon games to create an authentic and nostalgic feel, ensuring a fun and memorable experience for users.
@@ -123,17 +142,46 @@ This is only the first iteration of the Battle Academy Top Trumps website. The H
 
 ## Final Website UI
 
+### Homepage UI
 ![Homepage UI](./assets/readmefile-assets/ui-homepage.JPG)
 ![Homepage how to play UI](./assets/readmefile-assets/ui-homepage-howtoplay.JPG)
+
+### Ready to Play UI
 ![Ready to play UI](./assets/readmefile-assets/ui-readytoplay.JPG)
+
+### Game UI
 ![Game UI](./assets/readmefile-assets/ui-game.JPG)
 ![Game how to play UI](./assets/readmefile-assets/ui-game-howtoplay.JPG)
 ![Game Trainer's card flipped UI](./assets/readmefile-assets/ui-game-trainerscard.JPG)
 ![Game both cards flipped results UI](./assets/readmefile-assets/ui-game-bothcards.JPG)
 ![Game results modal UI](./assets/readmefile-assets/ui-game-resultsmodal.JPG)
+
+### 404 Page UI
 ![404 page UI](./assets/readmefile-assets/ui-404page.JPG)
 
 ## Features
+
+#### Header Titles
+
+#### Buttons
+
+#### How to Play Modal
+
+#### Game Header
+
+#### Pokémon Cards
+
+#### Card Flip Effect
+
+#### Social Media Footer
+
+
+
+
+
+
+
+
 
 
 
@@ -315,6 +363,8 @@ To set up this project on your local IDE (such as VS Code, PyCharm, or another I
 
 ### README File
 - Design Choices Board (Made on Canva with template by Salbine B)
+- Project Planning - Gantt Chart (Made on Canva with template and elements. Pokemon Font by FontGet used for the title)
+- Project Planning - Flow Chart (Made on Canva with template and elements. Pokemon Font by FontGet used for the title)
 
 ### Inspiration
 - [Dribble](https://dribbble.com/shots/8512308-Snorlax-404-Error-Page-Daily-UI-008) ImHighOnCoffee (404.html)
