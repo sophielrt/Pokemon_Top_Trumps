@@ -404,29 +404,26 @@ Passed
 ![Red foreground & Light-Yellow background contrast checker](./assets/readmefile-assets/redlightyellow-contrastchecker.JPG)
 This is being used for the Footer social media icons. This will only be used Graphical Objects and User Interface Components. Passed for required needs.
 
-[Grey foreground & White background contrast checker](./assets/readmefile-assets/drawgreywhite-contrastchecker.JPG)
+![Grey foreground & White background contrast checker](./assets/readmefile-assets/drawgreywhite-contrastchecker.JPG)
 This is being used for the header in the Game Results Modal. This will only be used in Large Text. Passed for required needs.
 
-[Red foreground & White background contrast checker](./assets/readmefile-assets/loserredwhite-contrastchecker.JPG)
+![Red foreground & White background contrast checker](./assets/readmefile-assets/loserredwhite-contrastchecker.JPG)
 This is being used for the header in the Game Results Modal. This will only be used in Large Text. Passed for required needs
 
 #### Future Imporvements
 In a future version of the site, these color contrasts will be revised to achieve full WCAG Level AAA compliance, ensuring optimal accessibility and readability for all users across all text sizes and applications.
 
-[White foreground & Grey background contrast checker](./assets/readmefile-assets/whitedrawgrey-contrastchecker.JPG)
+![White foreground & Grey background contrast checker](./assets/readmefile-assets/whitedrawgrey-contrastchecker.JPG)
 This needs to be improved in a future version of the site to pass both Normal Text requirement as it is being used for the stat buttons on the Pokémon cards in the game.
 
-[White foreground & Red background contrast checker](./assets/readmefile-assets/whiteloserred-contrastchecker.JPG)
+![White foreground & Red background contrast checker](./assets/readmefile-assets/whiteloserred-contrastchecker.JPG)
 This needs to be improved in a future version of the site to pass both Normal Text requirement as it is being used for the stat buttons on the Pokémon cards in the game.
 
-[Winner-Green-Background foreground & white background contrast checker](./assets/readmefile-assets/winnergreenwhite-contrastchecker.JPG)
+![Winner-Green-Background foreground & white background contrast checker](./assets/readmefile-assets/winnergreenwhite-contrastchecker.JPG)
 This needs to be improved in a future version of the site to pass Large Text requirement as it is being used for the header in the Game Results Modal.
 
-[White foreground & Winner-Green-Background background contrast checker](./assets/readmefile-assets/whitewinnergreen-contrastchecker.JPG)
+![White foreground & Winner-Green-Background background contrast checker](./assets/readmefile-assets/whitewinnergreen-contrastchecker.JPG)
 This needs to be improved in a future version of the site to pass both Normal Text requirement as it is being used for the stat buttons on the Pokémon cards in the game.
-
-
-
 
 ### Bugs
 
