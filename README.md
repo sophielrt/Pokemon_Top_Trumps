@@ -383,8 +383,29 @@ JS Validator test passed with no errors. There were ES6 warnings which appear wh
 
 
 
-## Bugs
+### Bugs
 
+#### Card Flip Issue
+In the HTML file, the card was showing the front by default, and the CSS wasn't hiding the front when the card was meant to flip. This meant the cards were showing the Pokémon data straight away rather than the Pokéball back, then flipping to the data once the game had started. To solve this issue, the CSS was changed so the card's initial state started with the back showing, using the `transform` function. The JavaScript `initGame` function was also updated so when the page loads it shows the card backs, when the user presses "Start Game" they flip, and when the user presses "Next Round" they rotate back and reset.
+
+#### Centering Pokémon Cards in Game
+Bootstrap has been used in `game.html` to help with the styling and reponsiveness of web application. This was overriding the centering of the cards in CSS. Some Bootstrap properties needed to be removed from the HTML file, and additional code needed to be added in CSS to override the Bootstrap column system to allow direct control over the card spacing to center them.
+
+#### Return Home Button (404 Page)
+The return home button in `404.html` was not working on the deployed site but was working when run locally. The code was checked again and redeployed, and it worked, so it was an issue when deploying with the GitHub server.
+
+#### Pokémon Font Accent
+The Pokémon font won't allow the accent above "é" in Pokémon to be added. This is not a bug in the code; the font does not have the ability to display this character.
+
+#### Responsiveness for 601px-768px Devices
+Responsiveness for devices between 601px and 768px was not working. In the media queries, the `px` value was missing, meaning the styles were not being applied:
+```css
+@media only screen and (min-width:601) and (max-width:768)
+```
+Once the `px` units were added, this was working and styles were applied:
+```css
+@media only screen and (min-width:601px) and (max-width:768px)
+```
 
 
 ## Deployment
