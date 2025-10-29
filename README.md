@@ -32,7 +32,7 @@ This website was developed for my Milestone Two project to showcase my ability t
    - [Manual Testing](#manual-testing)
    - [Vaildator Testing](#vaildator-testing)
    - [Google Lighthouse Testing](#google-lighthouse-testing)
-   - [Web Accessibility in mind Contrast Checker](#web-accessibility-in-mind-contrast-checker)
+   - [WebAIM Contrast Checker](#Webaim-contrast-checker)
 7. [Bugs](#bugs)
 8. [Deployment](#deployment)
 9. [Credit](#credit)
@@ -371,14 +371,59 @@ JS Validator test passed with no errors. There were ES6 warnings which appear wh
 ![Google Lighthouse results ready-to-play.html](./assets/readmefile-assets/ready-to-playhtml-lighthouse.JPG)
 
 #### game.html
-   ![Google Lighthouse results game.html](./assets/readmefile-assets/gamehtml-lighthouse.JPG)
+![Google Lighthouse results game.html](./assets/readmefile-assets/gamehtml-lighthouse.JPG)
 
 #### 404.html
 ![Google Lighthouse results 404.html](./assets/readmefile-assets/404html-lighthouse.JPG)
 
 
-### Web Accessibility in mind Contrast Checker
-[Web Accessibility in mind contrast checker](https://webaim.org/resources/contrastchecker/?fcolor=02AFD0&bcolor=FFFF00)
+### WebAIM Contrast Checker
+[WebAIM contrast checker](https://webaim.org/resources/contrastchecker/?fcolor=02AFD0&bcolor=FFFF00)
+
+![Blue foreground & White background contrast checker](./assets/readmefile-assets/bluewhite-contrastchecker.JPG)
+Passed
+
+![Dark-Blue foreground & White background contrast checker](./assets/readmefile-assets/darkbluewhite-contrastchecker.JPG)
+Passed
+
+![Blue foreground & Yellow background contrast checker](./assets/readmefile-assets/blueyellow-contrastchecker.JPG)
+This is being used for the Header (Pokemon Font). This will only be used in Large Text. Passed for required needs.
+
+![Blue foreground & Light-Yellow background contrast checker](./assets/readmefile-assets/bluelightyellow-contrastchecker.JPG)
+Passed
+
+![Dark-Blue foreground & Light-Yellow background contrast checker](./assets/readmefile-assets/darkbluelightyellow-contrastchecker.JPG)
+Passed
+
+![Yellow foreground & Blue background contrast checker](./assets/readmefile-assets/yellowblue-contrastchecker.JPG)
+Passed
+
+![Yellow foreground & Dark-Blue background contrast checker](./assets/readmefile-assets/yellowdarkblue-contrastchecker.JPG)
+Passed
+
+![Red foreground & Light-Yellow background contrast checker](./assets/readmefile-assets/redlightyellow-contrastchecker.JPG)
+This is being used for the Footer social media icons. This will only be used Graphical Objects and User Interface Components. Passed for required needs.
+
+[Grey foreground & White background contrast checker](./assets/readmefile-assets/drawgreywhite-contrastchecker.JPG)
+This is being used for the header in the Game Results Modal. This will only be used in Large Text. Passed for required needs.
+
+[Red foreground & White background contrast checker](./assets/readmefile-assets/loserredwhite-contrastchecker.JPG)
+This is being used for the header in the Game Results Modal. This will only be used in Large Text. Passed for required needs
+
+#### Future Imporvements
+In a future version of the site, these color contrasts will be revised to achieve full WCAG Level AAA compliance, ensuring optimal accessibility and readability for all users across all text sizes and applications.
+
+[White foreground & Grey background contrast checker](./assets/readmefile-assets/whitedrawgrey-contrastchecker.JPG)
+This needs to be improved in a future version of the site to pass both Normal Text requirement as it is being used for the stat buttons on the Pokémon cards in the game.
+
+[White foreground & Red background contrast checker](./assets/readmefile-assets/whiteloserred-contrastchecker.JPG)
+This needs to be improved in a future version of the site to pass both Normal Text requirement as it is being used for the stat buttons on the Pokémon cards in the game.
+
+[Winner-Green-Background foreground & white background contrast checker](./assets/readmefile-assets/winnergreenwhite-contrastchecker.JPG)
+This needs to be improved in a future version of the site to pass Large Text requirement as it is being used for the header in the Game Results Modal.
+
+[White foreground & Winner-Green-Background background contrast checker](./assets/readmefile-assets/whitewinnergreen-contrastchecker.JPG)
+This needs to be improved in a future version of the site to pass both Normal Text requirement as it is being used for the stat buttons on the Pokémon cards in the game.
 
 
 
