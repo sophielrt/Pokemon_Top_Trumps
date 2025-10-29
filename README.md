@@ -224,11 +224,45 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 
 ## Features
 
-#### Header Titles
+### Homepage
 
-#### Buttons
+![Welcoming header homepage - features](./assets/readmefile-assets/welcomingheader-features.JPG)
+#### Welcoming header 
+- A welcoming header greets players with the game title "Welcome Pokemon trainer to Battle Academy Top Trumps".
+- The header is responsive and will change size when on a smaller device.
 
+![Buttons homepage - features](./assets/readmefile-assets/buttonshomepage-features.JPG)
+#### "Start Game" and "How to Play" buttons
+- The buttons are centered on the homepage for user interaction.
+- The "Start Game" button navigates users to the ready-to-play.html.
+- The "How to Play" button triggers the how-to-play modal pop-up without leaving the page.
+- The hover effect is added to the buttons to enhance user experience.
+
+![How to play modal homepage - features](./assets/readmefile-assets/modalhomepage-features.JPG)
 #### How to Play Modal
+- A modal overlay displays a how-to-play guide when the "How to Play" button is clicked.
+- The modal includes a custom scroll bar which users can use to navigate up and down the modal.
+- The modal is responsive and will change size when on a smaller device.
+- The modal includes a close button (x) in the top-right corner so the user can easily exit.
+- You can also close the modal by clicking anywhere outside the modal content, improving user experience.
+- The modal's contents are structured with headings, ordered lists and unordered lists for clear user readability.
+
+### Ready to Play Page
+
+![Header ready to play page - features](./assets/readmefile-assets/headingsectionreadytoplay-features.JPG)
+#### Header section
+- A header asks players "Are you ready to Battle your Opponent?".
+- The header is responsive and will change size when on a smaller device.
+
+![Buttons ready to play page - features](./assets/readmefile-assets/buttonsreadytoplay-features.JPG)
+#### "Hell Yeah!" and "Hell No!" buttons
+- The buttons are centered on the homepage for user interaction.
+- The "Hell Yeah!" button navigates users to the game.html page to start the battle.
+- The "Hell No!" button returns users to the index.html homepage.
+- The hover effect is added to the buttons to enhance user experience.
+
+### Game
+
 
 #### Game Header
 
@@ -241,11 +275,26 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 
 
 
+### 404 Page
 
+![Header 404 page - features](./assets/readmefile-assets/heading404page-features.JPG)
+#### 404 Error Page Header
+- A large, prominent "404" error code is displayed at the top of the page.
+- The header is responsive and will change size when on a smaller device.
 
+![Error content section 404 pafe - features](./assets/readmefile-assets/errorcontent404page-features.JPG)
+#### Error Content Section
+- The page features a creative Pokémon-themed error message to maintain brand consistency.
+- An AI-generated image of a sleeping Snorlax is displayed to visualize the "blocked path" concept.
+- A clear "Page Not Found" heading informs users of the error.
+- A playful message states "Oops, a sleeping Snorlax is blocking the path!" to keep the tone light and engaging.
+- The Pokémon theme maintains immersion even during error scenarios.
 
-
-
+![Buttons 404 page - features](./assets/readmefile-assets/button404page-features.JPG)
+#### "Return Home" Button
+- A "Return Home" button navigates users back to the index.html homepage.
+- The button is responsive and adapts to smaller devices.
+- The hover effect is added to the button to enhance user experience.
 
 
 ## Technologies
@@ -425,21 +474,21 @@ This needs to be improved in a future version of the site to pass Large Text req
 ![White foreground & Winner-Green-Background background contrast checker](./assets/readmefile-assets/whitewinnergreen-contrastchecker.JPG)
 This needs to be improved in a future version of the site to pass both Normal Text requirement as it is being used for the stat buttons on the Pokémon cards in the game.
 
-### Bugs
+## Bugs
 
-#### Card Flip Issue
+### Card Flip Issue
 In the HTML file, the card was showing the front by default, and the CSS wasn't hiding the front when the card was meant to flip. This meant the cards were showing the Pokémon data straight away rather than the Pokéball back, then flipping to the data once the game had started. To solve this issue, the CSS was changed so the card's initial state started with the back showing, using the `transform` function. The JavaScript `initGame` function was also updated so when the page loads it shows the card backs, when the user presses "Start Game" they flip, and when the user presses "Next Round" they rotate back and reset.
 
-#### Centering Pokémon Cards in Game
+### Centering Pokémon Cards in Game
 Bootstrap has been used in `game.html` to help with the styling and reponsiveness of web application. This was overriding the centering of the cards in CSS. Some Bootstrap properties needed to be removed from the HTML file, and additional code needed to be added in CSS to override the Bootstrap column system to allow direct control over the card spacing to center them.
 
-#### Return Home Button (404 Page)
+### Return Home Button (404 Page)
 The return home button in `404.html` was not working on the deployed site but was working when run locally. The code was checked again and redeployed, and it worked, so it was an issue when deploying with the GitHub server.
 
-#### Pokémon Font Accent
+### Pokémon Font Accent
 The Pokémon font won't allow the accent above "é" in Pokémon to be added. This is not a bug in the code; the font does not have the ability to display this character.
 
-#### Responsiveness for 601px-768px Devices
+### Responsiveness for 601px-768px Devices
 Responsiveness for devices between 601px and 768px was not working. In the media queries, the `px` value was missing, meaning the styles were not being applied:
 ```css
 @media only screen and (min-width:601) and (max-width:768)
