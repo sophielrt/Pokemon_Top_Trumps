@@ -148,66 +148,78 @@ This is only the first iteration of the Battle Academy Top Trumps website. The H
 
 ### Homepage UI
 ![Homepage UI](./assets/readmefile-assets/ui-homepage.JPG)
-User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 Pokémon replica fonts, Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and has a Pokémon card themed background image. The User Interface of this page answers user story 1.
+User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 Pokémon replica fonts, Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and has a Pokémon card themed background image. The User Interface of this page answers user story 1.
+
+User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The homepage is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
 ![Homepage how to play UI](./assets/readmefile-assets/ui-homepage-howtoplay.JPG)
-User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 1 
+User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses a 
 Pokémon replica font and Pokémon inspired colour palette from Pokémon Go. The User Interface of this page answers user story 1.
 
-User Story 5 "As a casual gamer, I want simple rules that are easy to understand so I can quickly get into the game." This page has a simple layout and shows rules in easy bite-sized bullet points. Sections on this page include Objective, Game Setup, How to Play, Strategic Thinking and Game Controls. The sections have been clearly highlighted to make it quick to read to help users start the game as quickly as possible. The User Interface of this page answers user story 5.
+User Story 5: "As a casual gamer, I want simple rules that are easy to understand so I can quickly get into the game." This page has a simple layout and shows rules in easy bite-sized bullet points. Sections on this page include Objective, Game Setup, How to Play, Strategic Thinking and Game Controls. The sections have been clearly highlighted to make it quick to read to help users start the game as quickly as possible. The User Interface of this page answers user story 5.
+
+User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The How to Play Guide is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
 ### Ready to Play UI
 ![Ready to play UI](./assets/readmefile-assets/ui-readytoplay.JPG)
-User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 Pokémon replica fonts, Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and has a Pokémon card themed background image. The User Interface of this page answers user story 1.
+User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 Pokémon replica fonts, Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and has a Pokémon card themed background image. The User Interface of this page answers user story 1.
+
+User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The ready to Play page is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
 ### Game UI
 ![Game UI](./assets/readmefile-assets/ui-game.JPG)
-User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 1 
-Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and the Pokémon cards contain a Pokéball image. The User Interface of this page answers user story 1.
+User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 
+Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and the Pokémon cards contain a Pokéball image. The User Interface of this page answers user story 1.
+
+User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The Game is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
 ![Game how to play UI](./assets/readmefile-assets/ui-game-howtoplay.JPG)
-User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 1 
+User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses a
 Pokémon replica font and Pokémon inspired colour palette from Pokémon Go. The User Interface of this page answers user story 1.
 
-User Story 5 "As a casual gamer, I want simple rules that are easy to understand so I can quickly get into the game." This page has a more concise version of the How to Play guide from the home page, making it quick to refresh the user's memory, as it contains all the key points. This page has a simple layout and shows rules in easy bite-sized bullet points. Sections on this page include How to Play, Stats Explained, Strategy Tips and Scoring. The sections have been clearly highlighted to make it quick for the user to find the points they need. The User Interface of this page answers user story 5.
+User Story 5: "As a casual gamer, I want simple rules that are easy to understand so I can quickly get into the game." This page has a more concise version of the How to Play guide from the home page, making it quick to refresh the user's memory, as it contains all the key points. This page has a simple layout and shows rules in easy bite-sized bullet points. Sections on this page include How to Play, Stats Explained, Strategy Tips and Scoring. The sections have been clearly highlighted to make it quick for the user to find the points they need. The User Interface of this page answers user story 5.
 
-User Story 7 "As a nostalgia seeker, I want straight forward game play without all the complexities that typically come with modern gaming." 
+User Story 7: "As a nostalgia seeker, I want straightforward game play without all the complexities that typically come with modern gaming." The game is easy to start with a simple start button. The UI of the game play is straightforward and very nostalgic. The User Interface of this page answers user story 7.
+
+User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The Game is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
 ![Game Trainer's card flipped UI](./assets/readmefile-assets/ui-game-trainerscard.JPG)
-User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 1 
-Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and the Pokémon cards contain a Pokéball image and an image of a Pokémon from the PokeAPI. The User Interface of this page answers user story 1.
+User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 
+Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and the Pokémon cards contain a Pokéball image and an image of a Pokémon from the PokeAPI. The User Interface of this page answers user story 1.
 
-User Story 2 "As a Pokémon fan, I want to see authentic and correct Pokémon data." This page contains data from the PokeAPI, this is a database which contains information about all Pokémon from the Pokédex. The User Interface of this page answers user story 2.
+User Story 2: "As a Pokémon fan, I want to see authentic and correct Pokémon data." This page contains data from the PokeAPI, this is a database which contains information about all Pokémon from the Pokédex. The User Interface of this page answers user story 2.
 
-User Story 6 "As a nostalgia seeker, I want the cards to flip so I can relive memories." Once the user presses start game their card flips, showing their stats as you can see on the screen, whilst their opponent's card remains faced down. The User Interface of this page answers user story 6.
+User Story 6: "As a nostalgia seeker, I want the cards to flip so I can relive memories." Once the user presses start game their card flips, showing their stats, whilst their opponent's card remains faced down. The User Interface of this page answers user story 6.
 
-User Story 7 "As a nostalgia seeker, I want straight forward game play without all the complexities that typically come with modern gaming." 
+User Story 7: "As a nostalgia seeker, I want straightforward game play without all the complexities that typically come with modern gaming." The game layout is very simple with all the stats being clearly labeled for the user to click. Each stat button is responsive and when the user hovers over each button it changes colour. The User Interface of this page answers user story 7.
+
+User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The Game is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
 ![Game both cards flipped results UI](./assets/readmefile-assets/ui-game-bothcards.JPG)
-User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 1 
-Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and the images of the Pokémon on the cards from the PokeAPI. The User Interface of this page answers user story 1.
+User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 
+Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and Pokémon Unite andnthe images of the Pokémon on the cards from the PokeAPI. The User Interface of this page answers user story 1.
 
-User Story 2 "As a Pokémon fan, I want to see authentic and correct Pokémon data." This page contains data from the PokeAPI, this is a database which contains information about all Pokémon from the Pokédex. The User Interface of this page answers user story 2.
+User Story 2: "As a Pokémon fan, I want to see authentic and correct Pokémon data." This page contains data from the PokeAPI, this is a database which contains information about all Pokémon from the Pokédex. The User Interface of this page answers user story 2.
 
-User Story 6 "As a nostalgia seeker, I want the cards to flip so I can relive memories." Once the user selects their stats their opponent's card will flip over. Then the results for the round will be displayed on the screen. Once the user selects next round both cards flip back over then after a few seconds their card flips so they can see their stats again so they can select which they would like to play. The User Interface of this page answers user story 6.
+User Story 6: "As a nostalgia seeker, I want the cards to flip so I can relive memories." Once the user selects their stats their opponent's card will flip over. Then the results for the round will be displayed on the screen. Once the user selects next round both cards flip back over then after a few seconds their card flips so they can see their stats again so they can select which they would like to play. The User Interface of this page answers user story 6.
 
-User Story 7 "As a nostalgia seeker, I want straight forward game play without all the complexities that typically come with modern gaming." 
+User Story 7: "As a nostalgia seeker, I want straightforward game play without all the complexities that typically come with modern gaming." Once the user selects their stat, the opponent's turns over, the stats change colour to indicate a win, loss or draw. The score will update at the bottom of the screen. To move on the user needs to press the next round button. To move through the game is a very simple process, meaning the user can have fun without worrying about it being complex. The User Interface of this page answers user story 7.
+
+User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The Game is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
 ![Game results modal UI](./assets/readmefile-assets/ui-game-resultsmodal.JPG)
-User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 1 
+User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses a 
 Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and Pokémon Unite. The User Interface of this page answers user story 1.
 
-User Story 4 - "As a casual gamer, I want a game which I can play quick rounds of." The game lasts for 5 rounds then a pop up is shown with the results. The user is asked if they would like to play again. If yes the game will reset and another 5 rounds will be played. If no the user will be returned to the home page. The rounds being limited to 5 gives the user the opportunity to play quick rounds and then leave the game if needed. The User Interface of this page answers user story 4.
+User Story 4: "As a casual gamer, I want a game which I can play quick rounds of." The game lasts for 5 rounds then a pop up is shown with the results. The user is asked if they would like to play again. If yes the game will reset and another 5 rounds will be played. If no the user will be returned to the homepage. The rounds being limited to 5 gives the user the opportunity to play quick rounds and then leave the game if needed. The User Interface of this page answers user story 4.
+
+User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The Game Result Modal is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
 ### 404 Page UI
 ![404 page UI](./assets/readmefile-assets/ui-404page.JPG)
-User Story 1 - "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 Pokémon replica fonts, Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and has a Snorlax image. The User Interface of this page answers user story 1.
+User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 Pokémon replica fonts, Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and has a Snorlax image. The User Interface of this page answers user story 1.
 
-
-
-
-!!Show pages Responsive. 
-As a casual gamer, I want a game which works on different devices, so I can play at home or on the go.
+User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The 404 Page is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
 
 ## Features
@@ -247,6 +259,20 @@ As a casual gamer, I want a game which works on different devices, so I can play
 8. [TinyPNG](https://tinypng.com/) - Reduces image file size without compromising quality, improving the website's loading speed and performance.
 
 ## Testing
+Both manual and automated testing are key parts of the development cycle. They help identify issues in the code to ensure that a web application is accessible, functional, responsive, and usable. However, each testing method serves a different purpose in the development process and is deployed for different reasons.
+
+Manual testing involves a human tester manually checking the web application without using automated tools. Before manual testing begins, a test plan is usually created, outlining the test description and expected outcomes. This document guides the tester through each part of the web application, and the actual results are recorded.
+
+Manual testing is performed to assess the usability of the application, to make sure it works as expected, is easy to use, and looks visually appealing. Manual testing can take place throughout the project, not just at the end, to help discover and resolve issues early on.
+
+Manual testing should be deployed when evaluating aspects of a web application that rely on human judgment. It is particularly effective for assessing usability, functionality, user experience (UX), and the visual user interface (UI).
+
+Automated testing, on the other hand, uses software tools to automatically run tests on your code. It is efficient, consistent (reducing human error), and repeatable, allowing you to test large sections of code quickly. Automated tests can help identify bugs, syntax errors, and performance issues. However, automated testing focuses on the code itself, it cannot evaluate the visual design or overall usability of the web application like manual testing can.
+
+Automated testing should be deployed when running tests on code that can be efficiently verified by software tools. It is particularly effective for checking web application performance, identifying bugs, and detecting syntax errors in the code.
+
+In conclusion, both manual and automated testing are essential. Using them together ensures that your web application is thoroughly tested from both a technical and user-experience perspective.
+
 
 ### Manual Testing
 
@@ -333,7 +359,7 @@ CSS validator test passed, no errors or warnings.
 #### game.js
 ![JS Validator results game.js](./assets/readmefile-assets/gamejs-testing.JPG)
 
-!!!!!!Input something here about results!!!!!!!
+JS Validator test passed with no errors. There were ES6 warnings which appear when using modern JavaScript features that weren't available in older versions of JavaScript (ES5 and earlier). These warnings exist due to backward compatibility concerns with outdated web browsers. However, I resolved these by adding `/* jshint esversion: 8 */` to the top of my JavaScript file, which tells JSHint that I'm intentionally using modern JavaScript features.
 
 
 ### Google Lighthouse Testing
@@ -408,15 +434,18 @@ To set up this project on your local IDE (such as VS Code, PyCharm, or another I
 - W3schools
 - Stack overflow
 - Geeks for Geeks
-- Fluent Support - Md. Ariful Basher (Title header border property)
-- W3schools (Modal, custom scroll bar Modal)
-- CSS-Tricks - Chris Coyier (Centering Modal)
+- [Fluent Support](https://fluentsupport.com/how-to-create-outline-text-in-css/) - Md. Ariful Basher (Title header border property)
+- [W3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal) (Modal)
+- [W3schools](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp) (custom scroll bar Modal)
+- [CSS-Tricks](https://css-tricks.com/considerations-styling-modal/) - Chris Coyier (Centering Modal)
 
 ### README File
-- Design Choices Board (Made on Canva with template by Salbine B. Pokemon Font by FontGet used and Pokemon GB Font by Jackster Productions. used photo by Giorgio Trovato accessed via [unsplash](https://unsplash.com/photos/a-pile-of-pokemon-trading-cards-sitting-on-top-of-each-other-I7ipAK_JggQ).)
+- Website Mockups - (Made on Canva used elements. Pokemon Font by FontGet used for the title.)
 - Project Planning - Gantt Chart (Made on Canva with template and elements. Pokemon Font by FontGet used for the title.)
 - Project Planning - Flow Chart (Made on Canva with template and elements. Pokemon Font by FontGet used for the title.)
-- Website Mockups - (Made on Canva used elements. Pokemon Font by FontGet used for the title.)
+- Design Choices Board (Made on Canva with template by Salbine B. Pokemon Font by FontGet used and Pokemon GB Font by Jackster Productions. used photo by Giorgio Trovato accessed via [unsplash](https://unsplash.com/photos/a-pile-of-pokemon-trading-cards-sitting-on-top-of-each-other-I7ipAK_JggQ).)
+- Testing - Maual Testing and Automated Testing [Geeks for Geeks](https://www.geeksforgeeks.org/software-testing/software-engineering-differences-between-manual-and-automation-testing/) 
+
 
 ### Inspiration
 - [Dribble](https://dribbble.com/shots/8512308-Snorlax-404-Error-Page-Daily-UI-008) ImHighOnCoffee (404.html)
