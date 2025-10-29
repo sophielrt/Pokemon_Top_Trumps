@@ -49,8 +49,12 @@ This website was developed for my Milestone Two project to showcase my ability t
 ### Gantt Chart
 ![Project Planning - Gantt Chart](./assets/readmefile-assets/gantt-chart.png)
 
+This document outlines the project schedule for Milestone 2, spanning seven weeks of development activities. Meeting each development activity deadline is key in order to reach the final deadline date of the project in time and complete all the project criteria.
+
 ### Flow Chart
 ![Project Planning - Flow Chart](./assets/readmefile-assets/flow-chart.png)
+
+A flow chart has been created to show the user navigation structure and decision-making process throughout the game. This was made before the wireframes to help understand the layout of the game and how the user would navigate through each stage. This visual representation maps out the complete user journey starting from entry to the homepage to finishing the last round of the game and deciding to play again or return to the homepage.
 
 ## UX
 The user experience (UX) of Battle Academy Pokémon Top Trumps has been carefully designed to prioritise a simple, engaging and visually appealing gaming experience. The design draws inspiration from the original Pokémon games to create an authentic and nostalgic feel, ensuring a fun and memorable experience for users.
@@ -144,20 +148,67 @@ This is only the first iteration of the Battle Academy Top Trumps website. The H
 
 ### Homepage UI
 ![Homepage UI](./assets/readmefile-assets/ui-homepage.JPG)
+User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 Pokémon replica fonts, Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and has a Pokémon card themed background image. The User Interface of this page answers user story 1.
+
 ![Homepage how to play UI](./assets/readmefile-assets/ui-homepage-howtoplay.JPG)
+User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 1 
+Pokémon replica font and Pokémon inspired colour palette from Pokémon Go. The User Interface of this page answers user story 1.
+
+User Story 5 "As a casual gamer, I want simple rules that are easy to understand so I can quickly get into the game." This page has a simple layout and shows rules in easy bite-sized bullet points. Sections on this page include Objective, Game Setup, How to Play, Strategic Thinking and Game Controls. The sections have been clearly highlighted to make it quick to read to help users start the game as quickly as possible. The User Interface of this page answers user story 5.
 
 ### Ready to Play UI
 ![Ready to play UI](./assets/readmefile-assets/ui-readytoplay.JPG)
+User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 Pokémon replica fonts, Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and has a Pokémon card themed background image. The User Interface of this page answers user story 1.
 
 ### Game UI
 ![Game UI](./assets/readmefile-assets/ui-game.JPG)
+User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 1 
+Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and the Pokémon cards contain a Pokéball image. The User Interface of this page answers user story 1.
+
 ![Game how to play UI](./assets/readmefile-assets/ui-game-howtoplay.JPG)
+User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 1 
+Pokémon replica font and Pokémon inspired colour palette from Pokémon Go. The User Interface of this page answers user story 1.
+
+User Story 5 "As a casual gamer, I want simple rules that are easy to understand so I can quickly get into the game." This page has a more concise version of the How to Play guide from the home page, making it quick to refresh the user's memory, as it contains all the key points. This page has a simple layout and shows rules in easy bite-sized bullet points. Sections on this page include How to Play, Stats Explained, Strategy Tips and Scoring. The sections have been clearly highlighted to make it quick for the user to find the points they need. The User Interface of this page answers user story 5.
+
+User Story 7 "As a nostalgia seeker, I want straight forward game play without all the complexities that typically come with modern gaming." 
+
 ![Game Trainer's card flipped UI](./assets/readmefile-assets/ui-game-trainerscard.JPG)
+User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 1 
+Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and the Pokémon cards contain a Pokéball image and an image of a Pokémon from the PokeAPI. The User Interface of this page answers user story 1.
+
+User Story 2 "As a Pokémon fan, I want to see authentic and correct Pokémon data." This page contains data from the PokeAPI, this is a database which contains information about all Pokémon from the Pokédex. The User Interface of this page answers user story 2.
+
+User Story 6 "As a nostalgia seeker, I want the cards to flip so I can relive memories." Once the user presses start game their card flips, showing their stats as you can see on the screen, whilst their opponent's card remains faced down. The User Interface of this page answers user story 6.
+
+User Story 7 "As a nostalgia seeker, I want straight forward game play without all the complexities that typically come with modern gaming." 
+
 ![Game both cards flipped results UI](./assets/readmefile-assets/ui-game-bothcards.JPG)
+User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 1 
+Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and the images of the Pokémon on the cards from the PokeAPI. The User Interface of this page answers user story 1.
+
+User Story 2 "As a Pokémon fan, I want to see authentic and correct Pokémon data." This page contains data from the PokeAPI, this is a database which contains information about all Pokémon from the Pokédex. The User Interface of this page answers user story 2.
+
+User Story 6 "As a nostalgia seeker, I want the cards to flip so I can relive memories." Once the user selects their stats their opponent's card will flip over. Then the results for the round will be displayed on the screen. Once the user selects next round both cards flip back over then after a few seconds their card flips so they can see their stats again so they can select which they would like to play. The User Interface of this page answers user story 6.
+
+User Story 7 "As a nostalgia seeker, I want straight forward game play without all the complexities that typically come with modern gaming." 
+
 ![Game results modal UI](./assets/readmefile-assets/ui-game-resultsmodal.JPG)
+User Story 1 "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 1 
+Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and Pokémon Unite. The User Interface of this page answers user story 1.
+
+User Story 4 - "As a casual gamer, I want a game which I can play quick rounds of." The game lasts for 5 rounds then a pop up is shown with the results. The user is asked if they would like to play again. If yes the game will reset and another 5 rounds will be played. If no the user will be returned to the home page. The rounds being limited to 5 gives the user the opportunity to play quick rounds and then leave the game if needed. The User Interface of this page answers user story 4.
 
 ### 404 Page UI
 ![404 page UI](./assets/readmefile-assets/ui-404page.JPG)
+User Story 1 - "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 Pokémon replica fonts, Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and has a Snorlax image. The User Interface of this page answers user story 1.
+
+
+
+
+!!Show pages Responsive. 
+As a casual gamer, I want a game which works on different devices, so I can play at home or on the go.
+
 
 ## Features
 
@@ -253,52 +304,52 @@ This is only the first iteration of the Battle Academy Top Trumps website. The H
 
 explained the principles of automated and manual testing and when each might be deployed. 
 
-1. [HTML Validator](https://validator.w3.org/)
-   1. index.html 
-   ![HTML Validator results index.html](./assets/readmefile-assets/index-testing.JPG)
+#### [HTML Validator](https://validator.w3.org/)
+#### index.html 
+![HTML Validator results index.html](./assets/readmefile-assets/index-testing.JPG)
 
-   2. ready-to-play.html
-   ![HTML Validator results ready-to-play.html](./assets/readmefile-assets/ready-to-play-testing.JPG)
+#### ready-to-play.html
+![HTML Validator results ready-to-play.html](./assets/readmefile-assets/ready-to-play-testing.JPG)
 
-   3. game.html
-   ![HTML Validator results game.html](./assets/readmefile-assets/game-testing.JPG)
+#### game.html
+![HTML Validator results game.html](./assets/readmefile-assets/game-testing.JPG)
 
-   4. 404.html 
-   ![HTML Validator results 404.html](./assets/readmefile-assets/404-testing.JPG)
+#### 404.html 
+![HTML Validator results 404.html](./assets/readmefile-assets/404-testing.JPG)
 
 All html validator tests passed, no errors or warnings.
 
 
-2. [CSS Validator](https://jigsaw.w3.org/css-validator/)
-   ![CSS Validator results](./assets/readmefile-assets/css-testing.JPG)
+#### [CSS Validator](https://jigsaw.w3.org/css-validator/)
+![CSS Validator results](./assets/readmefile-assets/css-testing.JPG)
 
 CSS validator test passed, no errors or warnings.
 
 
-3. [JS Validator](https://jshint.com/)
-   1. index.js
-   ![JS Validator results index.js](./assets/readmefile-assets/indexjs-testing.JPG)
+#### [JS Validator](https://jshint.com/)
+#### index.js
+![JS Validator results index.js](./assets/readmefile-assets/indexjs-testing.JPG)
 
-   2. game.js
-   ![JS Validator results game.js](./assets/readmefile-assets/gamejs-testing.JPG)
+#### game.js
+![JS Validator results game.js](./assets/readmefile-assets/gamejs-testing.JPG)
 
 !!!!!!Input something here about results!!!!!!!
 
+
 ### Google Lighthouse Testing
 
-1. index.html
-   ![Google Lighthouse results index.html](./assets/readmefile-assets/indexhtml-lighthouse.JPG)
+#### index.html
+![Google Lighthouse results index.html](./assets/readmefile-assets/indexhtml-lighthouse.JPG)
 
-2. ready-to-play.html
-   ![Google Lighthouse results ready-to-play.html](./assets/readmefile-assets/ready-to-playhtml-lighthouse.JPG)
+#### ready-to-play.html
+![Google Lighthouse results ready-to-play.html](./assets/readmefile-assets/ready-to-playhtml-lighthouse.JPG)
 
-3. game.html
+#### game.html
    ![Google Lighthouse results game.html](./assets/readmefile-assets/gamehtml-lighthouse.JPG)
 
-4. 404.html
-   ![Google Lighthouse results 404.html](./assets/readmefile-assets/404html-lighthouse.JPG)
+#### 404.html
+![Google Lighthouse results 404.html](./assets/readmefile-assets/404html-lighthouse.JPG)
 
-!! Input something here about the results
 
 ### Web Accessibility in mind Contrast Checker
 [Web Accessibility in mind contrast checker](https://webaim.org/resources/contrastchecker/?fcolor=02AFD0&bcolor=FFFF00)
@@ -362,9 +413,10 @@ To set up this project on your local IDE (such as VS Code, PyCharm, or another I
 - CSS-Tricks - Chris Coyier (Centering Modal)
 
 ### README File
-- Design Choices Board (Made on Canva with template by Salbine B)
-- Project Planning - Gantt Chart (Made on Canva with template and elements. Pokemon Font by FontGet used for the title)
-- Project Planning - Flow Chart (Made on Canva with template and elements. Pokemon Font by FontGet used for the title)
+- Design Choices Board (Made on Canva with template by Salbine B. Pokemon Font by FontGet used and Pokemon GB Font by Jackster Productions. used photo by Giorgio Trovato accessed via [unsplash](https://unsplash.com/photos/a-pile-of-pokemon-trading-cards-sitting-on-top-of-each-other-I7ipAK_JggQ).)
+- Project Planning - Gantt Chart (Made on Canva with template and elements. Pokemon Font by FontGet used for the title.)
+- Project Planning - Flow Chart (Made on Canva with template and elements. Pokemon Font by FontGet used for the title.)
+- Website Mockups - (Made on Canva used elements. Pokemon Font by FontGet used for the title.)
 
 ### Inspiration
 - [Dribble](https://dribbble.com/shots/8512308-Snorlax-404-Error-Page-Daily-UI-008) ImHighOnCoffee (404.html)
