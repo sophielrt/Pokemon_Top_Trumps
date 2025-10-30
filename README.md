@@ -299,32 +299,32 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 - The hover effect is added to all the stat buttons to enhance user experience.
 - Stats are populated via the PokeAPI when the user presses the start button, the Pokémon is randomly selected.
 
-[Pokémon cards stat comparison - features](./assets/readmefile-assets/statcomparison-features.JPG)
+![Pokémon cards stat comparison - features](./assets/readmefile-assets/statcomparison-features.JPG)
 #### Stat Comparison
 - Once the Pokémon Trainer selects their stat it is highlighted with a border to show it has been selected.
 - The Opponent's card then flips to reveal their Pokémon after stat selection.
 - Stats are then automatically compared.
 - Winning stats are highlighted in green, losing in red and draws in grey.
 
-[Score display - features](./assets/readmefile-assets/scoredisplay-features.JPG)
+![Score display - features](./assets/readmefile-assets/scoredisplay-features.JPG)
 #### Score Display
 - Each card displays the Pokémon Trainer's or Opponent's score below the card.
 - After each round when the stats have been compared the scores automatically update.
 - The scores will automatically continue to update until the 5 rounds end and the game is restarted and the scores refresh.
 
-[Game controls start game button - features](./assets/readmefile-assets/stratgamebutton-features.JPG)
+![Game controls start game button - features](./assets/readmefile-assets/stratgamebutton-features.JPG)
 #### Game Controls Start Game
 - A "Start Game" button is centered below the Pokémon cards; this button begins the first round of the game.
 - When the game begins the "Start Game" button is hidden.
 - The hover effect is added to the button to enhance user experience.
 
-[Game controls next round button - features](./assets/readmefile-assets/nextroundbutton-features.JPG)
+![Game controls next round button - features](./assets/readmefile-assets/nextroundbutton-features.JPG)
 #### Game Controls Next Round
 - After the first round is completed, a "Next Round" button appears which continues the game.
 - Once the round begins the "Next Round" button is hidden.
 - The hover effect is added to the button to enhance user experience.
 
-[5 Round results modal - features](./assets/readmefile-assets/modalresults-features.JPG)
+![5 Round results modal - features](./assets/readmefile-assets/modalresults-features.JPG)
 #### 5 Round Results Modal
 - After 5 rounds of the game have been completed, a results modal automatically appears.
 - The modal displays a title that changes based on the results of the game: "Winner!" (displayed in green), "You Lost!" (displayed in red) and "It's a Draw!" (displayed in grey).
@@ -337,7 +337,7 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 - The hover effect is added to the buttons to enhance user experience.
 - The modal is responsive and adapts to smaller screens.
 
-[Game footer - social media links - features](./assets/readmefile-assets/gamefooter-features.JPG)
+![Game footer - social media links - features](./assets/readmefile-assets/gamefooter-features.JPG)
 #### Game Footer (Social Media Links)
 - A footer section displays 5 social media icons.
 - Social media platforms include: Facebook, Instagram, Twitch, TikTok, and X (Twitter).
