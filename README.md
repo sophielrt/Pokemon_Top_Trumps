@@ -173,15 +173,15 @@ Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and 
 
 User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The Game is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
+User Story 7: "As a nostalgia seeker, I want straightforward game play without all the complexities that typically come with modern gaming." The game is easy to start with a simple start button. The UI of the game play is straightforward and very nostalgic. The User Interface of this page answers user story 7.
+
 ![Game how to play UI](./assets/readmefile-assets/ui-game-howtoplay.JPG)
 User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses a
 Pokémon replica font and Pokémon inspired colour palette from Pokémon Go. The User Interface of this page answers user story 1.
 
 User Story 5: "As a casual gamer, I want simple rules that are easy to understand so I can quickly get into the game." This page has a more concise version of the How to Play guide from the home page, making it quick to refresh the user's memory, as it contains all the key points. This page has a simple layout and shows rules in easy bite-sized bullet points. Sections on this page include How to Play, Stats Explained, Strategy Tips and Scoring. The sections have been clearly highlighted to make it quick for the user to find the points they need. The User Interface of this page answers user story 5.
 
-User Story 7: "As a nostalgia seeker, I want straightforward game play without all the complexities that typically come with modern gaming." The game is easy to start with a simple start button. The UI of the game play is straightforward and very nostalgic. The User Interface of this page answers user story 7.
-
-User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The Game is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
+User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The game how to play modal is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game how to play modal meets the requirements of user story 3.
 
 ![Game Trainer's card flipped UI](./assets/readmefile-assets/ui-game-trainerscard.JPG)
 User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 
@@ -205,7 +205,7 @@ User Story 6: "As a nostalgia seeker, I want the cards to flip so I can relive m
 
 User Story 7: "As a nostalgia seeker, I want straightforward game play without all the complexities that typically come with modern gaming." Once the user selects their stat, the opponent's turns over, the stats change colour to indicate a win, lose or draw. The score will update at the bottom of the screen. To move on the user needs to press the next round button. To move through the game is a very simple process, meaning the user can have fun without worrying about it being complex. The User Interface of this page answers user story 7.
 
-User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The Game is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
+User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The game is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
 ![Game results modal UI](./assets/readmefile-assets/ui-game-resultsmodal.JPG)
 User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses a 
@@ -360,6 +360,7 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 - A clear "Page Not Found" heading informs users of the error.
 - A playful message states "Oops, a sleeping Snorlax is blocking the path!" to keep the tone light and engaging.
 - The Pokémon theme maintains immersion even during error scenarios.
+- The error content is responsive and will change size when on a smaller device.
 
 ![Buttons 404 page - features](./assets/readmefile-assets/button404page-features.JPG)
 #### "Return Home" Button
@@ -372,7 +373,7 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 1. HTML5 - Markup language that provides the structure and semantic layout for the website's content, enabling it to be organised clearly and accessibly.
 2. CSS - Used for styling, layout and the overall visual presentation and design of the website.
 3. JavaScript - Adds interactivity and dynamic functionality to the website enhancing the user experience.
-4. Bootstrap V5.3.3(https://getbootstrap.com/) - A front-end framework with pre-built components and a grid system, allowing you to create a responsive website across all screen sizes.
+4. [Bootstrap V5.3.3](https://getbootstrap.com/) - A front-end framework with pre-built components and a grid system, allowing you to create a responsive website across all screen sizes.
 5. [PokeApi](https://pokeapi.co/) - An API that provides Pokémon data such as, images, names, stats. This data can be manipulated to select the information you wish to use.
 6. [Google Fonts](https://fonts.google.com/) - Used to access a custom font to enhance the website's typography.
 7. [Font Awesome](https://fontawesome.com/) - Provides a wide range of icons and symbols to improve UI/UX. 
@@ -451,8 +452,6 @@ In conclusion, both manual and automated testing are essential. Using them toget
 |In the inspect tab, check that the 404 page is responsive|The 404 page should be fully responsive on all devices.|pass|
 
 ### Validator Testing
-
-explained the principles of automated and manual testing and when each might be deployed. 
 
 #### [HTML Validator](https://validator.w3.org/)
 #### index.html 
@@ -630,7 +629,7 @@ To set up this project on your local IDE (such as VS Code, PyCharm, or another I
 - Website Mock-ups - (Made on Canva used elements. Pokemon Font by FontGet used for the title.)
 - Project Planning - Gantt Chart (Made on Canva with template and elements. Pokemon Font by FontGet used for the title.)
 - Project Planning - Flow Chart (Made on Canva with template and elements. Pokemon Font by FontGet used for the title.)
-- Design Choices Board (Made on Canva with template by Salbine B. Pokemon Font by FontGet used and Pokemon GB Font by Jackster Productions. used photo by Giorgio Trovato accessed via [unsplash](https://unsplash.com/photos/a-pile-of-pokemon-trading-cards-sitting-on-top-of-each-other-I7ipAK_JggQ).)
+- Design Choices Board (Made on Canva with template by Salbine B. Pokemon Font by FontGet used and Pokemon GB Font by Jackster Productions. Used photo by Giorgio Trovato accessed via [unsplash](https://unsplash.com/photos/a-pile-of-pokemon-trading-cards-sitting-on-top-of-each-other-I7ipAK_JggQ).)
 - Testing - Maual Testing and Automated Testing [Geeks for Geeks](https://www.geeksforgeeks.org/software-testing/software-engineering-differences-between-manual-and-automation-testing/) 
 
 
