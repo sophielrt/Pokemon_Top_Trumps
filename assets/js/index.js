@@ -3,7 +3,7 @@ const modal = document.getElementById("how-to-play-modal");
 const btn = document.getElementById("how-to-play");
 const span = document.getElementsByClassName("close")[0];
 
-//How to Play Modal
+//How to Play Modal W3Schools Example Code
 // When the user clicks the button, open the modal 
 btn.onclick = function () {
   modal.style.display = "flex";

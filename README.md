@@ -244,8 +244,9 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 - The modal includes a custom scroll bar which users can use to navigate up and down the modal.
 - The modal is responsive and will change size when on a smaller device.
 - The modal includes a close button (x) in the top-right corner so the user can easily exit.
-- You can also close the modal by clicking anywhere outside the modal content, improving user experience.
+- Users can also close the modal by clicking anywhere outside the modal content, improving user experience.
 - The modal's contents are structured with headings, ordered lists and unordered lists for clear user readability.
+- The guide icludes sections on objective, game setup, how to play, strategic thinking, and game controls.
 
 ### Ready to Play Page
 
@@ -263,17 +264,87 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 
 ### Game
 
-
+![Game header - features](./assets/readmefile-assets/gameheader-features.JPG)
 #### Game Header
+- A fixed header displays the game title "Battle Academy Top Trumps" in the center.
+- The fixed header is responsive and adapts to smaller devices.
+- The game title in the center links back to the homepage when clicked.
+- A home button (house icon) is positioned on the left side of the header to return users to the homepage.
+- The home button (house icon) has a hover effect to enhance user experience.
+- A help button (question mark icon) is positioned on the right side to open the how-to-play modal.
+- The help button (question mark icon) has a hover effect to enhance user experience.
 
+![Game help modal - features](./assets/readmefile-assets/gamehelpmodal-features.JPG)
+#### Help Modal
+- A modal overlay displays a condensed how-to-play guide when the help button (question mark icon) is clicked.
+- The modal includes a custom scroll bar which users can use to navigate up and down the modal.
+- The modal is responsive and will change size when on a smaller device.
+- The modal includes a close button (x) in the top-right corner so the user can easily exit.
+- Users can also close the modal by clicking anywhere outside the modal content, improving user experience.
+- The modal's contents are structured with headings, ordered lists and unordered lists for clear user readability.
+- The guide includes sections on gameplay, stats explanations, strategy tips, and scoring.
+
+![Pokémon cards - features](./assets/readmefile-assets/pokemoncards-features.JPG)
 #### Pokémon Cards
+- Two cards are displayed side by side: the Pokémon Trainer's card (left) and the Opponent's card (right).
+- Cards are responsive and stack vertically on smaller devices.
+- The card back displays a Pokéball image with text identifying the card owner.
+- Each card features a 3D flip effect when revealed.
 
-#### Card Flip Effect
+![Pokémon cards stat Selection - features](./assets/readmefile-assets/statselection-features.JPG)
+#### Stat Selection 
+- The first card to flip over is the Pokémon Trainer's card.
+- The card front displays an image of the Pokémon and their name from the PokeAPI.
+- Below this are six stat buttons (ID, Speed, Attack, Defense, Height, Weight), all stats are from the PokeAPI.
+- The hover effect is added to all the stat buttons to enhance user experience.
+- Stats are populated via the PokeAPI when the user presses the start button, the Pokémon is randomly selected.
 
-#### Social Media Footer
+[Pokémon cards stat comparison - features](./assets/readmefile-assets/statcomparison-features.JPG)
+#### Stat Comparison
+- Once the Pokémon Trainer selects their stat it is highlighted with a border to show it has been selected.
+- The Opponent's card then flips to reveal their Pokémon after stat selection.
+- Stats are then automatically compared.
+- Winning stats are highlighted in green, losing in red and draws in grey.
 
+[Score display - features](./assets/readmefile-assets/scoredisplay-features.JPG)
+#### Score Display
+- Each card displays the Pokémon Trainer's or Opponent's score below the card.
+- After each round when the stats have been compared the scores automatically update.
+- The scores will automatically continue to update until the 5 rounds end and the game is restarted and the scores refresh.
 
+[Game controls start game button - features](./assets/readmefile-assets/stratgamebutton-features.JPG)
+#### Game Controls Start Game
+- A "Start Game" button is centered below the Pokémon cards; this button begins the first round of the game.
+- When the game begins the "Start Game" button is hidden.
+- The hover effect is added to the button to enhance user experience.
 
+[Game controls next round button - features](./assets/readmefile-assets/nextroundbutton-features.JPG)
+#### Game Controls Next Round
+- After the first round is completed, a "Next Round" button appears which continues the game.
+- Once the round begins the "Next Round" button is hidden.
+- The hover effect is added to the button to enhance user experience.
+
+[5 Round results modal - features](./assets/readmefile-assets/modalresults-features.JPG)
+#### 5 Round Results Modal
+- After 5 rounds of the game have been completed, a results modal automatically appears.
+- The modal displays a title that changes based on the results of the game: "Winner!" (displayed in green), "You Lost!" (displayed in red) and "It's a Draw!" (displayed in grey).
+- The modal shows both the Pokémon trainer's and opponent's final game scores.
+- The user is asked "Do you want to play another 5 rounds?"
+- The modal includes 2 call-to-action buttons.
+- The "Hell Yes!" button resets the game and plays for another 5 rounds.
+- The "Hell No!" button returns users to the index.html homepage.
+- Users can also close the modal by clicking outside of it and this will automatically reset the game screen to its initial state but not restart the game.
+- The hover effect is added to the buttons to enhance user experience.
+- The modal is responsive and adapts to smaller screens.
+
+[Game footer - social media links - features](./assets/readmefile-assets/gamefooter-features.JPG)
+#### Game Footer (Social Media Links)
+- A footer section displays 5 social media icons.
+- Social media platforms include: Facebook, Instagram, Twitch, TikTok, and X (Twitter).
+- Social media icons are evenly spaced and centered in the footer.
+- All social media links open in a new tab to provide a better user experience.
+- The footer is responsive and adapts to smaller devices.
+- The Twitch button redirects to the 404 error page.
 
 ### 404 Page
 
@@ -306,6 +377,7 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 6. [Google Fonts](https://fonts.google.com/) - Used to access a custom font to enhance the website's typography.
 7. [Font Awesome](https://fontawesome.com/) - Provides a wide range of icons and symbols to improve UI/UX. 
 8. [TinyPNG](https://tinypng.com/) - Reduces image file size without compromising quality, improving the website's loading speed and performance.
+9. [Compressor](https://compressor.io/) - Reduces image file size without compromising quality, improving the website's loading speed and performance.
 
 ## Testing
 Both manual and automated testing are key parts of the development cycle. They help identify issues in the code to ensure that a web application is accessible, functional, responsive, and usable. However, each testing method serves a different purpose in the development process and is deployed for different reasons.
@@ -333,6 +405,7 @@ In conclusion, both manual and automated testing are essential. Using them toget
 |Click on the "How to Play" button|You should be taken to the How to Play modal pop-up.|pass|
 |Use the scroll bar in the How to Play modal|You should be able to freely scroll up and down in the How to Play modal.|pass|
 |Click on the "X" button in the How to Play modal|You should be taken back to the homepage.|pass|
+|Click outside of the How to Play modal|You should be taken back to the homepage.|pass|
 |In the inspect tab, check that the modal is responsive|The modal should be fully responsive on all devices.|pass|
 |In the inspect tab, check that the homepage is responsive|The homepage should be fully responsive on all devices.|pass|
 
@@ -353,6 +426,7 @@ In conclusion, both manual and automated testing are essential. Using them toget
 |Click on the "?" button|You should be taken to the How to Play modal.|pass|
 |Use the scroll bar in the How to Play modal|You should be able to freely scroll up and down in the How to Play modal.|pass|
 |Click on the "X" button in the How to Play modal|You should be taken back to the game.|pass|
+|Click outside of the How to Play modal|You should be taken back to the game.|pass|
 |In the inspect tab, check that the How to Play modal is responsive|The How to Play modal should be fully responsive on all devices.|pass|
 |Click the "Start Game" button|The Pokémon Trainer's card should flip over so you can see the Pokémon image, name, and stats.|pass|
 |Click on the stat you wish to use for this round|The opponent's card should flip over. The selected stat will change colour to indicate whether it was a win, draw or loss. The score should also change unless it was a draw.|pass|
@@ -360,6 +434,7 @@ In conclusion, both manual and automated testing are essential. Using them toget
 |The game plays for 5 rounds|After the 5 rounds, you should get a pop-up modal with the results of the game. It will also ask, "Do you want to play another 5 rounds?"|pass|
 |Click on the "Hell Yes!" button|Both Pokémon cards should be reset, the score should reset, and they should be flipped back so the back is displayed. Then the Pokémon Trainer's card should flip over so you can see the Pokémon image, name, and stats.|pass|
 |Click on the "Hell No!" button|You should be taken to the homepage.|pass|
+|Click outside of the results modal|You should be taken back to the game it should reset the card to their initial state but not restart the game.|pass|
 |In the inspect tab, check that the results modal is responsive|The results modal should be fully responsive on all devices.|pass|
 |Click on the "Facebook" button in the footer|Facebook should open in a separate tab.|pass|
 |Click on the "Instagram" button in the footer|Instagram should open in a separate tab.|pass|

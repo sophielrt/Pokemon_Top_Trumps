@@ -18,7 +18,7 @@ const nextRoundButton = document.getElementById('next-reset-button');
 const trainerScoreElement = document.getElementById('trainer-score');
 const opponentScoreElement = document.getElementById('opponent-score');
 
-//Help Modal
+//Help Modal W3Schools Example Code
 // When the user clicks the button, open the modal
 btn.onclick = function() {
     modal.style.display = "flex";
@@ -287,7 +287,7 @@ function compareStats(stat) {
     const trainerStatElement = document.getElementById(`trainer-${stat}`);
     const opponentStatElement = document.getElementById(`opponent-${stat}`);
 
-    //Reset any previos highlighted stat
+    //Reset any previous highlighted stat
     const allTrainerStats = document.querySelectorAll('#trainer-card .stat-btn');
     const allOpponentStats = document.querySelectorAll('#opponent-card .stat-btn');
 
@@ -300,7 +300,7 @@ function compareStats(stat) {
 
     });
 
-    // Comapre and highlight the winner
+    // Compare and highlight the winner
     if (trainerStat > opponentStat) {
         trainerStatElement.classList.add('winner');
         opponentStatElement.classList.add('loser');
