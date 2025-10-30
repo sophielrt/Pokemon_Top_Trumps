@@ -30,7 +30,7 @@ This website was developed for my Milestone Two project to showcase my ability t
 5. [Technologies](#technologies)
 6. [Testing](#testing)
    - [Manual Testing](#manual-testing)
-   - [Vaildator Testing](#vaildator-testing)
+   - [Validator Testing](#validator-testing)
    - [Google Lighthouse Testing](#google-lighthouse-testing)
    - [WebAIM Contrast Checker](#Webaim-contrast-checker)
 7. [Bugs](#bugs)
@@ -86,22 +86,22 @@ The user experience (UX) of Battle Academy Pokémon Top Trumps has been carefull
 1. #### Pokémon fans
    - Fans who enjoy collecting Pokémon cards and comparing different Pokémon
    - Know Pokémon stats, types and evolution chains
-   - Play different Pokémon games across different platfroms
-   - Appreciate authenic Pokémon data and artwork
+   - Play different Pokémon games across different platforms
+   - Appreciate authentic Pokémon data and artwork
    - Competitive and enjoy testing their knowledge
 
 2. #### Casual gamers
-   - Plays games on various different devices
+   - Plays games on various devices
    - Enjoy games they can pick up and put down easily
-   - Value quick enterainment over complex games
+   - Value quick entertainment over complex games
    - Don't want to commit to long gaming sessions
-   - Pefers to play games that don't require long tutorials
+   - Prefers to play games that don't require long tutorials
 
-3. #### Noatalgia seekers
-   - Grew up playing up play physical Top Trump cards in the 80s, 90s or 2000s
+3. #### Nostalgia seekers
+   - Grew up playing physical Top Trump cards in the 80s, 90s or 2000s
    - Grew up collecting Pokémon cards
    - Appreciates retro games
-   - Values authentic recreations of childhood experinces
+   - Values authentic recreations of childhood experiences
 
 ### User Stories
 1. As a Pokémon fan, I want to see design inspiration from original Pokémon games.
@@ -133,7 +133,7 @@ The user experience (UX) of Battle Academy Pokémon Top Trumps has been carefull
 ### Wireframes
 I designed the wireframe using [Balsamiq](https://balsamiq.com/?gad_source=1&gad_campaignid=203404003&gbraid=0AAAAAD3BuzM2dIpvaCG11kLamcF5Q3KgV&gclid=CjwKCAjwpOfHBhAxEiwAm1SwEiPicpKTgCI5qsO_ClQq3fiPralCRYTT2TKyBPkgk5S44vDQfpmleRoCkLEQAvD_BwE).
 
-This is only the first iteration of the Battle Academy Top Trumps website. The High scores, Name, and Game Results sections will be added in the future.
+This is only the first iteration of the Battle Academy Pokémon Top Trumps website. The High scores, Name, and Game Results sections will be added in the future.
 
 1. [Homepage](./assets/readmefile-assets/home-page-wireframe.png)
 2. [How to Play](./assets/readmefile-assets/how-to-play-wireframe.png)
@@ -169,7 +169,7 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 ### Game UI
 ![Game UI](./assets/readmefile-assets/ui-game.JPG)
 User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 
-Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and the Pokémon cards contain a Pokéball image. The User Interface of this page answers user story 1.
+Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and Pokémon Unite, and the Pokémon cards contain a Pokéball image. The User Interface of this page answers user story 1.
 
 User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The Game is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
@@ -185,25 +185,25 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 
 ![Game Trainer's card flipped UI](./assets/readmefile-assets/ui-game-trainerscard.JPG)
 User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 
-Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and Pokémon Unite and the Pokémon cards contain a Pokéball image and an image of a Pokémon from the PokeAPI. The User Interface of this page answers user story 1.
+Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and Pokémon Unite, and the Pokémon cards contain a Pokéball image and an image of a Pokémon from the PokeAPI. The User Interface of this page answers user story 1.
 
 User Story 2: "As a Pokémon fan, I want to see authentic and correct Pokémon data." This page contains data from the PokeAPI, this is a database which contains information about all Pokémon from the Pokédex. The User Interface of this page answers user story 2.
 
 User Story 6: "As a nostalgia seeker, I want the cards to flip so I can relive memories." Once the user presses start game their card flips, showing their stats, whilst their opponent's card remains faced down. The User Interface of this page answers user story 6.
 
-User Story 7: "As a nostalgia seeker, I want straightforward game play without all the complexities that typically come with modern gaming." The game layout is very simple with all the stats being clearly labeled for the user to click. Each stat button is responsive and when the user hovers over each button it changes colour. The User Interface of this page answers user story 7.
+User Story 7: "As a nostalgia seeker, I want straightforward game play without all the complexities that typically come with modern gaming." The game layout is very simple with all the stats being clearly labelled for the user to click. Each stat button is responsive and when the user hovers over each button it changes colour. The User Interface of this page answers user story 7.
 
 User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The Game is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
 ![Game both cards flipped results UI](./assets/readmefile-assets/ui-game-bothcards.JPG)
 User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses 2 
-Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and Pokémon Unite andnthe images of the Pokémon on the cards from the PokeAPI. The User Interface of this page answers user story 1.
+Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and Pokémon Unite, and the images of the Pokémon on the cards from the PokeAPI. The User Interface of this page answers user story 1.
 
 User Story 2: "As a Pokémon fan, I want to see authentic and correct Pokémon data." This page contains data from the PokeAPI, this is a database which contains information about all Pokémon from the Pokédex. The User Interface of this page answers user story 2.
 
 User Story 6: "As a nostalgia seeker, I want the cards to flip so I can relive memories." Once the user selects their stats their opponent's card will flip over. Then the results for the round will be displayed on the screen. Once the user selects next round both cards flip back over then after a few seconds their card flips so they can see their stats again so they can select which they would like to play. The User Interface of this page answers user story 6.
 
-User Story 7: "As a nostalgia seeker, I want straightforward game play without all the complexities that typically come with modern gaming." Once the user selects their stat, the opponent's turns over, the stats change colour to indicate a win, loss or draw. The score will update at the bottom of the screen. To move on the user needs to press the next round button. To move through the game is a very simple process, meaning the user can have fun without worrying about it being complex. The User Interface of this page answers user story 7.
+User Story 7: "As a nostalgia seeker, I want straightforward game play without all the complexities that typically come with modern gaming." Once the user selects their stat, the opponent's turns over, the stats change colour to indicate a win, lose or draw. The score will update at the bottom of the screen. To move on the user needs to press the next round button. To move through the game is a very simple process, meaning the user can have fun without worrying about it being complex. The User Interface of this page answers user story 7.
 
 User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The Game is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
@@ -211,7 +211,7 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 User Story 1: "As a Pokémon fan, I want to see design inspiration from original Pokémon games." This page uses a 
 Pokémon replica font and Pokémon inspired colour palette from Pokémon Go and Pokémon Unite. The User Interface of this page answers user story 1.
 
-User Story 4: "As a casual gamer, I want a game which I can play quick rounds of." The game lasts for 5 rounds then a pop up is shown with the results. The user is asked if they would like to play again. If yes the game will reset and another 5 rounds will be played. If no the user will be returned to the homepage. The rounds being limited to 5 gives the user the opportunity to play quick rounds and then leave the game if needed. The User Interface of this page answers user story 4.
+User Story 4: "As a casual gamer, I want a game which I can play quick rounds of." The game lasts for 5 rounds then a pop up is shown with the results. The user is asked if they would like to play again. If yes, the game will reset, and another 5 rounds will be played. If not the user will be returned to the homepage. The rounds being limited to 5 gives the user the opportunity to play quick rounds and then leave the game if needed. The User Interface of this page answers user story 4.
 
 User Story 3: "As a casual gamer, I want a game which works on different devices, so I can play at home or on the go." The Game Result Modal is responsive for different devices, meaning that the user can play on phone, iPad, tablet, laptop or desktop, meaning that the game meets the requirements of user story 3.
 
@@ -233,7 +233,7 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 
 ![Buttons homepage - features](./assets/readmefile-assets/buttonshomepage-features.JPG)
 #### "Start Game" and "How to Play" buttons
-- The buttons are centered on the homepage for user interaction.
+- The buttons are centred on the homepage for user interaction.
 - The "Start Game" button navigates users to the ready-to-play.html.
 - The "How to Play" button triggers the how-to-play modal pop-up without leaving the page.
 - The hover effect is added to the buttons to enhance user experience.
@@ -246,7 +246,7 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 - The modal includes a close button (x) in the top-right corner so the user can easily exit.
 - Users can also close the modal by clicking anywhere outside the modal content, improving user experience.
 - The modal's contents are structured with headings, ordered lists and unordered lists for clear user readability.
-- The guide icludes sections on objective, game setup, how to play, strategic thinking, and game controls.
+- The guide includes sections on objective, game setup, how to play, strategic thinking, and game controls.
 
 ### Ready to Play Page
 
@@ -257,7 +257,7 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 
 ![Buttons ready to play page - features](./assets/readmefile-assets/buttonsreadytoplay-features.JPG)
 #### "Hell Yeah!" and "Hell No!" buttons
-- The buttons are centered on the homepage for user interaction.
+- The buttons are centred on the homepage for user interaction.
 - The "Hell Yeah!" button navigates users to the game.html page to start the battle.
 - The "Hell No!" button returns users to the index.html homepage.
 - The hover effect is added to the buttons to enhance user experience.
@@ -266,9 +266,9 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 
 ![Game header - features](./assets/readmefile-assets/gameheader-features.JPG)
 #### Game Header
-- A fixed header displays the game title "Battle Academy Top Trumps" in the center.
+- A fixed header displays the game title "Battle Academy Top Trumps" in the centre.
 - The fixed header is responsive and adapts to smaller devices.
-- The game title in the center links back to the homepage when clicked.
+- The game title in the centre links back to the homepage when clicked.
 - A home button (house icon) is positioned on the left side of the header to return users to the homepage.
 - The home button (house icon) has a hover effect to enhance user experience.
 - A help button (question mark icon) is positioned on the right side to open the how-to-play modal.
@@ -314,7 +314,7 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 
 ![Game controls start game button - features](./assets/readmefile-assets/stratgamebutton-features.JPG)
 #### Game Controls Start Game
-- A "Start Game" button is centered below the Pokémon cards; this button begins the first round of the game.
+- A "Start Game" button is centred below the Pokémon cards; this button begins the first round of the game.
 - When the game begins the "Start Game" button is hidden.
 - The hover effect is added to the button to enhance user experience.
 
@@ -340,11 +340,11 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 ![Game footer - social media links - features](./assets/readmefile-assets/gamefooter-features.JPG)
 #### Game Footer (Social Media Links)
 - A footer section displays 5 social media icons.
-- Social media platforms include: Facebook, Instagram, Twitch, TikTok, and X (Twitter).
-- Social media icons are evenly spaced and centered in the footer.
+- Social media platforms include Facebook, Instagram, Twitch, TikTok, and X (Twitter).
+- Social media icons are evenly spaced and centred in the footer.
 - All social media links open in a new tab to provide a better user experience.
 - The footer is responsive and adapts to smaller devices.
-- The Twitch button redirects to the 404 error page.
+- The Twitch button redirects to the 404-error page.
 
 ### 404 Page
 
@@ -353,7 +353,7 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 - A large, prominent "404" error code is displayed at the top of the page.
 - The header is responsive and will change size when on a smaller device.
 
-![Error content section 404 pafe - features](./assets/readmefile-assets/errorcontent404page-features.JPG)
+![Error content section 404 page - features](./assets/readmefile-assets/errorcontent404page-features.JPG)
 #### Error Content Section
 - The page features a creative Pokémon-themed error message to maintain brand consistency.
 - An AI-generated image of a sleeping Snorlax is displayed to visualize the "blocked path" concept.
@@ -371,7 +371,7 @@ User Story 3: "As a casual gamer, I want a game which works on different devices
 ## Technologies
 1. HTML5 - Markup language that provides the structure and semantic layout for the website's content, enabling it to be organised clearly and accessibly.
 2. CSS - Used for styling, layout and the overall visual presentation and design of the website.
-3. JavaScript - Adds interactivity and dynamic functionality to the website enhancing the user experince.
+3. JavaScript - Adds interactivity and dynamic functionality to the website enhancing the user experience.
 4. Bootstrap V5.3.3(https://getbootstrap.com/) - A front-end framework with pre-built components and a grid system, allowing you to create a responsive website across all screen sizes.
 5. [PokeApi](https://pokeapi.co/) - An API that provides Pokémon data such as, images, names, stats. This data can be manipulated to select the information you wish to use.
 6. [Google Fonts](https://fonts.google.com/) - Used to access a custom font to enhance the website's typography.
@@ -534,8 +534,8 @@ This is being used for the header in the Game Results Modal. This will only be u
 ![Red foreground & White background contrast checker](./assets/readmefile-assets/loserredwhite-contrastchecker.JPG)
 This is being used for the header in the Game Results Modal. This will only be used in Large Text. Passed for required needs
 
-#### Future Imporvements
-In a future version of the site, these color contrasts will be revised to achieve full WCAG Level AAA compliance, ensuring optimal accessibility and readability for all users across all text sizes and applications.
+#### Future Improvements
+In a future version of the site, these colour contrasts will be revised to achieve full WCAG Level AAA compliance, ensuring optimal accessibility and readability for all users across all text sizes and applications.
 
 ![White foreground & Grey background contrast checker](./assets/readmefile-assets/whitedrawgrey-contrastchecker.JPG)
 This needs to be improved in a future version of the site to pass both Normal Text requirement as it is being used for the stat buttons on the Pokémon cards in the game.
@@ -554,8 +554,8 @@ This needs to be improved in a future version of the site to pass both Normal Te
 ### Card Flip Issue
 In the HTML file, the card was showing the front by default, and the CSS wasn't hiding the front when the card was meant to flip. This meant the cards were showing the Pokémon data straight away rather than the Pokéball back, then flipping to the data once the game had started. To solve this issue, the CSS was changed so the card's initial state started with the back showing, using the `transform` function. The JavaScript `initGame` function was also updated so when the page loads it shows the card backs, when the user presses "Start Game" they flip, and when the user presses "Next Round" they rotate back and reset.
 
-### Centering Pokémon Cards in Game
-Bootstrap has been used in `game.html` to help with the styling and reponsiveness of web application. This was overriding the centering of the cards in CSS. Some Bootstrap properties needed to be removed from the HTML file, and additional code needed to be added in CSS to override the Bootstrap column system to allow direct control over the card spacing to center them.
+### Centring Pokémon Cards in Game
+Bootstrap has been used in `game.html` to help with the styling and responsiveness of web application. This was overriding the centring of the cards in CSS. Some Bootstrap properties needed to be removed from the HTML file, and additional code needed to be added in CSS to override the Bootstrap column system to allow direct control over the card spacing to centre them.
 
 ### Return Home Button (404 Page)
 The return home button in `404.html` was not working on the deployed site but was working when run locally. The code was checked again and redeployed, and it worked, so it was an issue when deploying with the GitHub server.
@@ -583,7 +583,7 @@ To deploy the project from its [GitHub repository](https://github.com/sophielrt/
 2. Navigate to the repositories, select **sophielrt/Pokemon_Top_Trumps**
 3. Click the **Settings** tab located in the menu at the top of the repository page.
 4. In the left sidebar, scroll down to the **Code and automation** section and select **Pages**.
-5. Under **Build and deployment**, in the **Source** section, open the drop-down menu labeled **None** and select **main/master branch**.
+5. Under **Build and deployment**, in the **Source** section, open the drop-down menu labelled **None** and select **main/master branch**.
 6. Once you have selected **main/master branch**, the page will automatically refresh, indicating that the site has been successfully deployed.
 7. Finally, scroll down to the **GitHub Pages** section to access the live link to the deployed site.
 
@@ -609,7 +609,7 @@ To set up this project on your local IDE (such as VS Code, PyCharm, or another I
 - websitelogo-pokeball.png accessed via [pixabay](https://pixabay.com/vectors/pokemon-icon-design-symbol-sign-4657023/), photo by Hsaart
 - homepage-background-image.jpg accessed via [unsplash](https://unsplash.com/photos/red-ceramic-mug-on-brown-wooden-table-KtTF68ZjBak), photo by Mick Haupt
 - readytoplay-image.jpg accessed via [unsplash](https://unsplash.com/photos/a-pile-of-pokemon-trading-cards-sitting-on-top-of-each-other-I7ipAK_JggQ), photo by Giorgio Trovato
-- pokeball-cardback.png acccessed via [Pixabay](https://pixabay.com/vectors/pokemon-pokeball-pokemon-go-1536849/), photo by Alanyadk
+- pokeball-cardback.png accessed via [Pixabay](https://pixabay.com/vectors/pokemon-pokeball-pokemon-go-1536849/), photo by Alanyadk
 - snorlax.png [Chat GPT](), AI generated image
 
 ### Typography
@@ -624,10 +624,10 @@ To set up this project on your local IDE (such as VS Code, PyCharm, or another I
 - [Fluent Support](https://fluentsupport.com/how-to-create-outline-text-in-css/) - Md. Ariful Basher (Title header border property)
 - [W3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal) (Modal)
 - [W3schools](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp) (custom scroll bar Modal)
-- [CSS-Tricks](https://css-tricks.com/considerations-styling-modal/) - Chris Coyier (Centering Modal)
+- [CSS-Tricks](https://css-tricks.com/considerations-styling-modal/) - Chris Coyier (Centring Modal)
 
 ### README File
-- Website Mockups - (Made on Canva used elements. Pokemon Font by FontGet used for the title.)
+- Website Mock-ups - (Made on Canva used elements. Pokemon Font by FontGet used for the title.)
 - Project Planning - Gantt Chart (Made on Canva with template and elements. Pokemon Font by FontGet used for the title.)
 - Project Planning - Flow Chart (Made on Canva with template and elements. Pokemon Font by FontGet used for the title.)
 - Design Choices Board (Made on Canva with template by Salbine B. Pokemon Font by FontGet used and Pokemon GB Font by Jackster Productions. used photo by Giorgio Trovato accessed via [unsplash](https://unsplash.com/photos/a-pile-of-pokemon-trading-cards-sitting-on-top-of-each-other-I7ipAK_JggQ).)
